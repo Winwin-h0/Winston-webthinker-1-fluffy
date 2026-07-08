@@ -47,6 +47,7 @@ function draw() {
   // quad(120,150,180,140,180,170,120,170);
   // Challenge 6: Add some colours to the drawings in the above challenges
   fill(255,0,0);
-  rect(20,20,50,50)
+  rect(20,20,50,50);
+  
   // Challenge 7: Create a funny Pokemon
 }
