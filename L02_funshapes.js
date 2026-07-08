@@ -40,7 +40,6 @@ function draw() {
   rect(90,240,100,30)
   circle(145,150,40)
 
-
   // Challenge 5: A square face using quad() function
 
   // Challenge 6: Add some colours to the drawings in the above challenges
