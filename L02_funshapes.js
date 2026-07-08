@@ -55,7 +55,7 @@ function draw() {
   fill(255);
   ellipse(100,100,60,60);
 
-  noFill();
+  noStroke();
   stroke(0,0,255);
   rect(130,20,50,50)
 
