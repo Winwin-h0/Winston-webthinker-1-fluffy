@@ -56,6 +56,7 @@ function draw() {
   stroke(0,0,255);
   rect(130,20,50,50)
 
-  fill(0,255,0)
+  fill(0,255,0);
+  circle()
   // Challenge 7: Create a funny Pokemon
 }
