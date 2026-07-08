@@ -41,7 +41,7 @@ function draw() {
   // circle(145,150,40);
 
   // Challenge 5: A square face using quad() function
-  quad(20,20,80)
+  quad(20,20,80,20,80,80)
   // Challenge 6: Add some colours to the drawings in the above challenges
 
   // Challenge 7: Create a funny Pokemon
