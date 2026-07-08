@@ -32,7 +32,7 @@ function draw() {
   rect(330,240,50,100)
   circle(260,150,50)
   circle(460,150,50)
-  ellipse(330,200,10,20)
+  ellipse(3,300,10,20)
 
   // Challenge 4: A rocketship using triangle() function
 
