@@ -50,8 +50,9 @@ function draw() {
   fill(255,0,0)
   triangle(100,90,150,0,190,90);
 
-  f
+  fill(255,255,255)
   rect(90,240,100,30);
+  
   circle(145,150,40);
 
   // Challenge 5: A square face using quad() function
