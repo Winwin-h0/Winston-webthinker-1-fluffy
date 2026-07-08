@@ -34,8 +34,10 @@ function draw() {
   fill(150,75,0)
   rect(330,240,50,100);
 
-  fill()
+  fill(0,0,0)
   circle(260,150,50);
+
+  fill(0,0,0)
   circle(460,150,50);
   ellipse(370,290,10,20);
 
