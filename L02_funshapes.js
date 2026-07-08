@@ -45,8 +45,9 @@ function draw() {
   // quad(120,30,180,30,180,70,120,70);
   // quad(50,162,86,150,50,138,14,150);
   // quad(120,150,180,140,180,170,120,170);
-  
+
   // Challenge 6: Add some colours to the drawings in the above challenges
+  stroke(50)
   fill(200);
   rect(20,20,50,50);
 
