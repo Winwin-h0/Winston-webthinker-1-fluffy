@@ -80,6 +80,6 @@ function draw() {
   // circle(155,155,30);
 
   // Challenge 7: Create a funny Pokemon
-  
+  // do at home
 
 }
