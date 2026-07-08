@@ -22,17 +22,17 @@ function draw() {
 //  stroke(10);
 
   // Challenge 2: A face using circle() function
-  circle(300,200,300);
-  circle(160,60,100);
-  circle(440,60,100);
-  circle(160,170,50);
+  // circle(300,200,300);
+  // circle(160,60,100);
+  // circle(440,60,100);
+  // circle(160,170,50);
 
   // Challenge 3: A house using rect() function
-  // rect(150,40,450,300);
-  // rect(330,240,50,100);
-  // circle(260,150,50);
-  // circle(460,150,50);
-  // ellipse(370,290,10,20);
+  rect(150,40,450,300);
+  rect(330,240,50,100);
+  circle(260,150,50);
+  circle(460,150,50);
+  ellipse(370,290,10,20);
 
   // Challenge 4: A rocketship using triangle() function
   // ellipse(145,150,110,200);
