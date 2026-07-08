@@ -28,20 +28,20 @@ function draw() {
   // circle(160,170,50);
 
   // Challenge 3: A house using rect() function
-  fill(0,255,0);
-  rect(150,40,450,300);
+  // fill(0,255,0);
+  // rect(150,40,450,300);
 
-  fill(150,75,0)
-  rect(330,240,50,100);
+  // fill(150,75,0)
+  // rect(330,240,50,100);
 
-  fill(0,0,0)
-  circle(260,150,50);
+  // fill(0,0,0)
+  // circle(260,150,50);
 
-  fill(0,0,0)
-  circle(460,150,50);
+  // fill(0,0,0)
+  // circle(460,150,50);
 
-  fill(192,192,192)
-  ellipse(370,290,10,20);
+  // fill(192,192,192)
+  // ellipse(370,290,10,20);
 
   // Challenge 4: A rocketship using triangle() function
   // fill(192,192,192)
@@ -80,5 +80,6 @@ function draw() {
   // circle(155,155,30);
 
   // Challenge 7: Create a funny Pokemon
+  
 
 }
