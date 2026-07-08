@@ -12,20 +12,20 @@ function draw() {
 //  fill(20)
 //  strokeWeight(5)
 //  stroke(10)
-// ellipse(300,150,100,200)
-//  fill(300)
-//  strokeWeight(5)
-//  stroke(10)
-//  ellipse(300,150,100,50)
-//  fill(300)
-//  strokeWeight(5)
-//  stroke(10)
+// ellipse(300,150,100,200);
+//  fill(300);
+//  strokeWeight(5);
+//  stroke(10);
+//  ellipse(300,150,100,50);
+//  fill(300);
+//  strokeWeight(5);
+//  stroke(10);
 
   // Challenge 2: A face using circle() function
-  // circle(300,200,300)
-  // circle(160,60,100)
-  // circle(440,60,100)
-  // circle(160,170,50)
+  // circle(300,200,300);
+  // circle(160,60,100);
+  // circle(440,60,100);
+  // circle(160,170,50);
 
   // Challenge 3: A house using rect() function
   rect(150,40,450,300);
