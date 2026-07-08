@@ -35,6 +35,7 @@ function draw() {
   // ellipse(370,290,10,20);
 
   // Challenge 4: A rocketship using triangle() function
+  ellipse()
   triangle(100,90,150,0,200,90)
 
 
