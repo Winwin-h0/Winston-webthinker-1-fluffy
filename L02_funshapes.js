@@ -28,33 +28,33 @@ function draw() {
   // circle(160,170,50);
 
   // Challenge 3: A house using rect() function
-  // fill(0,255,0);
-  // rect(150,40,450,300);
+  fill(0,255,0);
+  rect(150,40,450,300);
 
-  // fill(150,75,0)
-  // rect(330,240,50,100);
-
-  // fill(0,0,0)
-  // circle(260,150,50);
-
-  // fill(0,0,0)
-  // circle(460,150,50);
-
-  // fill(192,192,192)
-  // ellipse(370,290,10,20);
-
-  // Challenge 4: A rocketship using triangle() function
-  fill(192,192,192)
-  ellipse(145,150,110,200);
-
-  fill(255,0,0)
-  triangle(100,90,150,0,190,90);
+  fill(150,75,0)
+  rect(330,240,50,100);
 
   fill(0,0,0)
-  rect(90,240,100,30);
+  circle(260,150,50);
 
-  fill(255,255,255)
-  circle(145,150,40);
+  fill(0,0,0)
+  circle(460,150,50);
+
+  fill(192,192,192)
+  ellipse(370,290,10,20);
+
+  // Challenge 4: A rocketship using triangle() function
+  // fill(192,192,192)
+  // ellipse(145,150,110,200);
+
+  // fill(255,0,0)
+  // triangle(100,90,150,0,190,90);
+
+  // fill(0,0,0)
+  // rect(90,240,100,30);
+
+  // fill(255,255,255)
+  // circle(145,150,40);
 
   // Challenge 5: A square face using quad() function
   // quad(20,20,80,20,80,80,20,80);
