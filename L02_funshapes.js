@@ -28,10 +28,11 @@ function draw() {
   // circle(160,170,50);
 
   // Challenge 3: A house using rect() function
-  fill(0,255,0)
+  fill(0,255,0);
   rect(150,40,450,300);
 
   rect(330,240,50,100);
+
   circle(260,150,50);
   circle(460,150,50);
   ellipse(370,290,10,20);
