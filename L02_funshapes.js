@@ -40,7 +40,7 @@ function draw() {
   // fill(0,0,0)
   // circle(460,150,50);
 
-  // fill(192,192,192)
+  // fill(0,0,0)
   // ellipse(370,290,10,20);
 
   // Challenge 4: A rocketship using triangle() function
