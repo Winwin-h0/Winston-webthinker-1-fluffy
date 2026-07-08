@@ -53,6 +53,7 @@ function draw() {
   ellipse(100,100,60,60);
 
   noFill();
-  stroke(0,0,255)
+  stroke(0,0,255);
+  rect()
   // Challenge 7: Create a funny Pokemon
 }
