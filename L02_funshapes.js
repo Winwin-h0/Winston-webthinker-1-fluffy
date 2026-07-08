@@ -31,6 +31,7 @@ function draw() {
   rect(150,40,450,300)
   rect(330,240,50,100)
   strokeweight(10)
+  sroke(10)
   // Challenge 4: A rocketship using triangle() function
 
   // Challenge 5: A square face using quad() function
