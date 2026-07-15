@@ -22,9 +22,9 @@ function draw() {
   //   square(50 + i * 50, 100,20)
   // }
   // Task 2: Colour Loop
-  fill(colourValue)
-  circle(100, 100, 100)
-  colourValue += 1
+  fill(colourValue);
+  circle(100, 100, 100);
+  colourValue += 1;
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
