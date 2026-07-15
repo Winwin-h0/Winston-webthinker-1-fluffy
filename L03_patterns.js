@@ -40,6 +40,6 @@ function draw() {
   // circle(width / 2, height / 2, 50);
   let circleDiameter = 30;
   let numCircles = 5
-  
+  let Tota
   // Task 4: Grid of Circles
 }
