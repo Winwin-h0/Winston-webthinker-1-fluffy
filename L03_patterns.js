@@ -20,11 +20,9 @@ function draw() {
   for(let i = 0; i<10; i++){
     fill(300 - (i * 50))
     square(50 + i * 50, 100,20)
-
-    
   }
   // Task 2: Colour Loop
-  
+
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
