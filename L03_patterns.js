@@ -11,18 +11,18 @@ function draw() {
   // circle(375,200,100)
   // circle(525,200,100)
 
-  let spacing = 50
-  for(let i = 0; i<5; i++){
-    fill(i*50)
-    circle(spacing + i * spacing, 100, 40); 
-  }
+  // let spacing = 50
+  // for(let i = 0; i<5; i++){
+  //   fill(i*50)
+  //   circle(spacing + i * spacing, 100, 40); 
+  // }
   // Task 1: Colour Gradient
   // for(let i = 0; i<10; i++){
   //   fill(300 - (i * 50))
   //   square(50 + i * 50, 100,20)
   // }
   // Task 2: Colour Loop
-
+  
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
