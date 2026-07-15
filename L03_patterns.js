@@ -20,6 +20,7 @@ function draw() {
   for(let i = 0; i<10; i++){
     square(50 + i * 50, 100,20)
     
+    
   }
 
   // Task 2: Colour Loop
