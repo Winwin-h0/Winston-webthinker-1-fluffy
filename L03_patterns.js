@@ -35,8 +35,6 @@ function draw() {
       circle(50 + i * 50, 100, 30)
     }
   }
-
-
   // colourValue += 1;
   // Task 3: Row of Circles
 
