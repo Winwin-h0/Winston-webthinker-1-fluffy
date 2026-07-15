@@ -38,6 +38,6 @@ function draw() {
   // Task 3: Row of Circles
   // rect(0, 50, width, 100);
   // circle(width / 2, height / 2, 50);
-  let circlediameter
+  let circleDiameter = 30
   // Task 4: Grid of Circles
 }
