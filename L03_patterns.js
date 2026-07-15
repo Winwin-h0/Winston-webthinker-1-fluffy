@@ -25,7 +25,7 @@ function draw() {
   let colourValue = 0;
 
   fill(colourValue)
-  circle
+  circle(100, 100, 100)
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
