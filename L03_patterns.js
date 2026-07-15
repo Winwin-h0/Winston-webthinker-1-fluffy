@@ -12,8 +12,8 @@ function draw() {
   // circle(525,200,100)
 
   for(let i = 0; i<5; i++){
-    fill(i*50)
     circle(50 + i *50, 100, 40);
+     fill(i*50)
   }
   // Task 1: Colour Gradient
 
