@@ -37,6 +37,6 @@ function draw() {
   // colourValue += 1;
   // Task 3: Row of Circles
   rect(0, 50, width, 100);
-  circle(width / 2, height / 2, )
+  circle(width / 2, height / 2, 50);
   // Task 4: Grid of Circles
 }
