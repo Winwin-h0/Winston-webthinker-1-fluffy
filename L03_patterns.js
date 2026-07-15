@@ -29,11 +29,10 @@ function draw() {
   for(let i = 0; i < 5; i++){
     if (i % 2 === 0){
       fill(0)
-      circle(50 + i * 50, 100,30)
     }else{
       fill(255)
-      circle(50 + i * 50, 100, 30)
     }
+    circle(50 + i * 50, 100, 30)
   }
   // colourValue += 1;
   // Task 3: Row of Circles
