@@ -18,7 +18,7 @@ function draw() {
   // }
   // Task 1: Colour Gradient
   for(let i = 0; i<10; i++){
-    
+    spacing = 50
     fill(300 - (i * 50))
     square(50 + i * 50, 100,20)
   }
