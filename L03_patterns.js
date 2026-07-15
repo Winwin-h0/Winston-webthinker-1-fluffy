@@ -45,7 +45,7 @@ function draw() {
 
   for (let i = 0; i < numCircles; i++){
     let x = startX + i * circleDiameter;
-    ellipse(x, height / 2)
+    ellipse(x, height / 2, circleDiameter, circleDiameter)
   }
   // Task 4: Grid of Circles
 }
