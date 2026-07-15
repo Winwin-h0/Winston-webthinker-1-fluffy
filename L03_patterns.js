@@ -19,7 +19,7 @@ function draw() {
   // Task 1: Colour Gradient
   for(let i = 0; i<10; i++){
     square(50 + i * 50, 100,20)
-    fill(i * 50)
+    
   }
 
   // Task 2: Colour Loop
