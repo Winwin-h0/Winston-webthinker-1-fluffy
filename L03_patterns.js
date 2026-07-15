@@ -32,7 +32,7 @@ function draw() {
       circle(50 + i * 50, 100, 100)
     }
   else{
-    
+    fill(255)
   }
   }
 
