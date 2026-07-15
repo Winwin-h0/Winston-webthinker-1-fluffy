@@ -3,7 +3,7 @@ function setup() {
     background(220);
     noLoop(); // Stops continuous drawing
   }
-  
+    let colourValue = 0;
 function draw() {
   // Recap 1: Repeating Circles
   // circle(75,200,100)
@@ -22,7 +22,7 @@ function draw() {
   //   square(50 + i * 50, 100,20)
   // }
   // Task 2: Colour Loop
-  let colourValue = 0;
+
 
   fill(colourValue)
   circle(100, 100, 100)
