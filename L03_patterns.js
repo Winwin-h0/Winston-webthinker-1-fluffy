@@ -29,7 +29,7 @@ function draw() {
   for(let i = 0; i < 5; i++){
     if (i % 2 === 0){
       fill(0)
-      circle(50 + i * 50)
+      circle(50 + i * 50, 100, 100)
     }
 
   }
