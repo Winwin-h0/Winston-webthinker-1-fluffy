@@ -27,7 +27,8 @@ function draw() {
   // Task 2: Colour Loop
   // fill(colourValue);
   for(let i = 0; i < 5; i++){
-    
+    if (i % 2 === 0)
+
   }
 
   circle(100, 100, 100);
