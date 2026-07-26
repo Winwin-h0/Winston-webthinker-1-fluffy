@@ -19,5 +19,6 @@ function draw() {
     // // the opposite  have a smaller number and use +
 
 //Task 2
-    circle(200,300, )
+    colo
+    circle(200,300, 100)
 }
