@@ -13,6 +13,6 @@ function draw() {
         circle(xpos,ypos,50);//positon of circle
         xpos = xpos - 50;//change of positon X
         ypos = ypos + 50;//change of positon Y
-        ggColor = ggColor + 50;
+        ggColor = ggColor + 50;//change of color
     }
 }
