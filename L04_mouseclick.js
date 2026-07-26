@@ -11,7 +11,7 @@ function draw() {
     for (let num = 1; num < 4; num++) {//repeat 5 times
         fill(0, ggColor,0);//green color
         circle(xpos,ypos,50);//positon of circle
-        xpos = xpos - 50;
+        xpos = xpos - 50;//change of 
         ypos = ypos + 50;
         ggColor = ggColor + 50;
     }
