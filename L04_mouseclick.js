@@ -5,7 +5,7 @@ function setup() {
 }
 
 function draw() {
-
+//Task 1
     // let xpos = 350; //x positon
     // let ypos = 50; //y positon
     // let ggColor= 0; //green color
