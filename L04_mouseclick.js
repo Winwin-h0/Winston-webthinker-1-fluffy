@@ -15,4 +15,4 @@ function draw() {
         ypos = ypos + 50;//change of positon Y
         ggColor = ggColor + 50;//change of color
     }
-}
+}// to 
