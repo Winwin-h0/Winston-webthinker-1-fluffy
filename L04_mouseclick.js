@@ -14,5 +14,6 @@ function draw() {
         xpos = xpos - 50;//change of positon X
         ypos = ypos + 50;//change of positon Y
         ggColor = ggColor + 50;//change of color
-    }
-}// to get the reverse, have a big X number and use -
+    }// to get the reverse, have a big X number and use -
+    
+}
