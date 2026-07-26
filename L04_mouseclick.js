@@ -27,13 +27,13 @@ function setup() {
 //     circle(width/2, height/2, 200);
  
 // }
-// function mousePressed() {
-//     shapeColor = color(random(0,255), random(0,255), random(0,255));
-// }
+function mousePressed() {
+    shapeColor = color(random(0,255), random(0,255), random(0,255));
+}
 
-// function mouseReleased() {
-//     shapeColor = 'blue'
-// }
+function mouseReleased() {
+    shapeColor = 'blue'
+}
 
 function mouseMoved(){
     circle(mouseX, mouseY, 20);
