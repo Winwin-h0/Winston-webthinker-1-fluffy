@@ -3,4 +3,8 @@ function setup() {
     background('grey');
 }
 
-function draw() {}
+function draw() {
+    for (let num = 0; num < 5; num++) {
+        
+    }
+}
