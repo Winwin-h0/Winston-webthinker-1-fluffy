@@ -5,6 +5,7 @@ function setup() {
 }
 
 function draw() {
+
     // let xpos = 350; //x positon
     // let ypos = 50; //y positon
     // let ggColor= 0; //green color
@@ -17,5 +18,5 @@ function draw() {
     // }// to get the reverse, have a big X number and use -
     // // the opposite  have a smaller number and use +
 
-    
+
 }
