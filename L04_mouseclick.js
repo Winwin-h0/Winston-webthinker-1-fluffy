@@ -7,6 +7,6 @@ function draw() {
     let xpos = 50;
     for (let num = 0; num < 5; num++) {
         fill(0);
-        circle(50 + num * 50, 100, 40)
+        circle(xpos)
     }
 }
