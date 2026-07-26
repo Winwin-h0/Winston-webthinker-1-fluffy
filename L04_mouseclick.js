@@ -19,6 +19,6 @@ function draw() {
     // // the opposite  have a smaller number and use +
 
 //Task 2
-    colo
+    fill(shapeColor)
     circle(200,300, 100)
 }
