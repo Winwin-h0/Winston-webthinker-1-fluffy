@@ -1,7 +1,7 @@
 function setup() {
     createCanvas(600,600);
     background('green');
-    noLoop();
+    // noLoop(); 
 }
 
 function draw() {
