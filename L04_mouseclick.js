@@ -36,5 +36,5 @@ function setup() {
 // }
 
 function mouseMoved(){
-    
+    circle(mouseX)
 }
