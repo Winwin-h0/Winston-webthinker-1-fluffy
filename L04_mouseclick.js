@@ -2,7 +2,7 @@ let shapeColor = 'blue';
 function setup() {
     createCanvas(600,400);
     background('green');
-    // noLoop(); // l4 no need
+    // noLoop(); // L4 no need
     fill(shapeColor);
     noStroke();
 }
