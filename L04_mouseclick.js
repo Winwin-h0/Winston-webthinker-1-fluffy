@@ -21,5 +21,5 @@ function draw() {
 //Task 2
 shapeColor(0,255,0)
     fill(shapeColor)
-    circle(200,300, 100)
+    circle(width/2,height/2, 100)
 }
