@@ -19,7 +19,7 @@ function draw() {
     // // the opposite  have a smaller number and use +
 
 //Task 2
-shapeColor(0,255,0)
+
     fill(shapeColor)
     circle(width/2, height/2, 200)
  
