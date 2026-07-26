@@ -1,5 +1,5 @@
 function setup() {
-    createCanvas(400,600);
+    createCanvas(600,400);
     background('green');
     // noLoop(); // l4 no need
 }
