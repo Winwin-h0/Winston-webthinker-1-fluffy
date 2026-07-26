@@ -4,8 +4,8 @@ function setup() {
 }
 
 function draw() {
-    let xpos = 150; //x positon
-    let ypos = 150; //y positon
+    let xpos = 350; //x positon
+    let ypos = 50; //y positon
     let ggColor= 0; //green color
     for (let num = 0; num < 5; num++) {//repeat 5 times
         fill(0, ggColor,0);//green color
