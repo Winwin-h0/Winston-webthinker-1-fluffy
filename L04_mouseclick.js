@@ -6,7 +6,7 @@ function setup() {
 function draw() {
     let xpos = 50;
     let ypos = 50
-    let ggColor
+    let ggColor= 0
     for (let num = 0; num < 5; num++) {
         fill(0);
         circle(xpos,ypos,50)
