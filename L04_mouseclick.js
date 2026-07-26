@@ -3,4 +3,4 @@ function setup() {
     background('grey');
 }
 
-draw() {}
+function draw() {}
