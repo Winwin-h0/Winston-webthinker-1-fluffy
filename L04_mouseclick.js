@@ -5,7 +5,7 @@ function setup() {
     // noLoop(); // l4 no need
 }
 
-function draw() {
+// function draw() {
 //Task 1
     // let xpos = 350; //x positon
     // let ypos = 50; //y positon
@@ -21,14 +21,14 @@ function draw() {
 
 //Task 2
 
-    fill(shapeColor);
-    circle(width/2, height/2, 200);
+//     fill(shapeColor);
+//     circle(width/2, height/2, 200);
  
-}
-function mousePressed() {
-    shapeColor = color(random(0,255), random(0,255), random(0,255));
-}
+// }
+// function mousePressed() {
+//     shapeColor = color(random(0,255), random(0,255), random(0,255));
+// }
 
-function mouseReleased() {
-    shapeColor = 'blue'
-}
+// function mouseReleased() {
+//     shapeColor = 'blue'
+// }
