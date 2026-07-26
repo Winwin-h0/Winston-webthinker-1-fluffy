@@ -6,10 +6,11 @@ function setup() {
 function draw() {
     let xpos = 50;
     let ypos = 50
+    let ggcoulour
     for (let num = 0; num < 5; num++) {
         fill(0);
         circle(xpos,ypos,50)
         xpos = xpos + 50
-        ypos = ypos+
+        ypos = ypos+50
     }
 }
