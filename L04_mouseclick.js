@@ -11,7 +11,7 @@ function draw() {
         fill(0, ggColor,0);
         circle(xpos,ypos,50)
         xpos = xpos + 50
-        ypos = ypos+50
-        ggColor
+        ypos = ypos+50;
+        ggColor = ggColor + 50;
     }
 }
