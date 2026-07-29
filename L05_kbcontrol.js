@@ -16,7 +16,7 @@ function draw(){
     if(key === "d"){
         x += 10
     }
-    //-10
+    //610
     if (x < 0) {
         x = 0
     } else if (x > 600){
