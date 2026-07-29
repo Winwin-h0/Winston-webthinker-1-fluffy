@@ -6,6 +6,7 @@ function setup(){
 }
 
 function draw(){
+    background('green')
     circle(x, 600 / 2, 50)
     
     if(key === "a"){
@@ -16,7 +17,7 @@ function draw(){
         x += 10
     }
 
-    
+
 }
 
 
