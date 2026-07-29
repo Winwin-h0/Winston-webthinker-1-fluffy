@@ -15,7 +15,7 @@ function keyPressed(){
     }
 
     if(key === "s"){
-        square(0, 0, 100)
+        square(50, 50, 100)
     }
     // if (key === "w" && key ==="W"){
     //     console.log("W")
