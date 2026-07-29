@@ -1,7 +1,7 @@
 let x = 200;
 
 function setup(){
-    createCanvas(400,600);
+    createCanvas(600,400);
     background('green')
 }
 
@@ -17,7 +17,12 @@ function draw(){
         x += 10
     }
 
-    
+    if (x < 0) {
+        x = 0
+    } else if (x > 200){
+        x = 200
+    }
+
 
 
 }
