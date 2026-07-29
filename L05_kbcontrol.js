@@ -11,6 +11,7 @@ function draw(){
 
 function keyPressed(){
     for(i = 1; i == 15; i++){
+        fill(random)
         circle(random(1,100), random(1,100), random(1,30))
     }
 }
