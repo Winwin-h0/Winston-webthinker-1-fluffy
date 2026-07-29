@@ -15,6 +15,8 @@ function draw(){
     if(key === "d"){
         x += 10
     }
+
+    
 }
 
 
