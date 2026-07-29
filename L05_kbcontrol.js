@@ -6,7 +6,7 @@ function setup(){
 }
 
 function draw(){
-    circle()
+    circle(400 / 2, 600 / 2)
         
 }
 
