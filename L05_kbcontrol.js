@@ -8,7 +8,7 @@ function setup(){
 // function draw(){
 // }
 function keyPressed(){
-    circle(random(1,100), random(1,100),)
+    circle(random(1,100), random(1,100), random(1,30))
     // if (key==="w"){
     //      rectSize = 100;
     // }
