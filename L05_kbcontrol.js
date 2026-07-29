@@ -6,25 +6,7 @@ function setup(){
 }
 
 function draw(){
-    if (key === "w"){
-        for(let i = 0; i < 15; i++){
-        console.log("circles")
-        fill(random(255), random(255), random(255))
-        circle(random(1,400), random(1,600), random(1,30))
-        }
-    }
-    else if (key === "W"){
-        for(let i = 0; i < 15; i++){
-        console.log("circles")
-        fill(random(255), random(255), random(255))
-        circle(random(1,400), random(1,600), random(1,30))
-        }
 
-    }
-    else{
-        background('green')
-        console.log("green")
-    }
         
 }
 
