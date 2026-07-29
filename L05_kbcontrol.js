@@ -3,4 +3,6 @@ function setup(){
     background('green')
 }
 
-function draw()
+function draw(){
+    
+}
