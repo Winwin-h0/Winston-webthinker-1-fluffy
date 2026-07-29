@@ -23,6 +23,7 @@ function draw(){
     }
     else{
         background('green')
+        console.log("green")
     }
         
 }
