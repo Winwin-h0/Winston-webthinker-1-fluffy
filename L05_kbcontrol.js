@@ -10,7 +10,7 @@ function draw(){
 
 
 function keyPressed(){
-    if ()
+    if (key === "w")
     for(let i = 0; i < 15; i++){
         console.log("circles")
         fill(random(255), random(255), random(255))
