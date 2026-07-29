@@ -12,4 +12,6 @@ function draw(){
 
 }
 
-fuction
+fuction keyPressed(){
+    
+}
