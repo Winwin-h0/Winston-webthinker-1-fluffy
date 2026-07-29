@@ -10,13 +10,15 @@ function draw(){
 
 
 function keyPressed(){
-    if (key ==="c"){
-        circle(200 / 2, 200 / 2, 100)
-    }
+    
 
-    if(key === "s"){
-        square(50, 50, 100)
-    }
+    // if (key ==="c"){
+    //     circle(200 / 2, 200 / 2, 100)
+    // }
+
+    // if(key === "s"){
+    //     square(50, 50, 100)
+    // }
     // if (key === "w" && key ==="W"){
     //     console.log("W")
     // }
