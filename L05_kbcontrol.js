@@ -7,6 +7,6 @@ function setup(){
 
 function draw(){
     background(220);
-    rectSize(width/2, - rectSize / 2, he)
+    rectSize(width / 2 - rectSize / 2, he)
 
 }
