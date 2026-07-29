@@ -17,6 +17,8 @@ function draw(){
         x += 10
     }
 
+    
+
 
 }
 
