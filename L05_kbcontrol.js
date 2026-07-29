@@ -23,7 +23,7 @@ function draw(){
     //     x = 600
     // }
 
-    x = constrain(x, 0)
+    x = constrain(x, 0, 600)
 
 
 
