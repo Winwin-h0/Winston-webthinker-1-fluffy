@@ -18,5 +18,5 @@ function keyPressed(){
 }
 
 function keyReleased(){
-    background = ('green')
+    
 }
