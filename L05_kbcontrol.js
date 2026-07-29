@@ -9,11 +9,11 @@ function draw(){
     circle(x, 600 / 2, 50)
     
     if(key === "a"){
-        circle -x
+        x = x - 10
     }
 
     if(key === "d"){
-        circle 
+        x = x
     }
 }
 
