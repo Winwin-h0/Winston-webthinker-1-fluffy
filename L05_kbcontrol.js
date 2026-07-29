@@ -1,4 +1,4 @@
-let rectSize = 50;
+let x = 200;
 
 function setup(){
     createCanvas(400,600);
@@ -6,14 +6,14 @@ function setup(){
 }
 
 function draw(){
-    circle(400 / 2, 600 / 2, 50)
+    circle(x, 600 / 2, 50)
     
     if(key === "a"){
-        circle -10
+        circle -x
     }
 
     if(key === "d"){
-        circle +10
+        circle 
     }
 }
 
