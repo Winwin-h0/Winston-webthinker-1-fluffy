@@ -24,6 +24,7 @@ function draw(){
     // }
 
     x = constrain(x, 0, 600)
+    
 
 
 
