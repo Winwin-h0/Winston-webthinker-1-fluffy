@@ -13,7 +13,8 @@ function draw(){
         circle(random(1,400), random(1,600), random(1,30))
         }
     }
-    else if (){
+    else if (key === "W"){
+        
 
     }
     else{
