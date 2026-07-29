@@ -22,7 +22,7 @@ function draw(){
 
     }
     else{
-        
+        background('green')
     }
         
 }
