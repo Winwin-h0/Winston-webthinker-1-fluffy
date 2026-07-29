@@ -20,9 +20,9 @@ function keyPressed(){
     // if(key === "s"){
     //     square(50, 50, 100)
     // }
-    if (key === "w" && key ==="W"){
-        console.log("W")
-    }
+    // if (key === "w" && key ==="W"){
+    //     console.log("W")
+    // }
     for(let i = 0; i < 15; i++){
         console.log("circles")
         fill(random(255), random(255), random(255))
