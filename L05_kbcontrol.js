@@ -19,8 +19,8 @@ function draw(){
 
     if (x < 0) {
         x = 0
-    } else if (x > 200){
-        x = 200
+    } else if (x > 600){
+        x = 600
     }
 
 
