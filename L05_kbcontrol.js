@@ -10,7 +10,7 @@ function draw(){
 
 
 function keyPressed(){
-    if (key === "w" && key ==="W"){
+    if (key === "w" && key ==="e"){
         console.log("W")
     }
     for(let i = 0; i < 15; i++){
