@@ -6,7 +6,7 @@ function setup(){
 }
 
 function draw(){
-    if (key === "w" && key ==="W"){
+    if (key === "w" || key ==="W"){
         for(let i = 0; i < 15; i++){
         console.log("circles")
         fill(random(255), random(255), random(255))
