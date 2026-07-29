@@ -13,9 +13,9 @@ function keyPressed(){
     for(i = 1; i == 15; i++){
         circle(random(1,100), random(1,100), random(1,30))
     }
-    // if (key==="w"){
-    //      rectSize = 100;
-    // }
+// if (key==="w"){
+//      rectSize = 100;
+// }
 }
 
 function keyReleased(){
