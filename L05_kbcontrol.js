@@ -11,7 +11,7 @@ function draw(){
 
 function keyPressed(){
     console.log("key:", key);
-    console
+    console.log("keyCode")
 
     // if (key ==="c"){
     //     circle(200 / 2, 200 / 2, 100)
