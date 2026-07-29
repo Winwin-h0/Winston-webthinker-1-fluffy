@@ -11,7 +11,7 @@ function draw(){
 
 }
 
-function keyPressed(spacebar){
+function keyPressed(){
     rectSize = 100;
 }
 
