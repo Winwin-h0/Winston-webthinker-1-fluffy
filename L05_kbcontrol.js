@@ -11,7 +11,7 @@ function draw(){
 
 }
 function keyPressed(){
-    if (key=="w"){
+    if (key==="w"){
          rectSize = 100;
     }
 }
