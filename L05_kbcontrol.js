@@ -1,7 +1,7 @@
 let rectSize = 50;
 
 function setup(){
-    createCanvas(400,600);
+    createCanvas(600,400);
     background('green')
 }
 
