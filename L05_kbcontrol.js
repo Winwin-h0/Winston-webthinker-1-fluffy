@@ -13,7 +13,7 @@ function draw(){
     }
 
     if(key === "d"){
-        
+        circle +10
     }
 }
 
