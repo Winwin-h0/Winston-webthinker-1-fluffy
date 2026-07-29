@@ -8,6 +8,7 @@ function setup(){
 // function draw(){
 // }
 function keyPressed(){
+    
     // if (key==="w"){
     //      rectSize = 100;
     // }
