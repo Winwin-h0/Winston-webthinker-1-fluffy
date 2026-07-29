@@ -18,7 +18,7 @@ function draw(){
         console.log("circles")
         fill(random(255), random(255), random(255))
         circle(random(1,400), random(1,600), random(1,30))
-    }
+        }
 
     }
     else{
