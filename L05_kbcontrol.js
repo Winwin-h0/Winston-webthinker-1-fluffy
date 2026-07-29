@@ -11,11 +11,11 @@ function draw(){
 
 }
 function keyPressed(){
-    if (key==="w"){
-         rectSize = 100;
-    }
+    // if (key==="w"){
+    //      rectSize = 100;
+    // }
 }
 
 function keyReleased(){
-    rectSize = 50;
+    // rectSize = 50;
 }
