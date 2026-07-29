@@ -15,7 +15,7 @@ function keyPressed(){
     }
 
     if(key === "s"){
-        square(200 / 2, 200 / 2,)
+        square(200 / 2, 200 / 2, 100)
     }
     // if (key === "w" && key ==="W"){
     //     console.log("W")
