@@ -1,6 +1,10 @@
 // x = 400 / 2
 // y = 400 / 2
+let staticImage
 
+function preload(){
+    sta
+}
 
 function setup(){
     createCanvas(400,400)
