@@ -7,7 +7,11 @@ function setup(){
 
 function draw(){
     square(x, y, 100)
-     if(keyCode === DOWN_ARROW)
+
+}
+
+function keyPressed(){
+    if(keyCode === DOWN_ARROW)
         y = y + 50
     if(keyCode === UP_ARROW)
         y = y - 50
@@ -18,7 +22,6 @@ function draw(){
     if(keyCode === 32)
         fill(random(50,200))
 }
-
 
 function keyReleased(){
     background('green')
