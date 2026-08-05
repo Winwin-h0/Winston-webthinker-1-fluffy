@@ -28,7 +28,7 @@ function draw(){
     }
 
     x = constrain(x,300,300)
-    y = contrain(y,300,300)
+    y = constrain(y,300,300)
 }
 
 
