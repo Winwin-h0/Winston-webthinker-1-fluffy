@@ -17,7 +17,7 @@ function keyPressed(){
         y = y + 50
     if(keyCode === LEFT_ARROW)
         x = x - 50
-    if(keyCode === RIGHT)
+    if(keyCode === RIGHT_ARROW)
         x = x + 50
 
     if(key === "space_bar")
