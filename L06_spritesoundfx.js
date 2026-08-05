@@ -12,6 +12,10 @@ function setup(){
     Image(staticImage,0,0,100,100)
 }
 
+function keyPressed(){
+    
+}
+
 // function draw(){
 //     background('green')
 
