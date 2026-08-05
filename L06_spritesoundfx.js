@@ -3,7 +3,7 @@ y = 400 / 2
 function setup(){
     createCanvas(400,400)
     background('green')
-    image
+    Image(staticImage,0,0,)
 }
 
 // function draw(){
