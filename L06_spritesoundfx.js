@@ -2,7 +2,7 @@ x = 400 / 2
 y = 400 / 2
 function setup(){
     createCanvas(400,400)
-    background
+    background('green')
 }
 
 function draw(){
