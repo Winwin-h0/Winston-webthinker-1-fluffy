@@ -19,7 +19,8 @@ function setup(){
 
 function keyPressed(){
     if(keyCode === 32){
-        soundEffect.();
+        soundEffect.loop();
+        soundPop.play()
     }
 
     
