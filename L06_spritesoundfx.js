@@ -1,7 +1,8 @@
 // x = 400 / 2
 // y = 400 / 2
 let staticImage;
-let soundEffect
+let soundEffect;
+let soundPop;
 let staticImageX = 50
 let staticImageY = 300
 let staticSpeed = 5
