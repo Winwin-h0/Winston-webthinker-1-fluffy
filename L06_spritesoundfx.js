@@ -25,8 +25,8 @@ function keyPressed(){
 }
 
 function draw(){
-    backgrond('green')
     image(staticImage,staticImageX,staticImageY,50,50);
+    backgrond('green')
     if (keyIsDown(DOWN_ARROW)){
     }
     if (keyIsDown(UP_ARROW)){
