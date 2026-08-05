@@ -33,7 +33,7 @@ function draw(){
     if (keyIsDown(UP_ARROW)){
     }
     if (keyIsDown(LEFT_ARROW)){
-        staticImageX = static
+        staticImageX = staticImageX - 50
     }
     if (keyIsDown(RIGHT_ARROW)){
     }
