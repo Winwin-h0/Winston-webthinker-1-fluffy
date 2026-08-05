@@ -28,6 +28,7 @@ function draw(){
     }
 
     x = constrain(x,300,300)
+    y = 
 }
 
 
