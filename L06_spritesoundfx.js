@@ -23,3 +23,7 @@ function keyPressed(){
     if(keyCode === 32)
         fill(random(50,200))
 }
+
+function keyRealesed(){
+    
+}
