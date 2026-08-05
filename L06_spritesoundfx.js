@@ -39,7 +39,7 @@ function draw(){
     }
     if (keyIsDown(32)){
     }
-    
+    static
 }
 
 
