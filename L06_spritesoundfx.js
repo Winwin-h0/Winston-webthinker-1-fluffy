@@ -38,9 +38,8 @@ function draw(){
         staticImageX = staticImageX + staticSpeed
     }
     if (keyIsDown(32)){
-
     }
-
+    
 }
 
 
