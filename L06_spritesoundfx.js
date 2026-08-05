@@ -2,7 +2,7 @@
 // y = 400 / 2
 let staticImage;
 let soundEffect
-let staticImageX 
+let staticImageX = 
 let staticImageY  
 let staticSpeed = 5
 
