@@ -23,6 +23,7 @@ function keyIsDown(){
     if(keyCode === RIGHT_ARROW){
         x = x + 50
     }
-    if(keyCode === 32)
+    if(keyCode === 32){
         fill(random(50,200))
+    }
 }
