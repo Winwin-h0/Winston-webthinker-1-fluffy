@@ -26,7 +26,6 @@ function keyPressed(){
 }
 
 function draw(){
-    background('green')
 
     if (keyIsDown(DOWN_ARROW)){
     }
