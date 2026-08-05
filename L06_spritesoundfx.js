@@ -8,7 +8,7 @@ function preload(){
 }
 
 function preload(){
-    soundEffect = loadSound
+    soundEffect = loadSound('assests')
 }
 
 function setup(){
