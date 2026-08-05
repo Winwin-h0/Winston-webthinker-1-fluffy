@@ -2,7 +2,7 @@
 // y = 400 / 2
 let staticImage;
 let soundEffect
-let
+let staticImage
 
 function preload(){
     staticImage = loadImage('assets/pico-a.png');
