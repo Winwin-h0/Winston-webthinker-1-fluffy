@@ -25,5 +25,5 @@ function keyPressed(){
 }
 
 function keyRealesed(){
-    
+    background('green')
 }
