@@ -25,7 +25,7 @@ function keyPressed(){
 }
 
 function draw(){
-    backgrond('')
+    backgrond('green')
     image(staticImage,staticImageX,staticImageY,50,50);
     if (keyIsDown(DOWN_ARROW)){
     }
