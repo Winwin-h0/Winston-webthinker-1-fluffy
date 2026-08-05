@@ -39,7 +39,7 @@ function draw(){
     }
     if (keyIsDown(32)){
     }
-    staticImageX = contrain(staticImageX, )
+    staticImageX = contrain(staticImageX,300,300)
 }
 
 
