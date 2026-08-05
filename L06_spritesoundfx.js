@@ -40,15 +40,13 @@ function draw(){
             x = x - 50
     }
     if (keyIsDown(RIGHT_ARROW)){
-        x = x + 50
+
     }
     if (keyIsDown(32)){
         x = x + 50
         fill(random(50,200))
     }
 
-    x = constrain(x,300,300)
-    y = constrain(y,300,300)
 }
 
 
