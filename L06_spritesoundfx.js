@@ -3,18 +3,18 @@
 let staticImage
 
 function preload(){
-    staticImage = loadImage('assets/pico-a.png')
+    staticImage = loadImage('assets/pico-a.png');
 }
 
 function setup(){
-    createCanvas(400,400)
-    background('green')
-    Image(staticImage,0,0,100,100)
+    createCanvas(400,400);
+    background('green');
+    Image(staticImage,0,0,100,100);
 }
 
 function keyPressed(){
     if(keyCode === 32){
-        soundEffect.play
+        soundEffect.play();
     }
 }
 
