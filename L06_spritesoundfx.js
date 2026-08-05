@@ -11,7 +11,7 @@ function preload(){
 function setup(){
     createCanvas(400,400);
     background('green');
-    // image(staticImage,0,0,100,100);
+    image(staticImage,0,0,100,100);
 }
 
 function keyPressed(){
