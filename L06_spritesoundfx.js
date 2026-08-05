@@ -2,8 +2,8 @@
 // y = 400 / 2
 let staticImage;
 let soundEffect
-let staticImageX
-let staticImageY
+let staticImageX = 400
+let staticImageY = 0
 let staticSpeed
 
 function preload(){
