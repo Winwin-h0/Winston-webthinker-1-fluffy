@@ -20,6 +20,6 @@ function keyPressed(){
     if(keyCode === RIGHT_ARROW)
         x = x + 50
 
-    if(key === "space_bar")
+    if(keyCode === P)
         fill(random(50,200))
 }
