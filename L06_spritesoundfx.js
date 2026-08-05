@@ -16,7 +16,7 @@ function preload(){
 function setup(){
     createCanvas(400,400);
     background('green');
-     soundEffect.loop();
+    soundEffect.loop();
 }
 
 function keyPressed(){
