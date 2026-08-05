@@ -16,11 +16,12 @@ function preload(){
 function setup(){
     createCanvas(400,400);
     background('green');
+    
 }
 
 function keyPressed(){
     if(keyCode === 32){
-        soundEffect.loop();
+        c
         soundPop.play()
     }
 
