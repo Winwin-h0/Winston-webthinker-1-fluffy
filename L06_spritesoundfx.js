@@ -9,7 +9,7 @@ let staticSpeed = 5
 function preload(){
     staticImage = loadImage('assets/pico-a.png');
     soundEffect = loadSound('assets/bossaNova.mp3');
-    soundPop = loadS
+    soundPop = loadSound(assets/PopStateEvent.mp)
 }
 
 function setup(){
