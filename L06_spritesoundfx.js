@@ -3,7 +3,7 @@
 let staticImage;
 let soundEffect
 let staticImageX = 50
-let staticImageY = 100
+let staticImageY = 300
 let staticSpeed = 5
 
 function preload(){
