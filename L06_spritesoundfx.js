@@ -11,7 +11,7 @@ function draw(){
 }
 
 function keyPressed(){
-    if(key === "down_arrow")
+    if(keyCode === "down_arrow")
         y = y - 50
     if(key === "up_arrow")
         y = y + 50
