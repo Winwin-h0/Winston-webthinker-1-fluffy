@@ -4,7 +4,7 @@ let staticImage;
 let soundEffect
 let staticImageX 
 let staticImageY  
-let staticSpeed
+let staticSpeed = 5
 
 function preload(){
     staticImage = loadImage('assets/pico-a.png');
@@ -33,7 +33,7 @@ function draw(){
     if (keyIsDown(UP_ARROW)){
     }
     if (keyIsDown(LEFT_ARROW)){
-        staticImageX = staticImageX - 50
+        staticImageX = staticImageX - 5
     }
     if (keyIsDown(RIGHT_ARROW)){
     }
