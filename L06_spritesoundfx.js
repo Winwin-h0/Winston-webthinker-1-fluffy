@@ -6,8 +6,8 @@ function setup(){
 }
 
 function draw(){
-    square(x, y, 100)
     background('green')
+    square(x, y, 100)
 }
 
 function keyIsDown(){
