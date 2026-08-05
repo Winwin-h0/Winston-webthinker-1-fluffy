@@ -6,7 +6,6 @@ function setup(){
 }
 
 function draw(){
-    background('green')
     square(x, y, 100)
 }
 
