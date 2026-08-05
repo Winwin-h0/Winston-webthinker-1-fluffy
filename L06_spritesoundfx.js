@@ -21,6 +21,8 @@ function keyPressed(){
     if(keyCode === 32){
         soundEffect.loop();
     }
+
+    
 }
 
 // function draw(){
