@@ -14,7 +14,7 @@ function preload(){
 function setup(){
     createCanvas(400,400);
     background('green');
-    image(staticImage,0,0,50,50);
+    image(staticImage,sta,0,50,50);
 }
 
 function keyPressed(){
@@ -33,7 +33,7 @@ function draw(){
     if (keyIsDown(UP_ARROW)){
     }
     if (keyIsDown(LEFT_ARROW)){
-        
+
     }
     if (keyIsDown(RIGHT_ARROW)){
     }
