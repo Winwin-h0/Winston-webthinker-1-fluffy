@@ -31,20 +31,18 @@ function draw(){
     square(x, y, 100)
 
     if (keyIsDown(DOWN_ARROW)){
-        y = y + 50
     }
     if (keyIsDown(UP_ARROW)){
-        y = y - 50
+
     }
-        if (keyIsDown(LEFT_ARROW)){
-            x = x - 50
+    if (keyIsDown(LEFT_ARROW)){
+
     }
     if (keyIsDown(RIGHT_ARROW)){
 
     }
     if (keyIsDown(32)){
-        x = x + 50
-        fill(random(50,200))
+
     }
 
 }
