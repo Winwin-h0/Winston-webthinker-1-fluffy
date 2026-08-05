@@ -16,7 +16,7 @@ function preload(){
 function setup(){
     createCanvas(400,400);
     background('green');
-
+     soundEffect.loop();
 }
 
 function keyPressed(){
@@ -29,7 +29,7 @@ function keyPressed(){
 }
 
 function draw(){
-    soundEffect.loop();
+   
 
     background('green')
     image(staticImage,staticImageX,staticImageY,50,50);
