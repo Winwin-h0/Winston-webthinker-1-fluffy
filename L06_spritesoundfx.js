@@ -5,9 +5,6 @@ let soundEffect
 
 function preload(){
     staticImage = loadImage('assets/pico-a.png');
-}
-
-function preload(){
     soundEffect = loadSound('assests/pop.mp3');
 }
 
