@@ -7,6 +7,10 @@ function preload(){
     staticImage = loadImage('assets/pico-a.png');
 }
 
+function preload(){
+    
+}
+
 function setup(){
     createCanvas(400,400);
     background('green');
