@@ -3,32 +3,33 @@ y = 400 / 2
 function setup(){
     createCanvas(400,400)
     background('green')
+    image
 }
 
-function draw(){
-    background('green')
+// function draw(){
+//     background('green')
 
-    square(x, y, 100)
+//     square(x, y, 100)
 
-    if (keyIsDown(DOWN_ARROW)){
-        y = y + 50
-    }
-    if (keyIsDown(UP_ARROW)){
-        y = y - 50
-    }
-    if (keyIsDown(LEFT_ARROW)){
-        x = x - 50
-    }
-    if (keyIsDown(RIGHT_ARROW)){
-        x = x + 50
-    }
-    if (keyIsDown(32)){
-        x = x + 50
-        fill(random(50,200))
-    }
+//     if (keyIsDown(DOWN_ARROW)){
+//         y = y + 50
+//     }
+//     if (keyIsDown(UP_ARROW)){
+//         y = y - 50
+//     }
+//     if (keyIsDown(LEFT_ARROW)){
+//         x = x - 50
+//     }
+//     if (keyIsDown(RIGHT_ARROW)){
+//         x = x + 50
+//     }
+//     if (keyIsDown(32)){
+//         x = x + 50
+//         fill(random(50,200))
+//     }
 
-    x = constrain(x,300,300)
-    y = constrain(y,300,300)
-}
+//     x = constrain(x,300,300)
+//     y = constrain(y,300,300)
+// }
 
 
