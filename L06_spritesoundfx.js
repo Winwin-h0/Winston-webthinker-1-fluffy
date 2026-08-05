@@ -10,7 +10,7 @@ function draw(){
 
 }
 
-function keyPressed(){
+function keyIsDown(){
     if(keyCode === DOWN_ARROW)
         y = y + 50
     if(keyCode === UP_ARROW)
