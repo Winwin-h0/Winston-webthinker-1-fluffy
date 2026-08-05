@@ -19,7 +19,7 @@ function setup(){
 
 function keyPressed(){
     if(keyCode === 32){
-        soundEffect.loop();
+        soundEffect.();
     }
 
     
