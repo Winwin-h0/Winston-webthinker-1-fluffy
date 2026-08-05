@@ -12,9 +12,9 @@ function draw(){
 
 function keyPressed(){
     if(keyCode === DOWN_ARROW)
-        y = y - 50
-    if(keyCode === UP_ARROW)
         y = y + 50
+    if(keyCode === UP_ARROW)
+        y = y - 50
     if(keyCode === LEFT_ARROW)
         x = x - 50
     if(keyCode === RIGHT_ARROW)
