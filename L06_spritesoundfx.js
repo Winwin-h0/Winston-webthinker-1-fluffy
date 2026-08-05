@@ -13,7 +13,7 @@ function setup(){
 }
 
 function keyPressed(){
-    
+    if(keyCode === 32)
 }
 
 // function draw(){
