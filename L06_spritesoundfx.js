@@ -25,7 +25,7 @@ function keyPressed(){
     
 }
 
-// function draw(){
+function draw(){
 //     background('green')
 
 //     square(x, y, 100)
@@ -49,6 +49,6 @@ function keyPressed(){
 
 //     x = constrain(x,300,300)
 //     y = constrain(y,300,300)
-// }
+}
 
 
