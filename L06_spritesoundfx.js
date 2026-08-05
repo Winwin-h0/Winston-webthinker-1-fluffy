@@ -11,7 +11,7 @@ function draw(){
 x = contrain(x,300,300)
 function keyIsDown(){
     x = contrain(x,300,300)
-    y = contrain
+    y = contrain(y,300,300)
     if(keyCode === DOWN_ARROW){
         y = y + 50
     }
