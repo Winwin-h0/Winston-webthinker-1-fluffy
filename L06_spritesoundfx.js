@@ -23,7 +23,6 @@ function keyPressed(){
         fill(random(50,200))
 }
 
-function keyRealesed(){
-
+function key(){
     background('green')
 }
