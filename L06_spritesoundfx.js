@@ -8,7 +8,7 @@ function preload(){
 }
 
 function preload(){
-    soundEffect = loadSound('assests')
+    soundEffect = loadSound('assests/pop.mp3');
 }
 
 function setup(){
