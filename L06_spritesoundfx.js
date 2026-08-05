@@ -18,7 +18,7 @@ function keyPressed(){
     if(keyCode === LEFT_ARROW)
         x = x + 50
     if(keyCode === RIGHT_ARROW)
-        x = x + 50
+        x = x - 50
 
     if(keyCode === 32)
         fill(random(50,200))
