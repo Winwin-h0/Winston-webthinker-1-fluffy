@@ -3,7 +3,7 @@
 let staticImage
 
 function preload(){
-    staticImage
+    staticImage = loadImage(as)
 }
 
 function setup(){
