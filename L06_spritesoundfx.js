@@ -8,7 +8,7 @@ function setup(){
 function draw(){
     square(x, y, 100)
 }
-x = contrain(x,)
+x = contrain(x,300,300)
 function keyIsDown(){
     if(keyCode === DOWN_ARROW){
         y = y + 50
