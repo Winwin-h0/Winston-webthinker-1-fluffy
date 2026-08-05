@@ -4,7 +4,7 @@ let staticImage;
 let soundEffect
 let staticImageX
 let staticImageY
-let static
+let staticSpeed
 
 function preload(){
     staticImage = loadImage('assets/pico-a.png');
