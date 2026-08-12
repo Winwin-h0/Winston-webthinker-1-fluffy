@@ -5,6 +5,7 @@ let ballSpeedX = 2;
 let ballSpeedY = 2;
 
 let toggleCoulour = True
+
 function setup(){
     createCanvas(600,400)
     background('green');
