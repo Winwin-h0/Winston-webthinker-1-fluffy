@@ -13,8 +13,8 @@ function setup(){
 }
 
 function draw(){
-    if (toggleTrail === )
-    // background('green');
+    if (toggleTrail === false)
+        
 
     ballX = ballX + ballSpeedX;
     ballY = ballY + ballSpeedY;
