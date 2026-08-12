@@ -9,4 +9,6 @@ function setup(){
 
 function draw(){
     background('green')
+
+    ballX = ballX 
 }
