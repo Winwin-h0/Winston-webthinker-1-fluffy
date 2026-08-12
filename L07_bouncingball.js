@@ -41,5 +41,5 @@ function keyPressed(){
 
     if(keyCode === 'c' || keyCode === 'C'){
         fill('white')
-    }
+    }else()
 }
