@@ -11,5 +11,5 @@ function draw(){
     background('green')
 
     ballX = ballX + ballSpeedX
-    ballY = ballY + ballSpedd
+    ballY = ballY + ballSpeedY
 }
