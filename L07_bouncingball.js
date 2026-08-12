@@ -14,7 +14,7 @@ function draw(){
     ballX = ballX + ballSpeedX
     ballY = ballY + ballSpeedY
 
-    if (ballX - ballSIze)
+    if (ballX - ballSIze/2 <= 0)
 
     noStroke()
     fill(255)
