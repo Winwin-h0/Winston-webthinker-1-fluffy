@@ -41,7 +41,8 @@ function keyPressed(){
     }
     if(keyCode === 'c' || keyCode === 'C'){
 
-        
+        if(toggle)
+
         toggleColour = false
     }
     else{
