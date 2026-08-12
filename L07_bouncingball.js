@@ -4,7 +4,7 @@ let ballSize = 30;
 let ballSpeedX = 2;
 let ballSpeedY = 2;
 
-let toggleCoulour = True
+let toggleCoulour = true
 
 function setup(){
     createCanvas(600,400)
