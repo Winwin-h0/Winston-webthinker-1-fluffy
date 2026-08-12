@@ -29,7 +29,7 @@ function draw(){
 
     if (ballX - ballSize/2 <= 0 || ballX + ballSize/2 >= width){
         ballSpeedX = ballSpeedX * -1;
-        
+        popSound.play
         if(toggleColour === true){
             fill(random(255),random(255),random(255))
         }
