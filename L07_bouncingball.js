@@ -36,9 +36,8 @@ function keyPressed(){
         // ballSpeedX = ballSpeedX * 1.2;
         ballSpeedY *= 1.2;
     }
-        if(keyCode === DOWN_ARROW){
+    if(keyCode === DOWN_ARROW){
         ballSpeedX *= 0.8;
-        // ballSpeedX = ballSpeedX * 1.2;
         ballSpeedY *= 0.8;
     }
     if(keyCode === 'c' || keyCode === 'C'){
