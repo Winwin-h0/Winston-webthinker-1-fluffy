@@ -14,5 +14,6 @@ function draw(){
     ballY = ballY + ballSpeedY
 
     noStroke()
-    FileList()
+    fill(255)
+    CSSNumericValue
 }
