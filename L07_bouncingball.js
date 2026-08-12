@@ -24,6 +24,5 @@ function draw(){
     }
 
     noStroke();
-    fill(255);
     circle(ballX,ballY,ballSize);
 }
