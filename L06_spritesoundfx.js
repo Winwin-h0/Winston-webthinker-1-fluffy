@@ -46,7 +46,7 @@ function draw(){
     if (keyIsDown(32)){
         newImageWidth = imageWidth/2
     }else{
-        new
+        newImageWidth = im
     }
     staticImageX = constrain(staticImageX,0,400 - 50)
 }
