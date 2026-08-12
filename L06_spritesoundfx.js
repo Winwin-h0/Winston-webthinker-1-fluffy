@@ -4,7 +4,7 @@ let staticImage = 100
 let soundEffect;
 let soundPop;
 let imageWidth = 50
-let newImageWidth = 
+let newImageWidth = imageWidth/2
 // let staticImageX = 50
 // let staticImageY = 300
 // let staticSpeed = 5
