@@ -15,5 +15,5 @@ function draw(){
 
     noStroke()
     fill(255)
-    CSSNumericValue
+    circle()
 }
