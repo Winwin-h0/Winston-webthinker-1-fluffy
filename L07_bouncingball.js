@@ -56,7 +56,7 @@ function keyPressed(){
         ballSize += 10
     }
     if(keyCode === 187){
-        ballSize
+        ballSize -= 10
     }
 
     if(key === 'c' || key === 'C'){
