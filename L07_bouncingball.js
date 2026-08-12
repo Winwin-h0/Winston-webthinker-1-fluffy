@@ -13,9 +13,9 @@ function setup(){
 }
 
 function draw(){
-    if (toggleTrail === false)
+    if (toggleTrail === false){
         background('green');
-
+    }
     ballX = ballX + ballSpeedX;
     ballY = ballY + ballSpeedY;
 
