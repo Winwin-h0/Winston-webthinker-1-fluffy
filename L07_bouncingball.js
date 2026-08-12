@@ -7,7 +7,7 @@ let ballSpeedY = 2;
 let toggleColour = true
 let toggleTrail = true
 
-let background
+let backgroundMusic;
 function setup(){
     createCanvas(600,400)
     background('green');
