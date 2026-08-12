@@ -45,6 +45,6 @@ function keyPressed(){
         toggleColour = false
     }
     else{
-        
+        toggleColour = true
     }
 }
