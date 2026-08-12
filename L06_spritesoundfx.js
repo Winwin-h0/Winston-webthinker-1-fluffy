@@ -51,7 +51,7 @@ function draw(){
         newImageWidth = imageWidth  
     }
     staticImageX = constrain(staticImageX,0,400 - 50)
-    staticImageY = constrain(staticImageY,0,)
+    staticImageY = constrain(staticImageY,0,400 - 50)
 }
 
 
