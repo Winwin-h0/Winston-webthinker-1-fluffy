@@ -9,14 +9,12 @@ let staticSpeed = 5
 
 function preload(){
     staticImage = loadImage('assets/pico-a.png');
-    soundEffect = loadSound('assets/bossaNova.mp3');
     soundPop = loadSound('assets/pop.mp3')
 }
 
 function setup(){
     createCanvas(400,400);
     background('green');
-    soundEffect.loop();
 }
 
 function keyPressed(){
