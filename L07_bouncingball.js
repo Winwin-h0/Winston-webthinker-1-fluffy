@@ -23,7 +23,7 @@ function draw(){
             fill(random(255),random(255),random(255))
         }
         else{
-            fill('w')
+            fill('white')
         }
     }
 
