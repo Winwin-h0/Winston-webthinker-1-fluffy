@@ -1,4 +1,5 @@
-let ballX = 
+let ballX = 300
+let ball
 function setup(){
     createCanvas(400,600)
 }
