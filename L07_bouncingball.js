@@ -41,11 +41,11 @@ function keyPressed(){
     }
     if(keyCode === 'c' || keyCode === 'C'){
 
-        if(toggle)
+        if(toggleColour === true){
+            toggleColour = false
+        }
 
-        toggleColour = false
+        
     }
-    else{
-        toggleColour = true
-    }
+    
 }
