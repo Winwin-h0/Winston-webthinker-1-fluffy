@@ -14,6 +14,8 @@ function draw(){
     ballX = ballX + ballSpeedX
     ballY = ballY + ballSpeedY
 
+    if 
+
     noStroke()
     fill(255)
     circle(ballX,ballY,ballSize)
