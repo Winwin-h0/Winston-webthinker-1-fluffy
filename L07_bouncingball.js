@@ -9,7 +9,7 @@ let toggleTrail = true
 
 let backgroundMusic;
 function setup(){
-    backgroundMusic = loadS
+    backgroundMusic = loadSound
     createCanvas(600,400)
     background('green');
 }
