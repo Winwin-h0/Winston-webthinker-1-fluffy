@@ -55,6 +55,8 @@ function keyPressed(){
     if(keyCode === 189){
         ballSize += 10
     }
+    if(keyCode === 187)
+
     if(key === 'c' || key === 'C'){
         if(toggleColour === true){
             toggleColour = false
