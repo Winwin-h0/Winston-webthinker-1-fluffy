@@ -12,6 +12,7 @@ let popSound;
 
 function preload(){
     backgroundMusic = loadSound('assets/bossaNova.mp3');
+    popSound
 }
 function setup(){
     createCanvas(600,400)
