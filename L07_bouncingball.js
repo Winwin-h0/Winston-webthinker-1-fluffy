@@ -13,6 +13,7 @@ function setup(){
 }
 
 function draw(){
+    if (toggleTrail === )
     // background('green');
 
     ballX = ballX + ballSpeedX;
