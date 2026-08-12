@@ -10,10 +10,9 @@ let toggleTrail = true
 let backgroundMusic;
 
 function preload(){
-    
+    backgroundMusic = loadSound('assets/bossaNova.mp3')
 }
 function setup(){
-    backgroundMusic = loadSound('assets/bossaNova.mp3')
     createCanvas(600,400)
     background('green');
 
