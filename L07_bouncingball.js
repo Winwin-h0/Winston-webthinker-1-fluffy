@@ -52,10 +52,10 @@ function keyPressed(){
         ballSpeedY *= 0.8;
     }
 
-    if(keyCode === 189){
+    if(keyCode === 187){
         ballSize += 10
     }
-    if(keyCode === 187){
+    if(keyCode === 189){
         ballSize -= 10
     }
 
