@@ -61,6 +61,8 @@ function keyPressed(){
     if(key === 't' || key === 'T'){
         if(toggleTrail === true){
             toggleTrail === false
-        }else
+        }else{
+            toggleTrail === true
+        }
     }
 }
