@@ -9,7 +9,7 @@ function setup(){
 }
 
 function draw(){
-    background('green');
+    // background('green');
 
     ballX = ballX + ballSpeedX;
     ballY = ballY + ballSpeedY;
