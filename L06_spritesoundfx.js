@@ -3,6 +3,7 @@
 let staticImage = 100
 let soundEffect;
 let soundPop;
+let imageSIve
 // let staticImageX = 50
 // let staticImageY = 300
 // let staticSpeed = 5
