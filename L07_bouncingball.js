@@ -5,7 +5,7 @@ let ballSpeedX = 2;
 let ballSpeedY = 2;
 
 let toggleColour = true
-let toggle
+let toggleTrail = true
 
 function setup(){
     createCanvas(600,400)
