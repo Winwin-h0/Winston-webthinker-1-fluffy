@@ -43,6 +43,8 @@ function keyPressed(){
 
         if(toggleColour === true){
             toggleColour = false
+        }else{
+            
         }
 
         
