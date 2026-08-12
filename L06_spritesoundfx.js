@@ -37,7 +37,7 @@ function draw(){
         staticImageY = staticImageY + staticSpeed
     }
     if (keyIsDown(UP_ARROW)){
-        staticImageX = staticImageX + staticSpeed
+        staticImageX = staticImageX - staticSpeed
     }
     if (keyIsDown(LEFT_ARROW)){
         staticImageX = staticImageX - staticSpeed
@@ -51,6 +51,7 @@ function draw(){
         newImageWidth = imageWidth  
     }
     staticImageX = constrain(staticImageX,0,400 - 50)
+    static
 }
 
 
