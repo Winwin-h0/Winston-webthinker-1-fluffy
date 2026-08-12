@@ -37,7 +37,7 @@ function draw(){
         staticImageY = staticImageY + staticSpeed
     }
     if (keyIsDown(UP_ARROW)){
-        
+        staticImage = staticImageY + staticSpeed
     }
     if (keyIsDown(LEFT_ARROW)){
         staticImageX = staticImageX - staticSpeed
