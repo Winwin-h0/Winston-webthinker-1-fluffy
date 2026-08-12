@@ -3,6 +3,8 @@ let ballY = 200;
 let ballSize = 30;
 let ballSpeedX = 2;
 let ballSpeedY = 2;
+
+let Toggle
 function setup(){
     createCanvas(600,400)
     background('green');
