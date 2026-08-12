@@ -3,9 +3,9 @@
 let staticImage;
 let soundEffect;
 let soundPop;
-let staticImageX = 50
-let staticImageY = 300
-let staticSpeed = 5
+// let staticImageX = 50
+// let staticImageY = 300
+// let staticSpeed = 5
 
 function preload(){
     staticImage = loadImage('assets/pico-a.png');
@@ -20,7 +20,7 @@ function setup(){
 function keyPressed(){
     if(keyCode === 32){
         soundPop.play()
-        
+
     }
 
     
