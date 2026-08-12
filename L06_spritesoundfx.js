@@ -26,24 +26,24 @@ function keyPressed(){
     
 }
 
-// function draw(){
+function draw(){
    
 
-//     background('green')
-//     image(staticImage,staticImageX,staticImageY,50,50);
-//     if (keyIsDown(DOWN_ARROW)){
-//     }
-//     if (keyIsDown(UP_ARROW)){
-//     }
-//     if (keyIsDown(LEFT_ARROW)){
-//         staticImageX = staticImageX - staticSpeed
-//     }
-//     if (keyIsDown(RIGHT_ARROW)){
-//         staticImageX = staticImageX + staticSpeed
-//     }
-//     if (keyIsDown(32)){
-//     }
-//     staticImageX = constrain(staticImageX,0,400 - 50)
-// }
+    background('green')
+    image(staticImage,staticImageX,staticImageY,50,50);
+    if (keyIsDown(DOWN_ARROW)){
+    }
+    if (keyIsDown(UP_ARROW)){
+    }
+    if (keyIsDown(LEFT_ARROW)){
+        staticImageX = staticImageX - staticSpeed
+    }
+    if (keyIsDown(RIGHT_ARROW)){
+        staticImageX = staticImageX + staticSpeed
+    }
+    if (keyIsDown(32)){
+    }
+    staticImageX = constrain(staticImageX,0,400 - 50)
+}
 
 
