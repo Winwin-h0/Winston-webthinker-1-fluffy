@@ -5,11 +5,11 @@ let ballSpeedX = 2
 let ballSpeedY = 2
 function setup(){
     createCanvas(600,400)
-    background('green')
+    
 }
 
 function draw(){
-    // background('green')
+    background('green')
 
     ballX = ballX + ballSpeedX
     ballY = ballY + ballSpeedY
