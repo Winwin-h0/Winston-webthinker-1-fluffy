@@ -4,7 +4,7 @@ let ballSize = 30
 let ballSpeedX = 2
 let ballSpeedY = 2
 function setup(){
-    createCanvas(400,600)
+    createCanvas(600,400)
     background('green')
 }
 
