@@ -34,7 +34,7 @@ function draw(){
     background('green')
     image(staticImage,staticImageX,staticImageY,newImageWidth,50);
     if (keyIsDown(DOWN_ARROW)){
-        
+        staticImageY = s
     }
     if (keyIsDown(UP_ARROW)){
     }
