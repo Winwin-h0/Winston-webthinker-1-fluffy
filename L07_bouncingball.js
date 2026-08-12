@@ -51,6 +51,8 @@ function keyPressed(){
         ballSpeedX *= 0.8;
         ballSpeedY *= 0.8;
     }
+
+    
     if(key === 'c' || key === 'C'){
         if(toggleColour === true){
             toggleColour = false
