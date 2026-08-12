@@ -10,5 +10,6 @@ function setup(){
 function draw(){
     background('green')
 
-    ballX = ballX 
+    ballX = ballX + ballSpeedX
+    
 }
