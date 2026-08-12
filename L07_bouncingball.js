@@ -21,6 +21,7 @@ function draw(){
 
     if (ballY - ballSize/2 <= 0 || ballY + ballSize/2 >= height){
         ballSpeedY = ballSpeedY * -1;
+        fill(random(0,255),random(0,255),random(0,255))
     }
 
     noStroke();
