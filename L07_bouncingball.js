@@ -15,11 +15,10 @@ function preload(){
 function setup(){
     createCanvas(600,400)
     background('green');
-
+    sound.loop()
 }
 
 function draw(){
-    sound.loop()
     if (toggleTrail === false){
         background('green');
     }
