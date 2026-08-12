@@ -8,6 +8,7 @@ let toggleColour = true
 let toggleTrail = true
 
 let backgroundMusic;
+let popSound;
 
 function preload(){
     backgroundMusic = loadSound('assets/bossaNova.mp3');
