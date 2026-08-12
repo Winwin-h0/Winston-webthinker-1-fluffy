@@ -52,7 +52,9 @@ function keyPressed(){
         ballSpeedY *= 0.8;
     }
 
-    if(keyCode === 18)
+    if(keyCode === 189){
+        
+    }
     if(key === 'c' || key === 'C'){
         if(toggleColour === true){
             toggleColour = false
