@@ -44,7 +44,7 @@ function draw(){
         staticImageX = staticImageX + staticSpeed
     }
     if (keyIsDown(32)){
-        
+        newImageWidth = image
     }
     staticImageX = constrain(staticImageX,0,400 - 50)
 }
