@@ -32,6 +32,9 @@ function draw(){
         if(toggleColour === true){
             fill(random(255),random(255),random(255))
         }
+        else{
+            fill('white')
+        }
     }
 
     noStroke();
