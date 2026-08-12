@@ -41,4 +41,7 @@ function keyPressed(){
         // ballSpeedX = ballSpeedX * 1.2;
         ballSpeedY *= 0.8;
     }
+    if(keyCode === 'c' || keyCode === 'C'){
+        
+    }
 }
