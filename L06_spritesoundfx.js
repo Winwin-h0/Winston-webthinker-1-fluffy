@@ -34,9 +34,10 @@ function draw(){
     background('green')
     image(staticImage,staticImageX,staticImageY,newImageWidth,50);
     if (keyIsDown(DOWN_ARROW)){
-        staticImageY = staticImageY - static
+        staticImageY = staticImageY + staticSpeed
     }
     if (keyIsDown(UP_ARROW)){
+        
     }
     if (keyIsDown(LEFT_ARROW)){
         staticImageX = staticImageX - staticSpeed
