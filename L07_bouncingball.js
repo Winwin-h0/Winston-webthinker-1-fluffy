@@ -12,6 +12,7 @@ function setup(){
     backgroundMusic = loadSound('assets/bossaNova.mp3')
     createCanvas(600,400)
     background('green');
+    
 }
 
 function draw(){
