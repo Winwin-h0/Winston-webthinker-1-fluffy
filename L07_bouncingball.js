@@ -28,5 +28,6 @@ function draw(){
     circle(ballX,ballY,ballSize);
 }
 function keyPressed(){
-    
+    if(keyCode = UP_ARROW)
+        
 }
