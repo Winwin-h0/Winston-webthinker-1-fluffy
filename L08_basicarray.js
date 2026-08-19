@@ -12,5 +12,7 @@ function draw(){
     fill(0);
     text("My Favourite Foods:",50,50)
 
-    for(let i = 0; i < favouriteFoods; i++)
+    for(let i = 0; i < favouriteFoods; i++){
+        text((i))
+    }
 }
