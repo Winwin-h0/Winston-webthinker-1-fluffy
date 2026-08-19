@@ -10,7 +10,9 @@ function draw(){
     background('green')
     squareX += 10
     constrain(squareX,600,0)
-
+    if (ballX - ballSize/2 <= 0 || ballX + ballSize/2 >= width){
+        
+    }
     fill(random(255),random(255),random(255))
     square(squareX,squareY,ballSize)
 }
