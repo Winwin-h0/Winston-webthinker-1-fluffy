@@ -38,7 +38,7 @@ function draw(){
     fill(255,255,0);
     textSize(24);
     textAlign(CENTER,CENTER);
-    if (keyIsDown)
+
     for (let i = 0; i < storyText.length; i++){
         let sentence = storyText[i];
         text(sentence,width/2, yPos + i * lineGap);
