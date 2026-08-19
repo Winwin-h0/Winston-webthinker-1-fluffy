@@ -1,6 +1,6 @@
 let squareX = 600/2
 let squareY = 400/2
-let squareSize = 
+let squareSize = 50
 
 function setup(){
     createCanvas(600,400)
@@ -12,5 +12,5 @@ function draw(){
     constrain(squareX,600,0)
 
     fill(random(255),random(255),random(255))
-    square(squareX,squareY,50)
+    square(squareX,squareY,ballSize)
 }
