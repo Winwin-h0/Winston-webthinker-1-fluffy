@@ -1,5 +1,5 @@
 // let favouriteHobbys = ["Reading","Gaming","Art","Music","Origami"]
-// let yPos
+let yPos
 let storyText = [
     "A long time ago in a galaxy far,",
     "far away...",
