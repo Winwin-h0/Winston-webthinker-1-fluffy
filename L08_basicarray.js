@@ -1,4 +1,4 @@
-// let favouriteHobbys = ["Reading","Gaming","Art","Music","Origami"]
+let favouriteHobbys = ["Reading","Gaming","Art","Music","Origami"]
 let yPos
 
 function setup(){
@@ -20,7 +20,7 @@ function draw(){
 
     // text("My favourite Hobbys:",50,50)
 
-    // for(let i = 0; i < favouriteHobbys.lenght; i++){
-    //     text((i + 1) + "." + favouriteHobbys[i], 50, 80 + i * 30)
-    // }
+    for(let i = 0; i < favouriteHobbys.lenght; i++){
+        text((i + 1) + "." + favouriteHobbys[i], 50, 80 + i * 30)
+    }
 }
