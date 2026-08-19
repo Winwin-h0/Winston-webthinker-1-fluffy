@@ -7,7 +7,7 @@ function setup(){
     createCanvas(600,400);
     background('green')
 
-    textSize(32)
+    textSize(16)
     text("My name is Winston",50,50)
 
     text("I am 10 year old this year.",50,100)
