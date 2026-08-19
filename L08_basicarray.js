@@ -2,6 +2,8 @@
 let yPos;
 let lineGap = 50;
 
+let
+
 let storyText = [
     "A long time ago in a galaxy far,",
     "far away...",
