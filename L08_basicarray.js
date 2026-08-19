@@ -3,10 +3,10 @@ let squareY = 400/2
 
 function setup(){
     createCanvas(600,400)
-    background('green')
 }
 
 function draw(){
+    background('green')
     squareX += 10
     constrain(squareX,600,0)
 
