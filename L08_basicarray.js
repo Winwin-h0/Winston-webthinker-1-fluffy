@@ -1,5 +1,5 @@
 // let favouriteHobbys = ["Reading","Gaming","Art","Music","Origami"]
-let yPos
+let yPos;
 let storyText = [
     "A long time ago in a galaxy far,",
     "far away...",
@@ -19,14 +19,14 @@ let storyText = [
 
 function setup(){
     createCanvas(600,400);
-    yPos = height
+    yPos = height;
 }
 
 function draw(){
-    background(0)
-    fill(255,255,0)
-    textSize(24)
-    textAlign(CENTER,CENTER)
+    background(0);
+    fill(255,255,0);
+    textSize(24);
+    textAlign(CENTER,CENTER);
 
     for (let i = 0; i < storyText.lenght; i++){
         let sentence = storyText[i];
