@@ -60,5 +60,8 @@ function draw(){
 
 //use for mouse click
 function mouseClicked() {
+
+    if(toggle === false
+    )
     toggleS = true
 }
