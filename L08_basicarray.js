@@ -8,7 +8,7 @@ function setup(){
     background('green')
 
     textSize(32)
-    text("My name is Winston",250,200)
+    text("My name is Winston",50,50)
 }
 
 function draw(){
