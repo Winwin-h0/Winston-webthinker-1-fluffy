@@ -28,7 +28,9 @@ function draw(){
     textSize(24)
     textAlign(CENTER,CENTER)
 
-    
+    for (let i = 0; i < storyText.lenght; i++){
+        
+    }
     // yPos -= 0.6
 
     // for(let i = 0; i < favouriteHobbys.length; i++){
