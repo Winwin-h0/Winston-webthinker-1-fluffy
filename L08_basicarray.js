@@ -1,4 +1,4 @@
-let favouriteFoods = ["Pizza","Sashimi","Sushi","Tacos","pasta"]
+// let favouriteFoods = ["Pizza","Sashimi","Sushi","Tacos","pasta"]
 let favouriteHobbys = ["Reading","Gaming","Art","Music","Origami"]
 
 function setup(){
@@ -11,10 +11,10 @@ function draw(){
     background('green')
 
     fill(0);
-    text("My Favourite Foods:",50,50)
+    // text("My Favourite Foods:",50,50)
     text("My favourite Hobbys")
 
-    for(let i = 0; i < favouriteFoods.length; i++){
-        text((i + 1) + "." + favouriteFoods[i], 50, 80 + i * 30)
-    }
+    // for(let i = 0; i < favouriteFoods.length; i++){
+    //     text((i + 1) + "." + favouriteFoods[i], 50, 80 + i * 30)
+    // }
 }
