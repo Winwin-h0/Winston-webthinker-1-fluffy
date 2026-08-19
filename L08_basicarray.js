@@ -1,10 +1,10 @@
 let squareX = 600/2
 let squareY = 400/2
 let squareSize = 50
-
+let squareSpeed
 
 function setup(){
-    createCanvas(600,400)
+    createCanvas(600,400);
 }
 
 function draw(){
