@@ -29,7 +29,7 @@ function draw(){
     textAlign(CENTER,CENTER)
 
     for (let i = 0; i < storyText.lenght; i++){
-        
+        let sentence = story
     }
     // yPos -= 0.6
 
