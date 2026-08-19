@@ -9,7 +9,7 @@ function setup(){
 
 function draw(){
     background('green')
-    squareX += 10
+    squareX += squareSpeed
     constrain(squareX,600,0)
     if (squareX - squareSize/2 <= 0 || squareX + squareSize/2 >= width){
         squareSpeed = squareSpeed * -1;
