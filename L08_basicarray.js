@@ -1,7 +1,4 @@
-let squareX = 600/2
-let squareY = 400/2
-let squareSize = 50
-let squareSpeed = 5
+let f
 
 function setup(){
     createCanvas(600,400);
