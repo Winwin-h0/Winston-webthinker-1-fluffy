@@ -5,7 +5,7 @@ function setup(){
     createCanvas(600,400);
     yPos = height
     fill(255,255,0)
-    textSize(16)
+    textSize(24)
     textAlign(CENTER,CENTER)
 }
 
