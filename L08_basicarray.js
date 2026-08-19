@@ -1,6 +1,6 @@
 // let favouriteHobbys = ["Reading","Gaming","Art","Music","Origami"]
 let yPos;
-let lineGap = 10;
+let lineGap = 50;
 
 let storyText = [
     "A long time ago in a galaxy far,",
@@ -28,7 +28,7 @@ function draw(){
     background(0);
 
     fill(255,255,0);
-    textSize(30);
+    textSize(24);
     textAlign(CENTER,CENTER);
 
     for (let i = 0; i < storyText.length; i++){
