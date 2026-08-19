@@ -11,7 +11,7 @@ function draw(){
     squareX += 10
     constrain(squareX,600,0)
     if (squareX - squareSize/2 <= 0 || squareX + squareSize/2 >= width){
-        ballSpeedX = ballSpeedX * -1;
+        squareX = squX * -1;
     }
     fill(random(255),random(255),random(255))
     square(squareX,squareY,ballSize)
