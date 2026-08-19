@@ -8,7 +8,7 @@ function setup(){
 
 function draw(){
     squareX += 10
-    contrain(squareX,600,0)
+    constrain(squareX,600,0)
 
     fill(random(255),random(255),random(255))
     square(squareX,squareY,50)
