@@ -11,7 +11,7 @@ function draw(){
     background('green')
     squareX += squareSpeed
 
-    if (squareX <= 0 || squareX + squareSize/2 >= width){
+    if (squareX <= 0 || squareX +  >= width){
         squareSpeed = squareSpeed * -1;
         fill(random(255),random(255),random(255))
     }
