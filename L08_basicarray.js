@@ -6,7 +6,7 @@ function setup(){
     yPos = height
     fill(255,255,0)
     textSize(24)
-    textAlign(CENTER,CENTER)
+    textAlign(RIGHT,CENTER)
 }
 
 function draw(){
