@@ -12,7 +12,7 @@ function setup(){
 
     text("I am 10 year old this year.",50,100)
 
-    text("My favourite activity is playing video games.",)
+    text("My favourite activity is playing video games.",50,150)
 }
 
 function draw(){
