@@ -7,7 +7,7 @@ function setup(){
     createCanvas(600,400);
     background('green')
     textSize(32)
-    text("hello!", 0,200)
+    text("Hello!", 200,200)
 }
 
 function draw(){
