@@ -21,7 +21,7 @@ let storyText = [
     "May the Code be with you!"
 ];
 function preload(){
-    backgroundMusic
+    backgroundMusic = loadSound
 }
 
 function setup(){
