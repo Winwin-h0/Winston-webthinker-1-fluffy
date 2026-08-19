@@ -26,12 +26,12 @@ function setup(){
 
 function draw(){
     background(0);
-    
+
     fill(255,255,0);
     textSize(30);
     textAlign(CENTER,CENTER);
 
-    for (let i = 0; i < storyText.lenght; i++){
+    for (let i = 0; i < storyText.length; i++){
         let sentence = storyText[i];
         text(sentence,width/2, yPos + i * lineGap);
     }
@@ -39,7 +39,7 @@ function draw(){
     yPos -= 0.6;
 
     console.log(yPos);
-    if(yPos < -storyText.lenght * (lineGap+5)){
+    if(yPos < -storyText.length * (lineGap+5)){
         yPos = height;
     }
     // for(let i = 0; i < favouriteHobbys.length; i++){
