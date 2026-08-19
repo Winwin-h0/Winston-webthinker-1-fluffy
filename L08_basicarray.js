@@ -30,7 +30,7 @@ function setup(){
     backgroundMusic.loop()
 }
 
-text
+text()
 
 function draw(){
     background(0);
