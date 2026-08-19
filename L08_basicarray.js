@@ -6,9 +6,9 @@ let squareSpeed = 5
 function setup(){
     createCanvas(600,400);
     background('green')
-    
+
     textSize(32)
-    text("Hello!",250,200)
+    text("My name is Winston",250,200)
 }
 
 function draw(){
