@@ -20,6 +20,9 @@ let storyText = [
     "",
     "May the Code be with you!"
 ];
+function preload(){
+    
+}
 
 function setup(){
     createCanvas(600,400);
