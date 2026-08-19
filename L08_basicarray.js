@@ -15,5 +15,5 @@ function draw(){
         squareSpeed = squareSpeed * -1;
         fill(random(255),random(255),random(255))
     }
-    square(squareX,squareY,ballSize)
+    square(squareX,squareY,squareSize)
 }
