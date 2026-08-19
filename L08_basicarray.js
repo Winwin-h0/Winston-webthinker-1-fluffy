@@ -62,6 +62,8 @@ function draw(){
 function mouseClicked() {
 
     if(toggle === false){
-    toggleS = true
+        toggleS = true
+    }else{
+        to
     }
 }
