@@ -10,7 +10,7 @@ function setup(){
     textSize(32)
     text("My name is Winston",50,50)
 
-    text("I am ")
+    text("I am 10 year old this year."50)
 }
 
 function draw(){
