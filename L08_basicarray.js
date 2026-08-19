@@ -1,5 +1,4 @@
-
-let favouriteHobbys = ["Reading","Gaming","Art","Music","Origami"]
+// let favouriteHobbys = ["Reading","Gaming","Art","Music","Origami"]
 
 function setup(){
     createCanvas(600,400);
