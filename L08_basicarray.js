@@ -1,5 +1,5 @@
 let favouriteFoods = ["Pizza","Sashimi","Sushi","Tacos","pasta"]
-let favouriteHobbys = ["Reading","Gaming","Art","Mu",""]
+let favouriteHobbys = ["Reading","Gaming","Art","Music","Origami"]
 
 function setup(){
     createCanvas(600,400);
