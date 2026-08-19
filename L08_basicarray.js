@@ -10,7 +10,7 @@ function setup(){
 function draw(){
     background(0)
 
-    text("Moving Text", widht/2, yPos);
+    text("Moving Text", width/2, yPos);
 
     yPos -= 0.6
 
