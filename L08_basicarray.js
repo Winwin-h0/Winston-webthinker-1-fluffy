@@ -4,6 +4,7 @@ let lineGap = 50;
 
 let backgroundMusic;
 
+let toggleS = 
 let storyText = [
     "A long time ago in a galaxy far,",
     "far away...",
@@ -58,5 +59,5 @@ function draw(){
 
 //use for mouse click
 function mouseClicked() {
-    
+
 }
