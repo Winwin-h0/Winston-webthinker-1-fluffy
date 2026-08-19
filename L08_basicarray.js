@@ -32,7 +32,8 @@ function draw(){
         let sentence = storyText[i]
         text(sentence,width/2, yPos + i * lineGap)
     }
-    // yPos -= 0.6
+
+    yPos -= 0.6
 
     // for(let i = 0; i < favouriteHobbys.length; i++){
     //     text((i + 1) + "." + favouriteHobbys[i], 300, yPos + i * 30)
