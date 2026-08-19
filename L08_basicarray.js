@@ -37,7 +37,7 @@ function draw(){
 
     console.log(yPos)
     if(yPos < -storyText.lenght * (lineGap+5)){
-        
+        yPos = he
     }
     // for(let i = 0; i < favouriteHobbys.length; i++){
     //     text((i + 1) + "." + favouriteHobbys[i], 300, yPos + i * 30)
