@@ -28,9 +28,9 @@ function setup(){
 function draw(){
     background(0)
 
-    yPos -= 0.6
+    // yPos -= 0.6
 
-    for(let i = 0; i < favouriteHobbys.length; i++){
-        text((i + 1) + "." + favouriteHobbys[i], 300, yPos + i * 30)
-    }
+    // for(let i = 0; i < favouriteHobbys.length; i++){
+    //     text((i + 1) + "." + favouriteHobbys[i], 300, yPos + i * 30)
+    // }
 }
