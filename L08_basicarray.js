@@ -64,6 +64,6 @@ function mouseClicked() {
     if(toggle === false){
         toggleS = true
     }else{
-        to
+        toggleS = false
     }
 }
