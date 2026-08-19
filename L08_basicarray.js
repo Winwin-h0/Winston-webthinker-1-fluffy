@@ -1,4 +1,4 @@
-let favouriteFoods = ["Pizza"]
+let favouriteFoods = ["Pizza","burger",""]
 
 function setup(){
     createCanvas(600,400);
