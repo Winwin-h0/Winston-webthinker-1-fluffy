@@ -12,9 +12,6 @@ function setup(){
 function draw(){
     background(0)
 
-
-    text("Moving Text", width/2, yPos);
-
     yPos -= 0.6
 
     for(let i = 0; i < favouriteHobbys.lenght; i++){
