@@ -5,15 +5,9 @@ let squareSpeed = 5
 
 function setup(){
     createCanvas(600,400);
+    background()
 }
 
 function draw(){
-    background('green')
-    squareX += squareSpeed
 
-    if (squareX <= 0 || squareX + squareSize >= width){
-        squareSpeed = squareSpeed * -1;
-        fill(random(255),random(255),random(255))
-    }
-    square(squareX,squareY,squareSize)
 }
