@@ -29,15 +29,15 @@ function draw(){
     textAlign(CENTER,CENTER)
 
     for (let i = 0; i < storyText.lenght; i++){
-        let sentence = storyText[i]
-        text(sentence,width/2, yPos + i * lineGap)
+        let sentence = storyText[i];
+        text(sentence,width/2, yPos + i * lineGap);
     }
 
-    yPos -= 0.6
+    yPos -= 0.6;
 
-    console.log(yPos)
+    console.log(yPos);
     if(yPos < -storyText.lenght * (lineGap+5)){
-        yPos = he
+        yPos = height;
     }
     // for(let i = 0; i < favouriteHobbys.length; i++){
     //     text((i + 1) + "." + favouriteHobbys[i], 300, yPos + i * 30)
