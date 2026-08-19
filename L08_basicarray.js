@@ -1,4 +1,4 @@
-let favourite
+let favouriteFoods = 
 
 function setup(){
     createCanvas(600,400);
