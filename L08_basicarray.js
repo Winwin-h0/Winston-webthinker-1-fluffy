@@ -9,6 +9,8 @@ function setup(){
 
     textSize(32)
     text("My name is Winston",50,50)
+
+    textSize()
 }
 
 function draw(){
