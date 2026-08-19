@@ -6,6 +6,7 @@ let squareSpeed = 5
 function setup(){
     createCanvas(600,400);
     background('green')
+    
     textSize(32)
     text("Hello!",250,200)
 }
