@@ -1,4 +1,4 @@
-let f
+let favourite
 
 function setup(){
     createCanvas(600,400);
