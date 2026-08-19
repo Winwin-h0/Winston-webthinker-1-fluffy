@@ -7,8 +7,9 @@ function setup(){
 }
 
 function draw(){
-    background('green')
+    background(0)
 
+    
     // text("My favourite Hobbys:",50,50)
 
     // for(let i = 0; i < favouriteHobbys.lenght; i++){
