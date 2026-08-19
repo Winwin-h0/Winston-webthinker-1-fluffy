@@ -10,7 +10,7 @@ function setup(){
 function draw(){
     background(0)
 
-    text("moving")
+    text("Moving Text", )
 
 
     // text("My favourite Hobbys:",50,50)
