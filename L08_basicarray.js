@@ -50,7 +50,13 @@ function draw(){
     if(yPos < -storyText.length * (lineGap+5)){
         yPos = height;
     }
+
     // for(let i = 0; i < favouriteHobbys.length; i++){
     //     text((i + 1) + "." + favouriteHobbys[i], 300, yPos + i * 30)
     // }
+}
+
+//use for mouse click
+function mouseClicked() {
+  
 }
