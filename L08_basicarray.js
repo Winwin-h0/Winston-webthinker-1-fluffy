@@ -26,7 +26,9 @@ function draw(){
     background(0)
     fill(255,255,0)
     textSize(24)
-    textAlign(LEFT,CENTER)
+    textAlign(CENTER,CENTER)
+
+    
     // yPos -= 0.6
 
     // for(let i = 0; i < favouriteHobbys.length; i++){
