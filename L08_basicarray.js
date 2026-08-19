@@ -4,7 +4,8 @@ let lineGap = 50;
 
 let backgroundMusic;
 
-let toggleS = 
+let toggleS = false
+
 let storyText = [
     "A long time ago in a galaxy far,",
     "far away...",
