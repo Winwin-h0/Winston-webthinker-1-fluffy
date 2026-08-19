@@ -10,6 +10,6 @@ function draw(){
     squarex += 10
     contrain(squareX,600,0)
 
-    fill
+    fill()
     square(squareX,squareY,50)
 }
