@@ -7,7 +7,7 @@ function setup(){
 }
 
 function draw(){
-    squarex += 10
+    squareX += 10
     contrain(squareX,600,0)
 
     fill(random(255),random(255),random(255))
