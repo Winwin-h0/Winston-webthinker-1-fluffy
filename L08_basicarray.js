@@ -27,6 +27,7 @@ function preload(){
 function setup(){
     createCanvas(600,400);
     yPos = height;
+    backgroundMusic.loop
 }
 
 function draw(){
