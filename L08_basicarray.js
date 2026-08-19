@@ -9,4 +9,6 @@ function setup(){
 function draw(){
     squarex += 10
     contrain(squareX,600,0)
+
+    squareX()
 }
