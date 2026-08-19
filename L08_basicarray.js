@@ -3,6 +3,8 @@ let yPos
 
 function setup(){
     createCanvas(600,400);
+    yPos = height
+    
     textSize(16)
     textAlign(LEFT,TOP)
 }
