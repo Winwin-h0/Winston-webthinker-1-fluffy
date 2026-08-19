@@ -30,8 +30,9 @@ function setup(){
     backgroundMusic.loop()
 }
 
-text("click to sta")
+text("click to start")
 
+if 
 function draw(){
     background(0);
 
