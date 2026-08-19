@@ -1,6 +1,6 @@
 let squareX = 600/2
 let squareY = 400/2
-let squareWidth = 
+let squareSize = 
 
 function setup(){
     createCanvas(600,400)
