@@ -30,7 +30,7 @@ function draw(){
 
     for (let i = 0; i < storyText.lenght; i++){
         let sentence = storyText[i]
-        
+        text(sentence)
     }
     // yPos -= 0.6
 
