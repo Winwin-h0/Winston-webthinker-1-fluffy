@@ -13,5 +13,5 @@ function draw(){
     background('green')
 
     fill(0);
-    
+    text("")
 }
