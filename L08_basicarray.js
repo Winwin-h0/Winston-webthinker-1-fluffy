@@ -3,7 +3,7 @@ let favouriteFoods = ["Pizza","burger","Sushi","Tacos","pasta"]
 function setup(){
     createCanvas(600,400);
     textSize(16)
-    textAlign(CENTER,TOP)
+    textAlign(LEFT,TOP)
 }
 
 function draw(){
