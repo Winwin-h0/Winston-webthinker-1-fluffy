@@ -1,6 +1,6 @@
 // let favouriteHobbys = ["Reading","Gaming","Art","Music","Origami"]
 // let yPos
-let
+
 function setup(){
     createCanvas(600,400);
     yPos = height
