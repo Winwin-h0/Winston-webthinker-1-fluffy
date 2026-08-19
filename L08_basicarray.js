@@ -12,7 +12,7 @@ function draw(){
 
     text("Moving Text", widht/2, yPos);
 
-    yPos -= 0
+    yPos -= 0.6
 
 
     // text("My favourite Hobbys:",50,50)
