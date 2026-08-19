@@ -7,5 +7,6 @@ function setup(){
 }
 
 function draw(){
-    squarex += 
+    squarex += 10
+    contrain
 }
