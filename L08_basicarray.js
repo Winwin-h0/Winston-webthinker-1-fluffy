@@ -14,7 +14,7 @@ function draw(){
 
     yPos -= 0.6
 
-    for(let i = 0; i < favouriteHobbys.lenght; i++){
+    for(let i = 0; i < favouriteHobbys.length; i++){
         text((i + 1) + "." + favouriteHobbys[i], 50, yPos + i * 30)
     }
 }
