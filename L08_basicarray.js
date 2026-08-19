@@ -4,7 +4,7 @@ let favouriteHobbys = ["Reading","Gaming","Art","Music","Origami"]
 function setup(){
     createCanvas(600,400);
     textSize(16)
-    textAlign(LEFT,TOP)
+    textAlign(Left,TOP)
 }
 
 function draw(){
