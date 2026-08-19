@@ -10,5 +10,5 @@ function draw(){
     squarex += 10
     contrain(squareX,600,0)
 
-    squareX(squareX,squareY,)
+    squareX(squareX,squareY,50)
 }
