@@ -8,5 +8,5 @@ function setup(){
 
 function draw(){
     squarex += 10
-    contrain(squareX)
+    contrain(squareX, 600,0)
 }
