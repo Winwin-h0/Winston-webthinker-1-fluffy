@@ -1,5 +1,5 @@
 // let favouriteHobbys = ["Reading","Gaming","Art","Music","Origami"]
-
+let yP
 function setup(){
     createCanvas(600,400);
     textSize(16)
@@ -9,7 +9,7 @@ function setup(){
 function draw(){
     background(0)
 
-    
+
     // text("My favourite Hobbys:",50,50)
 
     // for(let i = 0; i < favouriteHobbys.lenght; i++){
