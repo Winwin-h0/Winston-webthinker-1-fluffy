@@ -2,7 +2,7 @@
 let yPos;
 let lineGap = 50;
 
-let
+let backgroundMusic;
 
 let storyText = [
     "A long time ago in a galaxy far,",
