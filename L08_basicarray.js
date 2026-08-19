@@ -10,5 +10,5 @@ function draw(){
     background('green')
 
     fill(0);
-    text("My favour")
+    text("My Favourite Foods",)
 }
