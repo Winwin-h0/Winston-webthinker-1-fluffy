@@ -1,4 +1,4 @@
-// let favouriteHobbys = ["Reading","Gaming","Art","Music","Origami"]
+
 let yPos;
 let lineGap = 50;
 
@@ -30,29 +30,28 @@ function setup(){
     createCanvas(600,400);
     yPos = height;
     backgroundMusic.loop()
+    textSize(24)
+    textAlign(CENTER,CENTER)
 }
-
-text("click to start")
-
 function draw(){
     background(0);
-
-    fill(255,255,0);
-    textSize(24);
-    textAlign(CENTER,CENTER);
-
-    for (let i = 0; i < storyText.length; i++){
-        let sentence = storyText[i];
-        text(sentence,width/2, yPos + i * lineGap);
+    if (toggleS === false){
+    text("click to start", 600/2, 400/2);
     }
+    fill(255,255,0)
+    if (toggleS === true){
+        for (let i = 0; i < storyText.length; i++){
+            let sentence = storyText[i];
+            text(sentence,width/2, yPos + i * lineGap);
+        }
 
-    yPos -= 0.6;
+        yPos -= 0.6;
 
-    console.log(yPos);
-    if(yPos < -storyText.length * (lineGap+5)){
-        yPos = height;
+        console.log(yPos);
+        if(yPos < -storyText.length * (lineGap+5)){
+            yPos = height;
+        }
     }
-
     // for(let i = 0; i < favouriteHobbys.length; i++){
     //     text((i + 1) + "." + favouriteHobbys[i], 300, yPos + i * 30)
     // }
@@ -61,7 +60,7 @@ function draw(){
 //use for mouse click
 function mouseClicked() {
 
-    if(toggle === false){
+    if(toggleS === false){
         toggleS = true
     }else{
         toggleS = false
