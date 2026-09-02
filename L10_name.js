@@ -30,5 +30,5 @@ function updateText(){
 }
 
 function updateText1(){
-    user
+    userText2 = this.
 }
