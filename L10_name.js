@@ -19,7 +19,7 @@ function draw(){
 
     fill(0);
     textSize(28);
-    text(userText1, width/2, 100);
+    text(userText1, 200, 100);
 }
 
 function updateText(){
