@@ -21,7 +21,7 @@ function draw(){
     fill(0);
     textSize(28);
     textAlign(CENTER,CENTER)
-    text(userText1, 250, 100);
+    text(userText1, width/2, 100);
 }
 
 function updateText(){
