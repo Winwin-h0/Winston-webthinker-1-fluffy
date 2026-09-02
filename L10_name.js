@@ -27,5 +27,5 @@ function updateText(){
 }
 
 function updateText1(){
-    
+    user
 }
