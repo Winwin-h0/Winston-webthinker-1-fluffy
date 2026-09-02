@@ -15,5 +15,8 @@ function draw(){
     textSize(28)
     textAlign(CENTER,CENTER)
     text(userText, width/2, 180)
+}
 
+function updateText(){
+    
 }
