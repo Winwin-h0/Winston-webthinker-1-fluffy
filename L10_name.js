@@ -1,4 +1,4 @@
-let inputText;
+let inputText2;
 let userText = "Your Text Here";
 
 function setup(){
@@ -8,9 +8,9 @@ function setup(){
     inputText.position(200, height - 50);
     inputText.input(updateText);
 
-    inputText = createInput();
-    inputText.position(200, height - 50);
-    inputText.input(updateText);
+    inputText2 = createInput();
+    inputText2.position(200, height - 50);
+    inputText2.input(updateText);
 }
 
 function draw(){
