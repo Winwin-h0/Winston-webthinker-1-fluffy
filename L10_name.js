@@ -19,7 +19,6 @@ function draw(){
 
     fill(0);
     textSize(28);
-    textAlign(CENTER,TOP);
     text(userText1, width/2, 180);
 }
 
