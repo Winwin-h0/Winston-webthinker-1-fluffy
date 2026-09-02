@@ -8,5 +8,5 @@ function draw(){
     background('green')
 
     inputText = createInput()
-    inputText.position(200)
+    inputText.position(200,0 height -80)
 }
