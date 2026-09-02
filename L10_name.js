@@ -6,11 +6,11 @@ function setup(){
     createCanvas(600, 400);
 
     inputText = createInput();
-    inputText.position(200, height - 50);
+    inputText.position(200, height - 10);
     inputText.input(updateText);
 
     inputText2 = createInput();
-    inputText2.position(200, height - 80);
+    inputText2.position(200, height - 20);
     inputText2.input(updateText);
 }
 
