@@ -7,6 +7,6 @@ function setup(){
 function draw(){
     background('green')
 
-    inputText = createInput(
-    )
+    inputText = createInput()
+    inputText
 }
