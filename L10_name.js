@@ -25,3 +25,7 @@ function draw(){
 function updateText(){
     userText1 = this.value();
 }
+
+function updateText1(){
+    
+}
