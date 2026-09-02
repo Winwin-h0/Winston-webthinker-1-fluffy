@@ -1,6 +1,6 @@
 let inputText2;
 let inputText;
-let userText = "Your Text Here";
+let userText1 = "Your Text Here";
 
 function setup(){
     createCanvas(600, 400);
@@ -19,8 +19,8 @@ function draw(){
 
     fill(0);
     textSize(28);
-    textAlign(CENTER,CENTER);
-    text(userText, width/2, 180);
+    textAlign(TOP,CENTER);
+    text(userText1, width/2, 180);
 }
 
 function updateText(){
