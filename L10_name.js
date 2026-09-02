@@ -1,6 +1,7 @@
 let inputText2;
 let inputText;
 let userText1;
+let userText2;
 
 function setup(){
     createCanvas(600, 400);
