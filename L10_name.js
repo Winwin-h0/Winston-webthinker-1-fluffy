@@ -30,5 +30,5 @@ function updateText(){
 }
 
 function updateText1(){
-    userText2 = this.
+    userText2 = this.value()
 }
