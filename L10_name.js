@@ -1,4 +1,5 @@
-let inpu
+let inputText;
+let user
 function setup(){
     createCanvas(600,400)
 }
