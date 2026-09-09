@@ -18,7 +18,7 @@ function setup(){
     inputText2.position(200, height - -30);
     inputText2.input(updateText1);
 
-    colorPicker = createColorPicker("#ffcc00")
+    colorPicker = createColorPicker("rgb(214, 177, 28)")
     colorPicker.position(200,32)
 }
 
