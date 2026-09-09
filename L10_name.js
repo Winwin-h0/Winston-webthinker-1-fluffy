@@ -8,7 +8,7 @@ let ageInput;
 
 let colorPicker;
 let colorPickerForRect;
-let colorPickerForText
+let colorPickerForText;
 
 
 function setup(){
