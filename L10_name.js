@@ -5,8 +5,9 @@ let userText2;
 
 let nameInput;
 let ageInput;
-;
-let colorPickerForRect
+
+let colorPicker;
+let colorPickerForRect;
 
 
 function setup(){
