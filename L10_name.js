@@ -41,7 +41,7 @@ function draw(){
     rect(50,100,500,160,50);
 
 
-    fill(colorPickerForText);
+    fill(colorPickerForText.value());
     textSize(28);
     textAlign(CENTER,CENTER);
 
