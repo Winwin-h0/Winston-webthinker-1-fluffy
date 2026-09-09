@@ -5,7 +5,10 @@ let userText2;
 
 let nameInput
 let ageInput
+
 let colorPicker
+
+
 
 function setup(){
     createCanvas(600, 400);
@@ -22,7 +25,7 @@ function setup(){
     colorPicker.position(200,560);
 
     colorPickerForRect = createColorPicker("rgb(255, 254, 254)")
-    colorPickerForRect. position(300,400)
+    colorPickerForRect. position(300,500)
 }
 
 function draw(){
