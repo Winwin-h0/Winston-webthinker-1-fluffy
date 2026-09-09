@@ -36,8 +36,8 @@ function draw(){
     text(userText1, 300, 150);
     text(userText2, 300, 200);
 
-    textSize
-    text("Pick a background color;", 20, 50)
+    textSize(16)
+    text("Pick a background color;", 20, )
 }
 
 function updateText(){
