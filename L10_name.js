@@ -32,8 +32,8 @@ function draw(){
     fill(0);
     textSize(28);
     textAlign(CENTER,CENTER)
-    text(userText1, 300, 200);
-    text(userText2, 300, 250)
+    text(userText1, 300, 300);
+    text(userText2, 300, 350)
     text("Pick a background color;", 20, 50)
 }
 
