@@ -38,6 +38,7 @@ function draw(){
 
     textSize(16)
     fill(0)
+    text("")
     text("Pick a background color:", 20, 560)
 }
 
