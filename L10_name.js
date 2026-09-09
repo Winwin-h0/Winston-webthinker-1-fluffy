@@ -29,7 +29,7 @@ function setup(){
     colorPickerForRect. position(500,500);
 
     colorPickerForText = createColorPicker("rgb(0,0,0)")
-    colorPickerForText.position(500,550)
+    colorPickerForText.position(500,530)
 
 
 }
