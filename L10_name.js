@@ -3,6 +3,8 @@ let inputText;
 let userText1;
 let userText2;
 
+let
+
 function setup(){
     createCanvas(600, 400);
 
