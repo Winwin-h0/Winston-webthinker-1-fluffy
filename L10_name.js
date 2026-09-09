@@ -15,11 +15,11 @@ function setup(){
     inputText.input(updateText);
 
     inputText2 = createInput();
-    inputText2.position(200, 550);
+    inputText2.position(200, 530);
     inputText2.input(updateText1);
 
     colorPicker = createColorPicker("rgb(255, 205, 3)");
-    colorPicker.position(200,580);
+    colorPicker.position(200,550);
 }
 
 function draw(){
