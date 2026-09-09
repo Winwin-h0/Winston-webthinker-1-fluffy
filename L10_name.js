@@ -53,7 +53,7 @@ function draw(){
     text("Enter your name:",100, 300);
     text("Enter your age:", 100, 335);
     text("Pick a background color:", 100, 365);
-    text("Pick your")
+    text("Pick your rectangle color:")
 }
 
 function updateText(){
