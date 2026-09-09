@@ -18,8 +18,8 @@ function setup(){
     inputText2.position(200, height - -30);
     inputText2.input(updateText1);
 
-    colorPicker = createColorPicker("rgb(255, 205, 3)")
-    colorPicker.position(200,32)
+    colorPicker = createColorPicker("rgb(255, 205, 3)");
+    colorPicker.position(200,32);
 }
 
 function draw(){
