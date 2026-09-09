@@ -38,7 +38,8 @@ function draw(){
 
     textSize(16);
     fill(0);
-    text("Enter your name:",100, 350)
+    text("Enter your name:",100, 355)
+    
     text("Pick a background color:", 100, 365)
 }
 
