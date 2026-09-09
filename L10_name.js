@@ -28,6 +28,8 @@ function setup(){
     colorPickerForRect = createColorPicker("rgb(255, 254, 254)");
     colorPickerForRect. position(500,500);
 
+    colorPickerForText
+
 
 }
 
