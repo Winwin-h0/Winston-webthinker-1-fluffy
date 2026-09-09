@@ -39,7 +39,7 @@ function draw(){
     textSize(16);
     fill(0);
     text("Enter your name")
-    text("Pick a background color:", 20, 560)
+    text("Pick a background color:", 50, 360)
 }
 
 function updateText(){
