@@ -23,8 +23,8 @@ function setup(){
 }
 
 function draw(){
-    background('green');
-    
+    background(colorPicker);
+
 
     fill(0);
     textSize(28);
