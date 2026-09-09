@@ -29,6 +29,7 @@ function draw(){
     fill(0);
     textSize(16);
     textAlign(LEFT)
+    fill(0)
     text(userText1, width/2, 100);
     text(userText2, width/2, 150)
 }
