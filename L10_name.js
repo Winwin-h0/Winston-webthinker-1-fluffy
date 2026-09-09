@@ -15,7 +15,7 @@ function setup(){
     inputText.input(updateText);
 
     inputText2 = createInput();
-    inputText2.position(200, 300);
+    inputText2.position(200, 0);
     inputText2.input(updateText1);
 
     colorPicker = createColorPicker("rgb(255, 205, 3)");
@@ -25,13 +25,13 @@ function setup(){
 function draw(){
     background(colorPicker.value());
 
-    fill(255)
-    rect(50,100,500,160,50)
+    fill(255);
+    rect(50,100,500,160,50);
 
 
     fill(0);
     textSize(28);
-    textAlign(CENTER,CENTER); BOTTOM
+    textAlign(CENTER,CENTER);
 
     text(userText1, 300, 100);
     text(userText2, 300, 150);
