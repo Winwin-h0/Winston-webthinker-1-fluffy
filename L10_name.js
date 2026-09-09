@@ -25,6 +25,8 @@ function setup(){
 function draw(){
     background(colorPicker.value());
 
+    
+
 
     fill(0);
     textSize(28);
