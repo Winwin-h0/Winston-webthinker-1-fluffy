@@ -11,7 +11,7 @@ function setup(){
     createCanvas(600, 400);
 
     inputText = createInput();
-    inputText.position(200, height - 0);
+    inputText.position(200, 300);
     inputText.input(updateText);
 
     inputText2 = createInput();
