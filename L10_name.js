@@ -23,13 +23,12 @@ function setup(){
 }
 
 function draw(){
-    background(colorPicker.value());
+    background(colorPicker.value);
 
 
     fill(0);
-    textSize(16);
-    textAlign(LEFT)
-    fill(0)
+    textSize(28);
+    textAlign(CENTER,CENTER)
     text(userText1, width/2, 100);
     text(userText2, width/2, 150)
 }
