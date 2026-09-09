@@ -31,7 +31,7 @@ function draw(){
     textAlign(CENTER,CENTER)
     text(userText1, width/2, 100);
     text(userText2, width/2, 150)
-    text("Pick a background color")
+    text("Pick a background color;", 20, 50)
 }
 
 function updateText(){
