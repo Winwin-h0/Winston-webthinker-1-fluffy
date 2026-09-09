@@ -5,7 +5,7 @@ let userText2;
 
 let nameInput
 let ageInput
-let coulourPiicker
+let colurPicker
 
 function setup(){
     createCanvas(600, 400);
@@ -18,7 +18,7 @@ function setup(){
     inputText2.position(200, height - -30);
     inputText2.input(updateText1);
 
-    
+    colorPicker = createColorPicker()
 }
 
 function draw(){
