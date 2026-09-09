@@ -21,7 +21,7 @@ function setup(){
     colorPicker = createColorPicker("rgb(255, 205, 3)");
     colorPicker.position(200,560);
 
-    colorPickerForRect = createColorPicker("")
+    colorPickerForRect = createColorPicker("rgb(255,255,255)")
 }
 
 function draw(){
