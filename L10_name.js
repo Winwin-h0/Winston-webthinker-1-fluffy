@@ -3,11 +3,10 @@ let inputText;
 let userText1;
 let userText2;
 
-let nameInput
-let ageInput
-
-let colorPicker
-
+let nameInput;
+let ageInput;
+;
+let colorPickerForRect
 
 
 function setup(){
