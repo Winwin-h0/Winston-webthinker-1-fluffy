@@ -39,7 +39,7 @@ function draw(){
     textSize(16);
     fill(0);
     text("Enter your name:",100, 340)
-    text("Enter your age:", 100, 350)
+    text("Enter your age:", 100, 335)
     text("Pick a background color:", 100, 365)
 }
 
