@@ -24,8 +24,8 @@ function setup(){
     colorPicker = createColorPicker("rgb(255, 205, 3)");
     colorPicker.position(200,560);
 
-    colorPickerForRect = createColorPicker("rgb(255, 254, 254)")
-    colorPickerForRect. position(300,500)
+    colorPickerForRect = createColorPicker("rgb(255, 254, 254)");
+    colorPickerForRect. position(300,500);
 }
 
 function draw(){
@@ -44,9 +44,9 @@ function draw(){
 
     textSize(16);
     fill(0);
-    text("Enter your name:",100, 300)
-    text("Enter your age:", 100, 335)
-    text("Pick a background color:", 100, 365)
+    text("Enter your name:",100, 300);
+    text("Enter your age:", 100, 335);
+    text("Pick a background color:", 100, 365);
 }
 
 function updateText(){
