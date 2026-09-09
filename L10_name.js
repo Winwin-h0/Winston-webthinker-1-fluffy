@@ -8,6 +8,7 @@ let ageInput;
 
 let colorPicker;
 let colorPickerForRect;
+let colorPickerForText
 
 
 function setup(){
@@ -27,7 +28,7 @@ function setup(){
     colorPickerForRect = createColorPicker("rgb(255, 254, 254)");
     colorPickerForRect. position(500,500);
 
-    
+
 }
 
 function draw(){
