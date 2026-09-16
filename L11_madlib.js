@@ -25,6 +25,8 @@ function setup(){
     inputFieldPlace = createInput("Enter your text here")
     inputFieldPlace.position(200,220)
 
+    
+
     // submitButtonForName = createButton("Show Input")
     // submitButtonForName.mousePressed(displayInput);
     // submitButtonForName.position(inputFieldName.x + inputFieldName.width + 10, inputFieldName.y)
