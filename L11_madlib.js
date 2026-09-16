@@ -55,7 +55,6 @@ function displayInput(){
 
     storyText = template.replace("{noun}", inputFieldName.value())
                         .replace("{verb}", inputFieldVerb.value())
-                        
                         .replace("{adv}", inputFieldAdverb.value())
                         .replace("{place}", inputFieldVerb.value())
                         .replace("{adj}", inputFieldAdjective.value())
