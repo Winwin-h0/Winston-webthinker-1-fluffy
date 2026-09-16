@@ -11,7 +11,7 @@ function setup(){
     background(220)
 
     inputFieldName = createInput("Enter your text here")
-    inputFieldName.position(200,20)
+    inputFieldName.position(10,20)
 
     inputFieldVerb = createInput("Enter your text here")
     inputFieldVerb.position(55,20)
