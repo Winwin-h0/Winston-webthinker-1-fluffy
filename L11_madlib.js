@@ -10,4 +10,5 @@ function setup(){
     inputField.position(55,20)
 
     submitButton = createButton("Show Input")
+    input
 }
