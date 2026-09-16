@@ -49,6 +49,7 @@ function setup(){
 }
 
 function displayInput(){
+    background(220);
 
     let template = random(storyTemplates);
 
