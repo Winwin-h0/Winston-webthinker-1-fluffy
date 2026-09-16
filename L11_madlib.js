@@ -47,8 +47,8 @@ function setup(){
     storyText = template.replace("{noun}", inputFieldName)
                         .replace("{verb}", inputFieldVerb )
                         .replace("{adj}", inputFieldAdjective)
-                        .replace("{adv}", i)
-                        .replace("{verb}", )
+                        .replace("{adv}", inputFieldAdverb)
+                        .replace("{verb}", inputFieldVerb)
 
 
     submitButtonForName = createButton("Show Input")
