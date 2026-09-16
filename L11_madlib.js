@@ -27,6 +27,7 @@ function setup(){
 
     fill(0)
     text("Enter a noun:")
+    text("")
     
 
     // submitButtonForName = createButton("Show Input")
