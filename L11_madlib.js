@@ -1,12 +1,12 @@
-let inputFieldName
+let inputFieldName;
 let submitButton
 let outputArea
 
 function setup(){
-    createCanvas(400,200)
+    createCanvas(600,600)
     background(220)
 
-    inputField = createInput("Enter your text here")
+    inputFieldName = createInput("Enter your text here")
     inputField.position(55,20)
 
     submitButton = createButton("Show Input")
