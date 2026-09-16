@@ -13,5 +13,5 @@ function draw(){
 }
 
 function updateText(){
-    UserInputText
+    UserInputText = this.Value
 }
