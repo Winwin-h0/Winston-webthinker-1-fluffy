@@ -36,8 +36,7 @@ function setup(){
     text("Enter a adverb:", 80, inputFieldAdverb.y + 15);
     text("Enter a place:", 100, inputFieldPlace.y + 15);
 
-    storyTemplates
-    
+    storyTemplates = []
 
     submitButtonForName = createButton("Show Input")
     submitButtonForName.mousePressed(displayInput);
