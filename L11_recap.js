@@ -4,7 +4,7 @@ function setup(){
     background('green')
 
     inputText = createInput();
-    inputText.position(200, 500);
+    inputText.position(10, );
     inputText.input(updateText);
 }
 
