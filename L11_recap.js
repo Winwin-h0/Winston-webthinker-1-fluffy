@@ -18,6 +18,7 @@ function draw(){
     background('green')
 
     fill(colorPickerForText.value())
+    textAlign
     
     text(UserInputText, 100, 100)
 }
