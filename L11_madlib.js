@@ -46,7 +46,8 @@ function setup(){
 
     storyText = template.replace("{noun}", "dog")
                         .replace("{verb}", "jump")
-                        
+                        .replace("{adj}", "jump")
+
 
     submitButtonForName = createButton("Show Input")
     submitButtonForName.mousePressed(displayInput);
