@@ -3,6 +3,7 @@ let inputFieldVerb;
 let inputFieldAdjective;
 let inputFieldAdverb;
 let inputFieldPlace;
+
 let submitButtonForName;
 let outputArea;
 
@@ -41,5 +42,5 @@ function setup(){
 
 function displayInput(){
     console.log(inputFieldName.value());
-    
+
 }
