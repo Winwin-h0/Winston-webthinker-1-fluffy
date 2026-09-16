@@ -16,5 +16,5 @@ function setup(){
 
 function displayInput(){
     background(220)
-    const inputValue = in
+    const inputValue = inputField.value()
 }
