@@ -44,9 +44,9 @@ function setup(){
 
     let template = random(storyTemplates);
 
-    storyText = template.replace("{noun}", "dog")
-                        .replace("{verb}", "jump")
-                        .replace("{adj}", "happy")
+    storyText = template.replace("{noun}", inputFieldName)
+                        .replace("{verb}", )
+                        .replace("{adj}", )
                         .replace("{adv}", )
                         .replace("{verb}", )
 
