@@ -11,7 +11,7 @@ function setup(){
 
     
     colorPickerForText = createColorPicker("rgb(0,0,0)")
-    colorPickerForText.position(100,100)
+    colorPickerForText.position(10,230)
     
 }
 
