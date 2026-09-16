@@ -14,10 +14,10 @@ function setup(){
     inputFieldName.position(300,20)
 
     inputFieldVerb = createInput("Enter your text here")
-    inputFieldVerb.position(300,20)
+    inputFieldVerb.position(300,40)
 
     inputFieldAdjective = createInput("Enter your text here")
-    inputFieldAdjective.position(300,20)
+    inputFieldAdjective.position(300,60)
 
     inputFieldAdverb = createInput("Enter your text here")
     inputFieldAdverb.position(300,20)
