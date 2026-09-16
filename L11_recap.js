@@ -1,4 +1,4 @@
-UserInputText
+let UserInputText;
 function setup(){
     createCanvas(200,200)
     background('green')
@@ -13,5 +13,5 @@ function draw(){
 }
 
 function updateText(){
-
+    
 }
