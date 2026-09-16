@@ -1,5 +1,5 @@
 let inputFieldName;
-let submitButtonFor
+let submitButtonForName
 let outputArea
 
 function setup(){
