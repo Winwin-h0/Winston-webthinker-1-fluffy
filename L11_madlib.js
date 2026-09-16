@@ -30,7 +30,8 @@ function setup(){
     text("Enter a noun:", 100, inputFieldName.y + 15);
     text("Enter a verb:", 100, inputFieldVerb.y + 15);
     text("Enter a adjective:", 100, inputFieldAdjective.y + 15);
-    text("Enter a adverb:", 100, inputFieldVerb.y + 15);
+    text("Enter a adverb:", 100, inputFieldAdverb.y + 15);
+    text("Enter a verb:", 100, inputFieldVerb.y + 15);
     
 
     // submitButtonForName = createButton("Show Input")
