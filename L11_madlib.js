@@ -42,15 +42,6 @@ function setup(){
         "Did you hear about the {adj} {noun} that tried to {verb} {adj} near {place}?"
     ];
 
-    let template = random(storyTemplates);
-
-    storyText = template.replace("{noun}", inputFieldName)
-                        .replace("{verb}", inputFieldVerb )
-                        .replace("{adj}", inputFieldAdjective)
-                        .replace("{adv}", inputFieldAdverb)
-                        .replace("{verb}", inputFieldVerb)
-    text(storyText)
-
 
     submitButtonForName = createButton("Show Input")
     submitButtonForName.mousePressed(displayInput);
@@ -58,7 +49,6 @@ function setup(){
 }
 
 function displayInput(){
-    console.log(inputFieldName.value());
 
     let template = random(storyTemplates);
 
