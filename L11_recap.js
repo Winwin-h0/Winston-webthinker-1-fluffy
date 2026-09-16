@@ -17,7 +17,8 @@ function setup(){
 
 function draw(){
 
-    fill()
+    fill(colorPickerForText)
+    
 }
 
 function updateText(){
