@@ -52,7 +52,7 @@ function displayInput(){
 
     let template = random(storyTemplates);
 
-    storyText = template.replace("{noun}", inputFieldName)
+    storyText = template.replace("{noun}", inputFieldName.value)
                         .replace("{verb}", inputFieldVerb )
                         .replace("{adj}", inputFieldAdjective)
                         .replace("{adv}", inputFieldAdverb)
