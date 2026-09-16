@@ -13,8 +13,8 @@ function setup(){
     inputFieldName = createInput("Enter your text here")
     inputFieldName.position(55,20)
 
-    inputFieldName = createInput("Enter your text here")
-    inputFieldName.position(55,20)
+    inputFieldVerb = createInput("Enter your text here")
+    inputFieldVerb.position(55,20)
 
     inputFieldName = createInput("Enter your text here")
     inputFieldName.position(55,20)
