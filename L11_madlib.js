@@ -38,7 +38,8 @@ function setup(){
 
     storyTemplates = [
         "The {adj} {noun} decided to {verb} {adj} at the {place}.",
-        "One day, a {adj} {noun} wanted to {verb} {adj}"
+        "One day, a {adj} {noun} wanted to {verb} {adj} in {place}.",
+        
     ]
 
     submitButtonForName = createButton("Show Input")
