@@ -49,6 +49,7 @@ function setup(){
                         .replace("{adj}", inputFieldAdjective)
                         .replace("{adv}", inputFieldAdverb)
                         .replace("{verb}", inputFieldVerb)
+    
 
 
     submitButtonForName = createButton("Show Input")
