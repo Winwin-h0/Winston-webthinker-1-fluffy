@@ -46,8 +46,8 @@ function setup(){
 
     storyText = template.replace("{noun}", inputFieldName)
                         .replace("{verb}", inputFieldVerb )
-                        .replace("{adj}", )
-                        .replace("{adv}", )
+                        .replace("{adj}", inputFieldAdjective)
+                        .replace("{adv}", i)
                         .replace("{verb}", )
 
 
