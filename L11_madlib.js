@@ -60,4 +60,13 @@ function setup(){
 function displayInput(){
     console.log(inputFieldName.value());
 
+    let template = random(storyTemplates);
+
+    storyText = template.replace("{noun}", inputFieldName)
+                        .replace("{verb}", inputFieldVerb )
+                        .replace("{adj}", inputFieldAdjective)
+                        .replace("{adv}", inputFieldAdverb)
+                        .replace("{verb}", inputFieldVerb)
+    text(storyText)
+
 }
