@@ -9,8 +9,8 @@ function setup(){
     inputFieldName = createInput("Enter your text here")
     inputFieldName.position(55,20)
 
-    submitButton = createButton("Show Input")
-    submitButton.mousePressed(displayInput);
+    submitButtonForName = createButton("Show Input")
+    submitButtonForName.mousePressed(displayInput);
     submitButton.position(inputField.x + inputField.width + 10, inputField.y)
 }
 
