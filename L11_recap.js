@@ -10,6 +10,9 @@ function setup(){
     inputText.input(updateText);
 
     
+    colorPickerForText = createColorPicker("rgb(0,0,0)")
+    colorPickerForText.position(500,530)
+    
 }
 
 function draw(){
