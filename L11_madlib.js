@@ -19,6 +19,6 @@ function displayInput(){
     const inputValue = inputField.value()
     textSize(64)
     textAlign(CENTER,CENTER)
-    
+    text(input)
 
 }
