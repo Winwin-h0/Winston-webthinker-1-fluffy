@@ -20,5 +20,4 @@ function displayInput(){
     textSize(64)
     textAlign(CENTER,CENTER)
     text(inputValue, 200, 100)
-
 }
