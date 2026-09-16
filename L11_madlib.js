@@ -44,7 +44,7 @@ function setup(){
 
     let template = random(storyTemplates);
 
-    story
+    storyText = template
 
     submitButtonForName = createButton("Show Input")
     submitButtonForName.mousePressed(displayInput);
