@@ -14,7 +14,7 @@ function setup(){
     inputFieldName.position(200,20)
 
     inputFieldVerb = createInput("Enter your text here")
-    inputFieldVerb.position(200,50)
+    inputFieldVerb.position(200,)
 
     inputFieldAdjective = createInput("Enter your text here")
     inputFieldAdjective.position(200,80)
@@ -23,7 +23,7 @@ function setup(){
     inputFieldAdverb.position(200,110)
 
     inputFieldPlace = createInput("Enter your text here")
-    inputFieldPlace.position(200,10)
+    inputFieldPlace.position(200,140)
 
     // submitButtonForName = createButton("Show Input")
     // submitButtonForName.mousePressed(displayInput);
