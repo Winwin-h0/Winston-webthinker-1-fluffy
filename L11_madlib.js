@@ -45,7 +45,7 @@ function setup(){
     let template = random(storyTemplates);
 
     storyText = template.replace("{noun}", "dog")
-                        .
+                        .replace("{}")
 
     submitButtonForName = createButton("Show Input")
     submitButtonForName.mousePressed(displayInput);
