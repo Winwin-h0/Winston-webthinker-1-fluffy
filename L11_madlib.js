@@ -20,10 +20,10 @@ function setup(){
     inputFieldAdjective.position(200,80)
 
     inputFieldAdverb = createInput("Enter your text here")
-    inputFieldAdverb.position(200,80)
+    inputFieldAdverb.position(200,120)
 
     inputFieldPlace = createInput("Enter your text here")
-    inputFieldPlace.position(200,100)
+    inputFieldPlace.position(200,10)
 
     // submitButtonForName = createButton("Show Input")
     // submitButtonForName.mousePressed(displayInput);
