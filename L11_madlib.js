@@ -23,7 +23,7 @@ function setup(){
     inputFieldAdverb.position(200,120)
 
     inputFieldPlace = createInput("Enter your text here")
-    inputFieldPlace.position(200,10)
+    inputFieldPlace.position(200,150)
 
     // submitButtonForName = createButton("Show Input")
     // submitButtonForName.mousePressed(displayInput);
