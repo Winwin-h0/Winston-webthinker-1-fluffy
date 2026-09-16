@@ -27,6 +27,7 @@ function setup(){
 
     fill(0);
     textSize(15);
+    textAlign()
     text("Enter a noun:", 100, inputFieldName.y + 15);
     text("Enter a verb:", 100, inputFieldVerb.y + 15);
     text("Enter a adjective:", 100, inputFieldAdjective.y + 15);
