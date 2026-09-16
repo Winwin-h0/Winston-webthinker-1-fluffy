@@ -11,7 +11,7 @@ function setup(){
 
     submitButtonForName = createButton("Show Input")
     submitButtonForName.mousePressed(displayInput);
-    submitButton.position(inputField.x + inputField.width + 10, inputField.y)
+    submitButtonForName.position(inputField.x + inputField.width + 10, inputField.y)
 }
 
 function displayInput(){
