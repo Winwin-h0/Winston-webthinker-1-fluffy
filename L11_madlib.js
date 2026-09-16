@@ -1,4 +1,5 @@
 let inputFieldName;
+let inputField
 let submitButtonForName
 let outputArea
 
