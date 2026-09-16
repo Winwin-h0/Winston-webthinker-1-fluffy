@@ -3,8 +3,8 @@ let inputFieldVerb;
 let inputFieldAdjective;
 let inputFieldAdverb;
 let inputFieldPlace;
-let submitButtonForName
-let outputArea
+let submitButtonForName;
+let outputArea;
 
 function setup(){
     createCanvas(600,600);
