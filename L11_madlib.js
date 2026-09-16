@@ -7,7 +7,7 @@ let inputFieldPlace;
 let submitButtonForName;
 
 let storyText = ""
-let s
+let storyTemplates
 
 function setup(){
     createCanvas(600,600);
