@@ -9,5 +9,5 @@ function setup(){
     inputField = createInput("Enter your text here")
     inputField.position(55,20)
 
-    submitButton = create
+    submitButton = createButton("")
 }
