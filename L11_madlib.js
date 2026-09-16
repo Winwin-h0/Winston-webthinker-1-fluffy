@@ -40,7 +40,7 @@ function setup(){
 }
 
 function displayInput(){
-    const inputValue = inputFieldName.value()
+    const inputValue = console.log
     textSize(64)
     textAlign(CENTER,CENTER)
     text(inputValue, 200, 100)
