@@ -13,3 +13,4 @@ function setup(){
     submitButton.mousePressed(displayInput);
     submitButton.position(inputField.x + inputField.width + 10, inputField.y)
 }
+
