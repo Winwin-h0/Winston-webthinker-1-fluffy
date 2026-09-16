@@ -42,5 +42,5 @@ function setup(){
 function displayInput(){
     console.log(inputFieldName.value());
 
-    text()
+    text(inputFieldName.value(), 0,0)
 }
