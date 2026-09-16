@@ -1,5 +1,5 @@
 let inputFieldName;
-let submitButton
+let submitButtonFor
 let outputArea
 
 function setup(){
@@ -7,7 +7,7 @@ function setup(){
     background(220)
 
     inputFieldName = createInput("Enter your text here")
-    inputField.position(55,20)
+    inputFieldName.position(55,20)
 
     submitButton = createButton("Show Input")
     submitButton.mousePressed(displayInput);
