@@ -1,2 +1,2 @@
 let inputField;
-let submit
+let submitButton
