@@ -2,4 +2,6 @@ let inputField;
 let submitButton
 let outputArea
 
-f
+function setup(){
+    
+}
