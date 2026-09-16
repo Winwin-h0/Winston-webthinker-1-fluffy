@@ -7,26 +7,26 @@ let submitButtonForName
 let outputArea
 
 function setup(){
-    createCanvas(600,600)
-    background(220)
+    createCanvas(600,600);
+    background(220);
 
-    inputFieldName = createInput("Enter your text here")
-    inputFieldName.position(200,20)
+    inputFieldName = createInput("Enter your text here");
+    inputFieldName.position(200,20);
 
-    inputFieldVerb = createInput("Enter your text here")
-    inputFieldVerb.position(200,70)
+    inputFieldVerb = createInput("Enter your text here");
+    inputFieldVerb.position(200,70);
 
-    inputFieldAdjective = createInput("Enter your text here")
-    inputFieldAdjective.position(200,120)
+    inputFieldAdjective = createInput("Enter your text here");
+    inputFieldAdjective.position(200,120);
 
-    inputFieldAdverb = createInput("Enter your text here")
-    inputFieldAdverb.position(200,170)
+    inputFieldAdverb = createInput("Enter your text here");
+    inputFieldAdverb.position(200,170);
 
-    inputFieldPlace = createInput("Enter your text here")
-    inputFieldPlace.position(200,220)
+    inputFieldPlace = createInput("Enter your text here");
+    inputFieldPlace.position(200,220);
 
-    fill(0)
-    textSize(15)
+    fill(0);
+    textSize(15);
     text("Enter a noun:", 100, inputFieldName.y + 15);
     text("Enter a verb:", 100, inputFieldVerb.y + 15);
     text("Enter a verb:", 100, inputFieldVerb.y + 15);
