@@ -17,7 +17,7 @@ function setup(){
 
 function draw(){
 
-    fill(colorPickerForText)
+    fill(colorPickerForText.value)
     
     text = ("UserInputText", 100, 100)
 }
