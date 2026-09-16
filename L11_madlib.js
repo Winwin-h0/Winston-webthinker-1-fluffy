@@ -40,7 +40,9 @@ function setup(){
         "The {adj} {noun} decided to {verb} {adj} at the {place}.",
         "One day, a {adj} {noun} wanted to {verb} {adj} in {place}.",
         "Did you hear about the {adj} {noun} that tried to {verb} {adj} near {place}?"
-    ]
+    ];
+
+    
 
     submitButtonForName = createButton("Show Input")
     submitButtonForName.mousePressed(displayInput);
