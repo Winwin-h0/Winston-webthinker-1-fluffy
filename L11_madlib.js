@@ -28,7 +28,7 @@ function setup(){
     fill(0)
     textSize(15)
     text("Enter a noun:", 100, inputFieldName.y)
-    text("Enter a verb:"")
+    text("Enter a verb:", 100, input)
     
 
     // submitButtonForName = createButton("Show Input")
