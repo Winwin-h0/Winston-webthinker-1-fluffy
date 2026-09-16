@@ -40,5 +40,5 @@ function setup(){
 }
 
 function displayInput(){
-    const inputValue = console.log
+    console.log()
 }
