@@ -6,7 +6,7 @@ let inputFieldPlace;
 
 let submitButtonForName;
 
-
+let s
 
 function setup(){
     createCanvas(600,600);
