@@ -1,4 +1,6 @@
 let UserInputText;
+
+let colow
 function setup(){
     createCanvas(200,200)
     background('green')
@@ -10,7 +12,7 @@ function setup(){
 }
 
 function draw(){
-    
+
     fill()
 }
 
