@@ -6,7 +6,8 @@ let inputFieldPlace;
 
 let submitButtonForName;
 
-let s
+let storyText = ""
+
 
 function setup(){
     createCanvas(600,600);
