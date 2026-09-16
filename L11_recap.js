@@ -10,7 +10,8 @@ function setup(){
 }
 
 function draw(){
-    fill(up)
+    
+    fill()
 }
 
 function updateText(){
