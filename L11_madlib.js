@@ -29,7 +29,7 @@ function setup(){
     textSize(15);
     text("Enter a noun:", 100, inputFieldName.y + 15);
     text("Enter a verb:", 100, inputFieldVerb.y + 15);
-    text("Enter a verb:", 100, inputFieldVerb.y + 15);
+    text("Enter a adje:", 100, inputFieldVerb.y + 15);
     
 
     // submitButtonForName = createButton("Show Input")
