@@ -26,7 +26,7 @@ function setup(){
     inputFieldPlace.position(200,220)
 
     fill(0)
-    
+    text("")
     
 
     // submitButtonForName = createButton("Show Input")
