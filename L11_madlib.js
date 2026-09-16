@@ -26,7 +26,7 @@ function setup(){
     inputFieldPlace.position(200,220)
 
     fill(0)
-    textSize()
+    textSize(15)
     text("Enter a noun:", 100, 20)
     text("Enter a noun")
     
