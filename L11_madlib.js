@@ -4,5 +4,6 @@ let outputArea
 
 function setup(){
     createCanvas(400,200)
-    background
+    background(220)
+    
 }
