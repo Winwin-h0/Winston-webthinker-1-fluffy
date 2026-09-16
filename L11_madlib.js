@@ -34,9 +34,9 @@ function setup(){
     text("Enter a place:", 100, inputFieldPlace.y + 15);
     
 
-    // submitButtonForName = createButton("Show Input")
-    // submitButtonForName.mousePressed(displayInput);
-    // submitButtonForName.position(inputFieldName.x + inputFieldName.width + 10, inputFieldName.y)
+    submitButtonForName = createButton("Show Input")
+    submitButtonForName.mousePressed(displayInput);
+    submitButtonForName.position(inputFieldName.x + inputFieldName.width + 10, inputFieldName.y)
 }
 
 function displayInput(){
