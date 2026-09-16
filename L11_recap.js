@@ -4,8 +4,9 @@ function setup(){
     background('green')
 
     inputText = createInput();
-    inputText.position(100, 100);
+    inputText.position(100, 100,);
     inputText.input(updateText);
+
 }
 
 function draw(){
