@@ -19,7 +19,7 @@ function draw(){
 
     fill(colorPickerForText)
     
-    text = ("")
+    text = ("UserInputText")
 }
 
 function updateText(){
