@@ -42,7 +42,7 @@ function setup(){
         "Did you hear about the {adj} {noun} that tried to {verb} {adj} near {place}?"
     ];
 
-    let template
+    let template = random(storyTemplates)
 
     submitButtonForName = createButton("Show Input")
     submitButtonForName.mousePressed(displayInput);
