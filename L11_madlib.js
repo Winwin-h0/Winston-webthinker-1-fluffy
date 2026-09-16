@@ -58,6 +58,6 @@ function displayInput(){
                         .replace("{adv}", inputFieldAdverb)
                         .replace("{verb}", inputFieldVerb)
     
-    text(storyText, )
+    text(storyText, 100, 500)
 
 }
