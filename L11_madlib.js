@@ -22,7 +22,7 @@ function setup(){
     inputFieldAdverb = createInput("Enter your text here")
     inputFieldAdverb.position(55,20)
 
-    inputFieldName = createInput("Enter your text here")
+    inputFieldPlace = createInput("Enter your text here")
     inputFieldName.position(55,20)
 
     // submitButtonForName = createButton("Show Input")
