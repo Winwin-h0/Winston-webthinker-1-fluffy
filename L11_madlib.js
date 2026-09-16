@@ -1,7 +1,7 @@
 let inputFieldName;
 let inputFieldVerb;
 let inputFieldAdjective;
-inputFieldVerb;
+let inputField
 let submitButtonForName
 let outputArea
 
