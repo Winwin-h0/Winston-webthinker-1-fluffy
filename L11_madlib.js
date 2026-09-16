@@ -40,5 +40,5 @@ function setup(){
 }
 
 function displayInput(){
-    console.log(inputFieldName)
+    console.log(inputFieldName.value())
 }
