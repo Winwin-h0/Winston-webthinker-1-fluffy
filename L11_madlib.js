@@ -37,7 +37,7 @@ function setup(){
     text("Enter a place:", 100, inputFieldPlace.y + 15);
 
     storyTemplates = [
-        "The {adj} {noun} decided to {"
+        "The {adj} {noun} decided to {verb} {adj"
     ]
 
     submitButtonForName = createButton("Show Input")
