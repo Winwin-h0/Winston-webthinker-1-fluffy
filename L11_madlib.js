@@ -57,6 +57,7 @@ function displayInput(){
                         .replace("{adj}", inputFieldAdjective)
                         .replace("{adv}", inputFieldAdverb)
                         .replace("{verb}", inputFieldVerb)
+    
     text(storyText)
 
 }
