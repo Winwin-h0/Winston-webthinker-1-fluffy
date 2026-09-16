@@ -3,7 +3,6 @@ let UserInputText;
 let colorPickerForText;
 function setup(){
     createCanvas(200,200)
-    background('green')
 
     inputText = createInput();
     inputText.position(10, 210);
@@ -16,6 +15,7 @@ function setup(){
 }
 
 function draw(){
+    background('green')
 
     fill(colorPickerForText.value())
     
