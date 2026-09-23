@@ -39,7 +39,7 @@ function draw(){
 
     text("Guess the hidden word", 300, 50)
     text("Attempts: 0", 300, 100)
-    text("Hint: " + randomWord, 300, 150)
+    text("Hint: " + hiddenWordWord, 300, 150)
 
     text(displayWord, 300, 300)
 }
