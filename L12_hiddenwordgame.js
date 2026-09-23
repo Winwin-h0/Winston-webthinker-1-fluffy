@@ -1,3 +1,3 @@
 function setup(){
-    CreateCan
+    CreateCanvas(600,400)
 }
