@@ -44,66 +44,7 @@ function draw(){
     text(displayWord, 200, 200)
 }
 
-// function displayInput(){
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// function displayInput
 
 //     textSize(20)
 //     textAlign(CENTER,CENTER)
