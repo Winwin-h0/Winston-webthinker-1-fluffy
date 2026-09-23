@@ -44,10 +44,10 @@ function draw(){
     text(displayWord, 200, 200)
 }
 
-// function displayInput
+function displayInput(){
 
-//     textSize(20)
-//     textAlign(CENTER,CENTER)
+    textSize(20)
+    textAlign(CENTER,CENTER)
 
-//     text(inputFieldGuess.value(), 200, 200)
-// }
+    text(inputFieldGuess.value(), 200, 200)
+}
