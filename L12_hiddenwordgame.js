@@ -19,7 +19,7 @@ function setup(){
 
     text("Guess the hidden word", 300, 50)
     text("Attempts: 0", 300, 100)
-    text("Hint: " + randomWord, 300, 50)
+    text("Hint: " + randomWord, 300, 150)
 
 
     inputFieldGuess = createInput("Enter your text here");
