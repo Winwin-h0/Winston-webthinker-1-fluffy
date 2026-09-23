@@ -16,7 +16,7 @@ function setup(){
 
     hiddenWord = random(words);
 
-    displayText = hiddenW
+    displayText = hiddenWord[0].toUppe
 
     
     inputFieldGuess = createInput("Enter your text here");
