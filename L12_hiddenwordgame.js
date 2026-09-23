@@ -49,7 +49,7 @@ function draw(){
 
 function getGuess(){
     guess = inputFieldGuess.value()
-    getCorrectLetters = 
+    getCorrectLetters
 
     getCorrectLetters();
 }
