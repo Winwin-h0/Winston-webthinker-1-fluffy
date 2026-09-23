@@ -41,7 +41,7 @@ function draw(){
     text("Attempts: 0", 300, 100)
     text("Hint: " + randomWord, 300, 150)
 
-    text(displayWord, 200, 200)
+    text(displayWord, 300, )
 }
 
 function displayInput(){
