@@ -24,7 +24,7 @@ function setup(){
     inputFieldGuess = createInput("Enter your text here");
     inputFieldGuess.size(150,30);
     inputFieldGuess.style("font-size","20px");
-    inputFieldGuess.position(200, 300);
+    inputFieldGuess.position(200, 200);
 
     buttonForGuess = createButton("Show Input");
     buttonForGuess.mousePressed(displayInput);
@@ -39,7 +39,7 @@ function draw(){
 }
 
 function displayInput(){
-    background('green')
+    
     textSize(20)
     textAlign(CENTER,CENTER)
     text(inputFieldGuess.value(), 200, 200)
