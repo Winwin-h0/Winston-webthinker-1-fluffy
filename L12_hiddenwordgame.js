@@ -15,8 +15,6 @@ function setup(){
     hiddenWord = random(words);
 
     
-
-
     inputFieldGuess = createInput("Enter your text here");
     inputFieldGuess.size(150,30);
     inputFieldGuess.style("font-size","20px");
