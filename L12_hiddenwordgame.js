@@ -9,7 +9,8 @@ function setup(){
     createCanvas(600,400);
     background('green');
 
-    fill(o)
+    fill(0)
+    text
 
     inputFieldGuess = createInput("Enter your text here");
     inputFieldGuess.size(150,30);
