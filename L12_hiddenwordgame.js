@@ -14,8 +14,8 @@ function setup(){
     textSize(24)
 
     text("Guess the hidden word", 300, 10)
-    text("Attempts: 0", 300, 10)
-    text("Guess the hidden word", 300, 10)
+    text("Attempts: 0", 300, 30)
+    text("", 300, 50)
 
 
     inputFieldGuess = createInput("Enter your text here");
