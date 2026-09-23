@@ -20,6 +20,6 @@ function draw(){
 }
 
 function displayInput(){
-    background('green ')
+    background('green')
     text(inputFieldGuess.value(), 200, 200)
 }
