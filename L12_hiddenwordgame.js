@@ -22,5 +22,6 @@ function draw(){
 function displayInput(){
     background('green')
     textSize(20)
+    textAi
     text(inputFieldGuess.value(), 200, 200)
 }
