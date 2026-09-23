@@ -49,5 +49,5 @@ function displayInput(){
     textSize(20)
     textAlign(CENTER,CENTER)
 
-    text(inputFieldGuess.value(), 200, 200)
+    displayWord = 
 }
