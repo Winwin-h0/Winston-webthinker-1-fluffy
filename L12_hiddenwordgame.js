@@ -1,6 +1,6 @@
 let inputFieldGuess;
 
-let inputTextForGuess;
+let buttonForGuess;
 
 function setup(){
     createCanvas(600,400)
@@ -8,6 +8,8 @@ function setup(){
 
     inputFieldGuess = createInput("Enter your text here");
     inputFieldGuess.position(200,20);
+
+    button
 
 
 
