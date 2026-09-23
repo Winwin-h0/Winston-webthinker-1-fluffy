@@ -13,7 +13,7 @@ function setup(){
     textAlign(CENTER,CENTER)
     textSize(24)
 
-    text("Guess the hidden word", )
+    text("Guess the hidden word", 300, 10)
 
     inputFieldGuess = createInput("Enter your text here");
     inputFieldGuess.size(150,30);
