@@ -19,7 +19,7 @@ function setup(){
     text("Attempts: 0", 300, 30)
     text("Hint: randomWord", 300, 50)
 
-    tex
+    text("Hint: randomWord", 300, 50)
 
 
     inputFieldGuess = createInput("Enter your text here");
