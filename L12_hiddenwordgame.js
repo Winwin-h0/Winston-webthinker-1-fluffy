@@ -16,7 +16,7 @@ function setup(){
 
     hiddenWord = random(words);
 
-    displayText = hiddenWord[0].toUpperCase() + " " + " _".repeat(hiddenWord.length -1)
+    displayText = hiddenWord[0].toUpperCase() + " _".repeat(hiddenWord.length -1)
 
     
     inputFieldGuess = createInput("Enter your text here");
