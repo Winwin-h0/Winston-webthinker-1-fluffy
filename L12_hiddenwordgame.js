@@ -52,7 +52,7 @@ function displayInput(){
     textSize(20);
     textAlign(CENTER,CENTER);
 
-    displayWord = getCorrectLetter
+    displayWord = getCorrectLetters
 }
 
 function getCorrectLetters(guess,word){
