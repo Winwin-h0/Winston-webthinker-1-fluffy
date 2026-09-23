@@ -17,7 +17,7 @@ function setup(){
 
     text("Guess the hidden word", 300, 10)
     text("Attempts: 0", 300, 30)
-    text("Hint", 300, 50)
+    text("Hint: randomWord", 300, 50)
 
 
     inputFieldGuess = createInput("Enter your text here");
