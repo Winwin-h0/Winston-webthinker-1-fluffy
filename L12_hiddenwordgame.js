@@ -40,12 +40,14 @@ function draw(){
     text("Guess the hidden word", 300, 50)
     text("Attempts: 0", 300, 100)
     text("Hint: " + randomWord, 300, 150)
+
+    text(drawdis, 200, 200)
 }
 
-function displayInput(){
+// function displayInput(){
 
-    textSize(20)
-    textAlign(CENTER,CENTER)
+//     textSize(20)
+//     textAlign(CENTER,CENTER)
 
-    text(inputFieldGuess.value(), 200, 200)
-}
+//     text(inputFieldGuess.value(), 200, 200)
+// }
