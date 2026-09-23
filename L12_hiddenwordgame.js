@@ -56,5 +56,5 @@ function displayInput(){
 }
 
 function getCorrectLetters(guess,word){
-    let correct
+    let correctLetters = ""
 }
