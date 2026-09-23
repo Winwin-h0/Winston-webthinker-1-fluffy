@@ -49,8 +49,8 @@ function draw(){
 
 function getGuess(){
     guess = inputFieldGuess.value()
-    getCorrectLetters
-    text(getCorrectLetters(guess, hiddenWord), 300, 400 )
+    
+    text(getCorrectLetters(guess, hiddenWord), 300, 300 )
 }
 
 function getCorrectLetters(guess,word){
