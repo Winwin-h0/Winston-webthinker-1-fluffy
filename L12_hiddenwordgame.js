@@ -17,3 +17,5 @@ function setup(){
 
 
 }
+
+function displayInput()
