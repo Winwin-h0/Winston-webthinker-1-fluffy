@@ -9,7 +9,6 @@ let randomWord;
 
 function setup(){
     createCanvas(600,400);
-    background('green');
 
     randomWord = random(words);
 
@@ -36,7 +35,7 @@ function setup(){
 }
 
 function draw(){
-    
+    background('green');
 }
 
 function displayInput(){
