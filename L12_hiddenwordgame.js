@@ -15,6 +15,11 @@ function setup(){
 
 }
 
+function draw(){
+    
+}
+
 function displayInput(){
+    background('')
     text(inputFieldGuess.value(), 200, 200)
 }
