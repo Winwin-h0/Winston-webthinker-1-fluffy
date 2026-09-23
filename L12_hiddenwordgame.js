@@ -9,7 +9,7 @@ let hiddenWord;
 
 //let displayWord;
 
-let d
+let displayText
 
 function setup(){
     createCanvas(600,400);
