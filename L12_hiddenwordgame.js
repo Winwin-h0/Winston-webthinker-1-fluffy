@@ -21,5 +21,6 @@ function draw(){
 
 function displayInput(){
     background('green')
+    fill
     text(inputFieldGuess.value(), 200, 200)
 }
