@@ -23,5 +23,5 @@ function displayInput(){
     background('green')
     textSize(20)
     textAlign(CENTER,CENTER)
-    text(inputFieldGuess.value(), 100, 200)
+    text(inputFieldGuess.value(), 200, 200)
 }
