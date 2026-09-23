@@ -54,11 +54,11 @@ function displayInput(){
     let template = random(storyTemplates);
 
     storyText = template.replace("{noun}", inputFieldName.value())
-                        .replace("{verb}", inputFieldVerb.value());
+                        .replace("{verb}", inputFieldVerb.value())
                         .replace("{adv}", inputFieldAdverb.value())
                         .replace("{place}", inputFieldVerb.value())
                         .replace("{test}", inputFieldAdjective.value());
     
-    text(storyText, 50, 300)
+    text(storyText, 50, 300);
 
 }
