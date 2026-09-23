@@ -50,10 +50,7 @@ function draw(){
 function getGuess(){
     guess = inputFieldGuess.value()
     getCorrectLetters
-
-    
-
-    text(getCorrectLetters(guess, hiddenWord), )
+    text(getCorrectLetters(guess, hiddenWord), 300, 400 )
 }
 
 function getCorrectLetters(guess,word){
