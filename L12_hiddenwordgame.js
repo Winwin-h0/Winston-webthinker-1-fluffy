@@ -46,8 +46,8 @@ function draw(){
 
 function displayInput(){
 
-    textSize(20)
-    textAlign(CENTER,CENTER)
+    textSize(20);
+    textAlign(CENTER,CENTER);
 
-    displayWord = 
+    displayWord = inputFieldGuess.value();
 }
