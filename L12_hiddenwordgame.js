@@ -11,7 +11,7 @@ function setup(){
 
     buttonForGuess = createButton("Show Input");
     buttonForGuess.mousePressed(displayInput);
-    buttonForGuess.position(inputFieldGuess.x + inputFieldName.width + 10, inputFieldName.y);
+    buttonForGuess.position(inputFieldGuess.x + inputFieldGuess.width + 10, inputFieldName.y);
 
 
 
