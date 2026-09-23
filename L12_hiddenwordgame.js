@@ -7,7 +7,7 @@ function setup(){
     background('green')
 
     inputTextForGuess = createInput("Enter your text here");
-    inputFieldName.position(200,20);
+    inputTextForGuess.position(200,20);
 
 
 }
