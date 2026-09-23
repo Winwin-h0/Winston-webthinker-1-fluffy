@@ -8,6 +8,7 @@ function setup(){
 
     inputFieldGuess = createInput("Enter your text here");
     inputFieldGuess.style(150,30)
+    inputFieldGuess
     inputFieldGuess.position(200,20);
 
     buttonForGuess = createButton("Show Input");
