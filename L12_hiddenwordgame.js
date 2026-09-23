@@ -51,9 +51,9 @@ function getGuess(){
     guess = inputFieldGuess.value()
     getCorrectLetters
 
-    getCorrectLetters(guess, hiddenWord);
+    
 
-    text()
+    text(getCorrectLetters(guess, hiddenWord), )
 }
 
 function getCorrectLetters(guess,word){
