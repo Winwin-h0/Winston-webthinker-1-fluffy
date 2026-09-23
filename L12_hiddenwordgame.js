@@ -20,7 +20,7 @@ function setup(){
     inputFieldGuess.style("font-size","20px");
     inputFieldGuess.position(200, 200);
 
-    buttonForGuess = createButton("Show Input");
+    buttonForGuess = createButton("Guess");
     buttonForGuess.mousePressed(displayInput);
     buttonForGuess.size(150,30);
     buttonForGuess.style("font-size", "20px");
@@ -44,5 +44,6 @@ function displayInput(){
 
     textSize(20)
     textAlign(CENTER,CENTER)
+    
     text(inputFieldGuess.value(), 200, 200)
 }
