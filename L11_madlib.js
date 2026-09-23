@@ -43,9 +43,9 @@ function setup(){
     ];
 
 
-    submitButtonForName = createButton("Show Input")
+    submitButtonForName = createButton("Show Input");
     submitButtonForName.mousePressed(displayInput);
-    submitButtonForName.position(inputFieldName.x + inputFieldName.width + 10, inputFieldName.y)
+    submitButtonForName.position(inputFieldName.x + inputFieldName.width + 10, inputFieldName.y);
 }
 
 function displayInput(){
@@ -57,7 +57,7 @@ function displayInput(){
                         .replace("{verb}", inputFieldVerb.value())
                         .replace("{adv}", inputFieldAdverb.value())
                         .replace("{place}", inputFieldVerb.value())
-                        .replace("{adj}", inputFieldAdjective.value());
+                        .replace("{test}", inputFieldAdjective.value());
     
     text(storyText, 50, 300)
 
