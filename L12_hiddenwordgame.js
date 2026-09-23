@@ -9,7 +9,7 @@ function setup(){
     inputFieldGuess = createInput("Enter your text here");
     inputFieldGuess.position(200,20);
 
-    buttonForGuess = creat
+    buttonForGuess = create
 
 
 
