@@ -11,6 +11,8 @@ let displayWord;
 
 let guess;
 
+let correctLetters;
+
 function setup(){
     createCanvas(600,400);
 
@@ -45,12 +47,13 @@ function draw(){
     text("Hint:" + displayText, width / 2, height / 3)
 
     //text(displayWord, 300, 300)
+
+    text(correctLetters, 300, 300 );
 }
 
 function getGuess(){
     guess = inputFieldGuess.value()
-    
-    text(getCorrectLetters(guess, hiddenWord), 300, 300 )
+    correctLetters = getCorrectLetters(guess, hiddenWord)
 }
 
 function getCorrectLetters(guess,word){
