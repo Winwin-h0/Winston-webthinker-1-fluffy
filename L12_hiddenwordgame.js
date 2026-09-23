@@ -11,7 +11,7 @@ function setup(){
     createCanvas(600,400);
     background('green');
 
-    randomWord = random(words)
+    randomWord = random(words);
 
     fill(0)
     textAlign(CENTER,CENTER)
@@ -25,7 +25,7 @@ function setup(){
     inputFieldGuess = createInput("Enter your text here");
     inputFieldGuess.size(150,30);
     inputFieldGuess.style("font-size","20px");
-    inputFieldGuess.position(200, );
+    inputFieldGuess.position(200, 300);
 
     buttonForGuess = createButton("Show Input");
     buttonForGuess.mousePressed(displayInput);
