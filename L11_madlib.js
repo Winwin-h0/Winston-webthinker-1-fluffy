@@ -37,9 +37,9 @@ function setup(){
     text("Enter a place:", 100, inputFieldPlace.y + 15);
 
     storyTemplates = [
-        "The {adj} {noun} decided to {verb} {adj} at the {place}.",
-        "One day, a {adj} {noun} wanted to {verb} {adj} in {place}.",
-        "Did you hear about the {adj} {noun} that tried to {verb} {adj} near {place}?"
+        "The {adj} {noun} decided to {verb} {test} at the {place}.",
+        "One day, a {adj} {noun} wanted to {verb} {test} in {place}.",
+        "Did you hear about the {adj} {noun} that tried to {verb} {test} near {place}?"
     ];
 
 
