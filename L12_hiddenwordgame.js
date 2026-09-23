@@ -14,7 +14,7 @@ function setup(){
     buttonForGuess = createButton("Show Input");
     buttonForGuess.mousePressed(displayInput);
     buttonForGuess.size(150,30)
-    buttonForGuess
+    buttonForGuess.size("font")
     buttonForGuess.position(inputFieldGuess.x + inputFieldGuess.width + 10, inputFieldGuess.y);
 
 }
