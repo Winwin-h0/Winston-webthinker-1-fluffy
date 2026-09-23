@@ -54,3 +54,5 @@ function displayInput(){
 
     //displayWord = inputFieldGuess.value();
 }
+
+function getCorrectLetters(guess,word)
