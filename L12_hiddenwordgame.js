@@ -9,5 +9,7 @@ function setup(){
     inputTextForGuess = createInput("Enter your text here");
     inputTextForGuess.position(200,20);
 
+    
+
 
 }
