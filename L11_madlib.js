@@ -38,7 +38,7 @@ function setup(){
 
     storyTemplates = [
         "The {adj} {noun} decided to {verb} {test} at the {place}.",
-        "One day, a {adj} {noun} wanted to {verb} {test} in {place}.",
+        "One day, a {adj} {noun} wanted to {verb} {ad} in {place}.",
         "Did you hear about the {adj} {noun} that tried to {verb} {test} near {place}?"
     ];
 
@@ -59,6 +59,6 @@ function displayInput(){
                         .replace("{place}", inputFieldVerb.value())
                         .replace("{test}", inputFieldAdjective.value());
     
-    text(storyText, 50, 300);
+    text(storyText, 50, 300)
 
 }
