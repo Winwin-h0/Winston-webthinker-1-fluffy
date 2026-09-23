@@ -5,7 +5,7 @@ let inputFieldGuess;
 
 let buttonForGuess;
 
-let randomWord = random()
+let randomWord = random(words)
 
 function setup(){
     createCanvas(600,400);
