@@ -7,7 +7,7 @@ let buttonForGuess;
 
 let hiddenWord;
 
-let displayWord;
+//let displayWord;
 
 function setup(){
     createCanvas(600,400);
@@ -47,5 +47,5 @@ function displayInput(){
     textSize(20);
     textAlign(CENTER,CENTER);
 
-    displayWord = inputFieldGuess.value();
+    //displayWord = inputFieldGuess.value();
 }
