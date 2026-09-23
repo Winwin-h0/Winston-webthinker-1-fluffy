@@ -19,11 +19,13 @@ function setup(){
     text("Attempts: 0", 300, 30)
     text("Hint: randomWord", 300, 50)
 
+    tex
+
 
     inputFieldGuess = createInput("Enter your text here");
     inputFieldGuess.size(150,30);
     inputFieldGuess.style("font-size","20px");
-    inputFieldGuess.position(200,20);
+    inputFieldGuess.position(300,20);
 
     buttonForGuess = createButton("Show Input");
     buttonForGuess.mousePressed(displayInput);
