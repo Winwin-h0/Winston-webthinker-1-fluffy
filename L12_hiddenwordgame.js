@@ -18,4 +18,6 @@ function setup(){
 
 }
 
-function displayInput()
+function displayInput(){
+    Text()
+}
