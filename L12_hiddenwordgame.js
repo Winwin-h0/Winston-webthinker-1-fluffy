@@ -53,7 +53,7 @@ function getGuess(){
 
     getCorrectLetters(guess, hiddenWord);
 
-    text
+    text()
 }
 
 function getCorrectLetters(guess,word){
