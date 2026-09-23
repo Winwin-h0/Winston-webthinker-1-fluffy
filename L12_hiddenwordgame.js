@@ -13,6 +13,8 @@ function setup(){
     textAlign(CENTER,CENTER)
     textSize(24)
 
+    text(Guess The)
+
     inputFieldGuess = createInput("Enter your text here");
     inputFieldGuess.size(150,30);
     inputFieldGuess.style("font-size","20px");
