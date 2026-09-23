@@ -5,7 +5,7 @@ let inputFieldGuess;
 
 let buttonForGuess;
 
-let randomWord;
+let hiddenWordWord;
 
 let displayWord;
 
