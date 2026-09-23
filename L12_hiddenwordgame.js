@@ -52,6 +52,8 @@ function getGuess(){
     getCorrectLetters
 
     getCorrectLetters(guess, hiddenWord);
+
+    text
 }
 
 function getCorrectLetters(guess,word){
