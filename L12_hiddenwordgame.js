@@ -49,7 +49,7 @@ function draw(){
 
 function getGuess(){
     
-    
+    guess = in
 }
 
 function getCorrectLetters(guess,word){
