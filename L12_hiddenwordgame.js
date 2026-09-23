@@ -48,10 +48,7 @@ function draw(){
 }
 
 function displayInput(){
-
-    textSize(20);
-    textAlign(CENTER,CENTER);
-
+    
     
 }
 
