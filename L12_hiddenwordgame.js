@@ -9,6 +9,8 @@ let hiddenWord;
 
 //let displayWord;
 
+let d
+
 function setup(){
     createCanvas(600,400);
 
