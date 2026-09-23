@@ -10,7 +10,7 @@ function setup(){
     background('green');
 
     fill(0)
-    textAlign()
+    textAlign(CENTER,CENTER)
 
     inputFieldGuess = createInput("Enter your text here");
     inputFieldGuess.size(150,30);
