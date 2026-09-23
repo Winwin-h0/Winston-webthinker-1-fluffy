@@ -14,8 +14,7 @@ function setup(){
     textSize(24)
 
     text("Guess the hidden word", 300, 10)
-    text("Guess the hidden word", 300, 10)
-
+    text("Attem", 300, 10)
     text("Guess the hidden word", 300, 10)
 
 
