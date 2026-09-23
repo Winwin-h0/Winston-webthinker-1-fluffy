@@ -19,5 +19,5 @@ function setup(){
 }
 
 function displayInput(){
-    text(inputFieldGuess.value, 200, 200)
+    text(inputFieldGuess.value(), 200, 200)
 }
