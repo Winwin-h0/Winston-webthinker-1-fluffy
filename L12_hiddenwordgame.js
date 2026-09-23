@@ -48,8 +48,8 @@ function draw(){
 }
 
 function getGuess(){
-    
     guess = inputFieldGuess.value()
+    
 }
 
 function getCorrectLetters(guess,word){
