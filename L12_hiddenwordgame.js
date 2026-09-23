@@ -7,7 +7,7 @@ let buttonForGuess;
 
 let hiddenWord;
 
-//let displayWord;
+let displayWord;
 
 let displayText
 
