@@ -12,7 +12,7 @@ let displayWord;
 function setup(){
     createCanvas(600,400);
 
-    randomWord = random(words);
+    hiddenWord = random(words);
 
     
 
