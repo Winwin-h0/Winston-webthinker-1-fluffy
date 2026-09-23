@@ -41,10 +41,69 @@ function draw(){
     text("Attempts: 0", 300, 100)
     text("Hint: " + randomWord, 300, 150)
 
-    text(drawdis, 200, 200)
+    text(displayWord, 200, 200)
 }
 
 // function displayInput(){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //     textSize(20)
 //     textAlign(CENTER,CENTER)
