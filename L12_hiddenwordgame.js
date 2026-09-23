@@ -43,7 +43,7 @@ function draw(){
     text("Attempts: 0", 300, 100)
     text("Hint: " + hiddenWord, 300, 150)
 
-    text("Hint:" + displayText, width / 2 )
+    text("Hint:" + displayText, width / 2, height / 3)
 
     //text(displayWord, 300, 300)
 }
