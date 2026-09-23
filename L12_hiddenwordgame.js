@@ -11,6 +11,7 @@ function setup(){
 
     fill(0)
     textAlign(CENTER,CENTER)
+    te
 
     inputFieldGuess = createInput("Enter your text here");
     inputFieldGuess.size(150,30);
