@@ -11,7 +11,7 @@ function setup(){
     createCanvas(600,400);
     background('green');
 
-    let randomWord = random(words)
+    randomWord = random(words)
 
     fill(0)
     textAlign(CENTER,CENTER)
