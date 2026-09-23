@@ -1,6 +1,6 @@
 let inputFieldGuess;
 
-let inputTextFor
+let inputTextForGuess;
 
 function setup(){
     createCanvas(600,400)
