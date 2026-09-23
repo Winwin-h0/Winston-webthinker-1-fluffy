@@ -12,13 +12,7 @@ function setup(){
 
     randomWord = random(words);
 
-    fill(0)
-    textAlign(CENTER,CENTER)
-    textSize(24)
-
-    text("Guess the hidden word", 300, 50)
-    text("Attempts: 0", 300, 100)
-    text("Hint: " + randomWord, 300, 150)
+    
 
 
     inputFieldGuess = createInput("Enter your text here");
@@ -36,10 +30,18 @@ function setup(){
 
 function draw(){
     background('green');
+
+    fill(0)
+    textAlign(CENTER,CENTER)
+    textSize(24)
+
+    text("Guess the hidden word", 300, 50)
+    text("Attempts: 0", 300, 100)
+    text("Hint: " + randomWord, 300, 150)
 }
 
 function displayInput(){
-    
+
     textSize(20)
     textAlign(CENTER,CENTER)
     text(inputFieldGuess.value(), 200, 200)
