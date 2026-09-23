@@ -17,8 +17,8 @@ function setup(){
     textAlign(CENTER,CENTER)
     textSize(24)
 
-    text("Guess the hidden word", 300, 10)
-    text("Attempts: 0", 300, 30)
+    text("Guess the hidden word", 300, 50)
+    text("Attempts: 0", 300, 100)
     text("Hint: " + randomWord, 300, 50)
 
 
