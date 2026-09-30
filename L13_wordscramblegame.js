@@ -46,7 +46,7 @@ function draw(){
     text("Random Word: " + randomWord.toUpperCase(), 300, 100)
 
     text("Score: " + score, 300)
-    text("Streak: " + streak + "(Max: ")
+    text("Streak: " + streak + "(Max: " + max + "")
 
 
 
