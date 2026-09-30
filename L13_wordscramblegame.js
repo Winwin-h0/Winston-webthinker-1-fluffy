@@ -22,7 +22,9 @@ function setup(){
 
     buttonForGuess = createButton("Guess")
     buttonForGuess.size(120,20)
-    buttonForGuess.position(inputBoxForGuess.position + inputBoxForGuess.x, 200)
+    buttonForGuess.position(inputBoxForGuess.position + inputBoxForGuess.width, 200)
+
+    //buttonForGuess.position(inputFieldGuess.x + inputFieldGuess.width + 10, inputFieldGuess.y);
 
     buttonForScramble = createButton("Resubmit")
     buttonForScramble.size(120,20)
