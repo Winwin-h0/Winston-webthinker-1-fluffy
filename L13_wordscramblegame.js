@@ -8,7 +8,8 @@ let inputBoxForGuess;
 
 let buttonForGuess;
 
-let buttonForScra
+let buttonForScramble
+
 function setup(){
     createCanvas(600,400)
     background('green')
@@ -18,6 +19,8 @@ function setup(){
     inputBoxForGuess = createInput()
     inputBoxForGuess.size(120,20)
     inputBoxForGuess.position(250, 200)
+
+    buttonForGuess
 
 
 }
