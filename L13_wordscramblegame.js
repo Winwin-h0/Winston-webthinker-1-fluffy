@@ -4,7 +4,7 @@ let words = [
     "pineapple", "furniture", "telephone", "lighthouse"];
 let randomWord;
 
-let inputBoxFor
+let inputBoxForGuess;
 function setup(){
     createCanvas(600,400)
     background('green')
