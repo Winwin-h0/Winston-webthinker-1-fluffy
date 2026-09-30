@@ -31,6 +31,7 @@ function setup(){
 
     buttonForGuess = createButton("Guess");
     buttonForGuess.mousePressed(getGuess);
+    butto
     buttonForGuess.size(150,30);
     buttonForGuess.style("font-size", "20px");
     buttonForGuess.position(inputFieldGuess.x + inputFieldGuess.width + 10, inputFieldGuess.y);
@@ -70,7 +71,7 @@ function getCorrectLetters(guess,word){
 }
 
 function checkguess(){
-    
+
 }
 
 
