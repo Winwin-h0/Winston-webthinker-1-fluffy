@@ -83,7 +83,8 @@ attempts++
     }
 
     else{
-        let correctLetters = getCorrectLetters()
+        let correctLetters = getCorrectLetters(guess, hiddenWord);
+        
     }
 }
 
