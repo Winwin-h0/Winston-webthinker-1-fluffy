@@ -80,6 +80,8 @@ function checkGuess(){
 
     if(attempts > 5){
         message = "Game Over. The word was: " + hiddenWord.toUpperCase()
+    }else{
+        
     }
 
     if(guess === hiddenWord){
