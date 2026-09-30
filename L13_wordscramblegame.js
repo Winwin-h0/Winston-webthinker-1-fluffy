@@ -12,7 +12,9 @@ let buttonForScramble
 
 let score = 0
 
-let streak
+let streak = 0
+
+let max = 0
 
 function setup(){
     createCanvas(600,400)
@@ -43,7 +45,7 @@ function draw(){
     text("Word Scramble Game!", 300, 30)
     text("Random Word: " + randomWord.toUpperCase(), 300, 100)
 
-    text("Score:")
+    text("Score:" + score)
 
 
 
