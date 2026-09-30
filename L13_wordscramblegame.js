@@ -8,7 +8,7 @@ let inputBoxForGuess;
 
 let buttonForGuess;
 
-let buttonForGuess
+let buttonForScra
 function setup(){
     createCanvas(600,400)
     background('green')
