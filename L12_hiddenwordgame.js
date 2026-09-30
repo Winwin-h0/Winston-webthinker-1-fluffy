@@ -88,7 +88,7 @@ function checkGuess(){
     }
 
     else if(attempts > 5){
-        message
+        message = "G"
     }
 
     else{
