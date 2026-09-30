@@ -32,7 +32,7 @@ function setup(){
     inputFieldGuess.position(200, 200);
 
     buttonForGuess = createButton("Guess");
-    buttonForGuess.mousePressed(getGuess);
+    // buttonForGuess.mousePressed(getGuess);
     buttonForGuess.mousePressed(checkGuess)
     buttonForGuess.size(150,30);
     buttonForGuess.style("font-size", "20px");
