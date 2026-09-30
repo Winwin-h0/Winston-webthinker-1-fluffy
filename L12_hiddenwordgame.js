@@ -75,7 +75,7 @@ let guess = inputBox.value().toLowerCase
 attempts++
 
     if(guess === hiddenWord){
-        message = "Correct! The word was"
+        message = "Correct! The word was:" + hiddenWord
     }
 }
 
