@@ -34,5 +34,6 @@ function setup(){
 }
 
 function draw(){
+    text("Word")
 
 }
