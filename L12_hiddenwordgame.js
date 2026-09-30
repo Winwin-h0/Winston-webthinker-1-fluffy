@@ -74,7 +74,7 @@ function getCorrectLetters(guess,word){
     return myCorrectLetters
 }
 
-function checkguess(){
+function checkGuess(){
 let guess = inputBox.value().toLowerCase
 attempts++
 
