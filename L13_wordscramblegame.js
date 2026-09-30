@@ -39,6 +39,8 @@ function draw(){
     text("Word Scramble Game!", 300, 30)
     text("Random Word: " + randomWord.toUpperCase(), 300, 100)
 
+    text("")
+
 
 
 }
