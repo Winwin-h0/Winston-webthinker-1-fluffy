@@ -14,6 +14,8 @@ let guess;
 
 let correctLetters;
 
+let attempts
+
 function setup(){
     createCanvas(600,400);
 
