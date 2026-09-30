@@ -7,10 +7,10 @@ function setup(){
     createCanvas(600,400)
     background('green')
 
+    randomWord = random(words)
     create
 }
 
 function draw(){
-    randomWord = random(words)
 
 }
