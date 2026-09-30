@@ -5,6 +5,8 @@ let words = [
 let randomWord;
 
 let inputBoxForGuess;
+
+let buttonForGuess;
 function setup(){
     createCanvas(600,400)
     background('green')
@@ -15,7 +17,7 @@ function setup(){
     inputBoxForGuess.size(120,20)
     inputBoxForGuess.position(250, 200)
 
-    
+
 }
 
 function draw(){
