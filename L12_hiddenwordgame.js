@@ -69,6 +69,8 @@ function getCorrectLetters(guess,word){
     return myCorrectLetters
 }
 
+f
+
 
 //1. get the value of our input field
 //2. by using the newly created getCOrrectLetters function, compare the guess and hidden word
