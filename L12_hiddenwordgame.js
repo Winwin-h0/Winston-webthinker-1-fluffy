@@ -72,7 +72,9 @@ function getCorrectLetters(guess,word){
 
 function checkguess(){
     let guess = inputBox.value().toLowerCase
-    attempts
+    attempts++
+
+    
 }
 
 
