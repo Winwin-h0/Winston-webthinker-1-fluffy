@@ -10,6 +10,10 @@ let buttonForGuess;
 
 let buttonForScramble
 
+let score = 0
+
+let 
+
 function setup(){
     createCanvas(600,400)
     background('green')
