@@ -12,7 +12,7 @@ let buttonForScramble
 
 let score = 0
 
-let 
+let streak
 
 function setup(){
     createCanvas(600,400)
