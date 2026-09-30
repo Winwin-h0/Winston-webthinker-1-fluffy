@@ -88,7 +88,7 @@ function checkGuess(){
     }
 
     else if(attempts > 5){
-        message = "Game Over. The word was: " + cor
+        message = "Game Over. The word was: " + hodde
     }
 
     else{
