@@ -34,8 +34,8 @@ function setup(){
 }
 
 function draw(){
-    text("Word Scramble Game!")
+    text("Word Scramble Game!", )
 
-    
+
 
 }
