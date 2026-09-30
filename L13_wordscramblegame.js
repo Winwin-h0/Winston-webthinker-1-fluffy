@@ -35,7 +35,7 @@ function setup(){
 
 function draw(){
     text("Word Scramble Game!", width/2, 30)
-    text("Word Scramble Game!", width/2, 30)
+    text("Random", width/2, 60)
 
 
 
