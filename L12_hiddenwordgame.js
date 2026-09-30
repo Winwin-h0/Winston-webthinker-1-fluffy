@@ -78,7 +78,9 @@ attempts++
         message = "Correct! The word was:" + hiddenWord.toUpperCase() + "!"
     }
 
-    
+    else if(guess.length != 5){
+        
+    }
 }
 
 
