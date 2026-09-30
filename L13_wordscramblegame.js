@@ -7,6 +7,8 @@ let randomWord;
 let inputBoxForGuess;
 
 let buttonForGuess;
+
+let buttonForGuess
 function setup(){
     createCanvas(600,400)
     background('green')
