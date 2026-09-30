@@ -11,7 +11,7 @@ function setup(){
 
     randomWord = random(words)
 
-    inputBoxForGuess = createInput()
+    inputBoxForGuess = createInput("Guess")
 }
 
 function draw(){
