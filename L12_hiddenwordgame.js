@@ -75,8 +75,8 @@ function getCorrectLetters(guess,word){
 }
 
 function checkGuess(){
-let guess = inputFieldGuess.value().toLowerCase
-attempts++
+    let guess = inputFieldGuess.value().toLowerCase()
+    attempts++
 
     if(guess === hiddenWord){
         message = "Correct! The word was:" + hiddenWord.toUpperCase() + "!"
