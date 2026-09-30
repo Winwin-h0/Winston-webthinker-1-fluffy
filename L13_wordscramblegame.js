@@ -3,6 +3,8 @@ let words = [
     "football", "bathroom", "sandwich", "airplane", "umbrella", "medicine", "chocolate", "software", 
     "pineapple", "furniture", "telephone", "lighthouse"];
 let randomWord;
+
+let inputBoxFor
 function setup(){
     createCanvas(600,400)
     background('green')
