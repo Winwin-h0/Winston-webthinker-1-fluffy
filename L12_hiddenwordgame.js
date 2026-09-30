@@ -31,7 +31,7 @@ function setup(){
 
     buttonForGuess = createButton("Guess");
     buttonForGuess.mousePressed(getGuess);
-    buttonForGuess.mousePressed(checkguess)
+    buttonForGuess.mousePressed(checkGuess)
     buttonForGuess.size(150,30);
     buttonForGuess.style("font-size", "20px");
     buttonForGuess.position(inputFieldGuess.x + inputFieldGuess.width + 10, inputFieldGuess.y);
