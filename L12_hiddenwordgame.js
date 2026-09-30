@@ -54,15 +54,15 @@ function draw(){
 
     //text(displayWord, 300, 300)
 
-    text(correctLetters, 300, 300 );
+    text(message, 300, 300 );
 
     
 }
 
-function getGuess(){
-    guess = inputFieldGuess.value()
-    correctLetters = getCorrectLetters(guess, hiddenWord)
-}
+// function getGuess(){
+//     guess = inputFieldGuess.value()
+//     correctLetters = getCorrectLetters(guess, hiddenWord)
+// }
 
 function getCorrectLetters(guess,word){
     let myCorrectLetters = "";
