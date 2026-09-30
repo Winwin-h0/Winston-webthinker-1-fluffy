@@ -84,7 +84,7 @@ attempts++
 
     else{
         let correctLetters = getCorrectLetters(guess, hiddenWord);
-        message = "Wrong"
+        message = "Wrong! Correct "
     }
 }
 
