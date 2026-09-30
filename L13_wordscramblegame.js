@@ -14,6 +14,8 @@ function setup(){
     inputBoxForGuess = createInput()
     inputBoxForGuess.size(120,20)
     inputBoxForGuess.position(250, 200)
+
+    
 }
 
 function draw(){
