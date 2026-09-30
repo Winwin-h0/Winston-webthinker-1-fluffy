@@ -24,6 +24,10 @@ function setup(){
     buttonForGuess.size(120,20)
     buttonForGuess.position(inputBoxForGuess.position + 20, 200)
 
+    buttonForScramble = createButton("Guess")
+    buttonForGuess.size(120,20)
+    buttonForGuess.position(inputBoxForGuess.position + 20, 200)
+
 
 }
 
