@@ -81,13 +81,9 @@ function checkGuess(){
     if(attempts > 5){
         message = "Game Over. The word was: " + hiddenWord.toUpperCase()
     }else{
-
-    }
-
-    if(guess === hiddenWord){
+        if(guess === hiddenWord){
         message = "Correct! The word was: " + hiddenWord.toUpperCase() + "!";
     }
-
     else if(guess.length != 5){
         correctLetters = getCorrectLetters(guess, hiddenWord);
         message = "5 letters words only. Correct letters: " + correctLetters;
@@ -99,4 +95,7 @@ function checkGuess(){
         correctLetters = getCorrectLetters(guess, hiddenWord);
         message = "Wrong! Correct letters: " + correctLetters;
     }
+    }
+
+    
 }
