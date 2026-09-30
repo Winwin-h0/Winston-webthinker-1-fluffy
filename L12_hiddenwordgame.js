@@ -79,7 +79,7 @@ attempts++
     }
 
     else if(guess.length != 5){
-        message = "5 letters words only";
+        message = "5 letters words only"
     }
 
     else{
