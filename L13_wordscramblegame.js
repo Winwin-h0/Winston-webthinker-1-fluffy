@@ -34,10 +34,10 @@ function setup(){
 }
 
 function draw(){
-    textSize(24)
+    textSize(19)
     textAlign(CENTER,CENTER)
-    text("Word Scramble Game!", 200, 30)
-    text("Random Word: " + randomWord, 200, 60)
+    text("Word Scramble Game!", 300, 30)
+    text("Random Word: " + randomWord, 300, 60)
 
 
 
