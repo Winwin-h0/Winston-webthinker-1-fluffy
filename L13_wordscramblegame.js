@@ -28,7 +28,7 @@ function setup(){
 
     buttonForScramble = createButton("Resubmit")
     buttonForScramble.size(120,20)
-    buttonForScramble.position(inputBoxForGuess.x - 10, 200)
+    buttonForScramble.position(inputBoxForGuess.x + inputBoxForGuess.width - 10, 200)
 
 
 }
