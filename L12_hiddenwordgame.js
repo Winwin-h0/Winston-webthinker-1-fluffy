@@ -14,7 +14,7 @@ let guess;
 
 let correctLetters;
 
-let attempts;
+let attempts = 0
 
 let message = "";
 
