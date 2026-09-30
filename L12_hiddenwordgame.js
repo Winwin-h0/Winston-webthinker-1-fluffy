@@ -79,7 +79,7 @@ attempts++
     }
 
     else if(guess.length != 5){
-        
+        message = ""
     }
 }
 
