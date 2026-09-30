@@ -8,7 +8,8 @@ function setup(){
     background('green')
 
     randomWord = random(words)
-    create
+
+    createInput
 }
 
 function draw(){
