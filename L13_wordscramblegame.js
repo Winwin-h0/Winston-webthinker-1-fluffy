@@ -22,7 +22,7 @@ function setup(){
 
     buttonForGuess = createButton("Guess")
     buttonForGuess.size(120,20)
-    buttonForGuess.position(inputBoxForGuess.x + inputBoxForGuess.width + 10, 200)
+    buttonForGuess.position(inputBoxForGuess.x + inputBoxForGuess.width + 20, 200)
 
     //buttonForGuess.position(inputFieldGuess.x + inputFieldGuess.width + 10, inputFieldGuess.y);
 
