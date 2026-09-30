@@ -92,7 +92,5 @@ function checkGuess(){
         correctLetters = getCorrectLetters(guess, hiddenWord);
         message = "Wrong! Correct letters: " + correctLetters;
         }
-    }
-
-    
+    }    
 }
