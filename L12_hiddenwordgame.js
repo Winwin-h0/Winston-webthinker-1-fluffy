@@ -76,9 +76,9 @@ attempts++
 
     if(guess === hiddenWord){
         message = "Correct! The word was:" + hiddenWord.toUpperCase() + "!"
-
-        
     }
+
+    
 }
 
 
