@@ -92,8 +92,3 @@ function checkGuess(){
         message = "Wrong! Correct letters: " + correctLetters;
     }
 }
-
-
-//1. get the value of our input field
-//2. by using the newly created getCOrrectLetters function, compare the guess and hidden word
-//3. display this on the screen
