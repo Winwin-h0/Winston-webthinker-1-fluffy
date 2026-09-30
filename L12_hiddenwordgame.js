@@ -69,7 +69,9 @@ function getCorrectLetters(guess,word){
     return myCorrectLetters
 }
 
-f
+function checkguess(){
+    
+}
 
 
 //1. get the value of our input field
