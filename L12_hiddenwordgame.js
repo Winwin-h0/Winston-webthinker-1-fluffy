@@ -71,7 +71,7 @@ function getCorrectLetters(guess,word){
 }
 
 function checkguess(){
-    
+    let guess = inputBox
 }
 
 
