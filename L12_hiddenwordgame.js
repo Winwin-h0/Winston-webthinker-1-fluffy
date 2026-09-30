@@ -88,7 +88,7 @@ function checkGuess(){
     }
 
     else if(attempts > 5){
-        message = "Game Over. The correct letter "
+        message = "Game Over. The word"
     }
 
     else{
