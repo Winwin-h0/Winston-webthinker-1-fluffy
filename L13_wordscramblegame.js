@@ -45,7 +45,7 @@ function draw(){
     text("Word Scramble Game!", 300, 30)
     text("Random Word: " + randomWord.toUpperCase(), 300, 100)
 
-    text("Score: " + score, 300)
+    text("Score: " + score, 300, )
     text("Streak: " + streak + "(Max: " + max + ")")
 
 
