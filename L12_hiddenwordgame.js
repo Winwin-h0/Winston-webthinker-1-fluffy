@@ -48,7 +48,7 @@ function draw(){
     textSize(24)
 
     text("Guess the hidden word", 300, 50)
-    text("Attempts: attempts", 300, 100)
+    text("Attempts:" + atteps, 300, 100)
 
     text("Hint:" + displayText, width / 2, height / 3)
 
