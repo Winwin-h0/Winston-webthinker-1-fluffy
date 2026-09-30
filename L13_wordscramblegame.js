@@ -4,5 +4,10 @@ let words = [
     "pineapple", "furniture", "telephone", "lighthouse"];
 
 function setup(){
+    createCanvas(600,400)
+    background('green')
+}
+
+function draw(){
     
 }
