@@ -84,7 +84,7 @@ function checkGuess(){
 
     else if(guess.length != 5){
         let correctLetters = getCorrectLetters(guess, hiddenWord);
-        message = "5 letters words only";
+        message = "5 letters words only. Correct letters: " + correctLetters;
     }
 
     else{
