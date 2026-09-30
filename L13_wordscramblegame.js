@@ -9,5 +9,6 @@ function setup(){
 }
 
 function draw(){
-    ramdomWord = random()
+    ramdomWord = random(words)
+    
 }
