@@ -55,6 +55,8 @@ function draw(){
     //text(displayWord, 300, 300)
 
     text(correctLetters, 300, 300 );
+
+    
 }
 
 function getGuess(){
