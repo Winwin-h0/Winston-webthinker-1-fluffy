@@ -83,7 +83,7 @@ attempts++
     }
 
     else{
-        
+        let correctLetters = get c
     }
 }
 
