@@ -16,7 +16,7 @@ let correctLetters;
 
 let attempts;
 
-let message;
+let message = ""
 
 function setup(){
     createCanvas(600,400);
@@ -54,7 +54,7 @@ function draw(){
 
     //text(displayWord, 300, 300)
 
-    text(message + "test", 300, 300 );
+    text(message, 300, 300 );
 
     
 }
