@@ -12,7 +12,7 @@ function setup(){
     randomWord = random(words)
 
     inputBoxForGuess = createInput("Guess")
-    in
+    inputBoxForGuess = 
     inputBoxForGuess.postion(400, 300)
 }
 
