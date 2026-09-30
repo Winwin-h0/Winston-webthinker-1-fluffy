@@ -87,6 +87,10 @@ function checkGuess(){
         message = "5 letters words only. Correct letters: " + correctLetters;
     }
 
+    else if(attempts > 5){
+        
+    }
+
     else{
         correctLetters = getCorrectLetters(guess, hiddenWord);
         message = "Wrong! Correct letters: " + correctLetters;
