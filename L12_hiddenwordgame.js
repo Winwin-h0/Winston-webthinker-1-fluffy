@@ -78,7 +78,7 @@ function checkGuess(){
     let guess = inputFieldGuess.value().toLowerCase();
     attempts++;
 
-    if(attempts > 5){
+    if(attempts === 5){
         message = "Game Over. The word was: " + hiddenWord.toUpperCase()
     }else{
         if(guess === hiddenWord){
