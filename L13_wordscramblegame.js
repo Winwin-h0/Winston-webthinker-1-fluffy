@@ -34,6 +34,8 @@ function setup(){
 }
 
 function draw(){
+    textSize(24)
+    
     text("Word Scramble Game!", 200, 30)
     text("Random Word: " + randomWord, 200, 60)
 
