@@ -79,12 +79,12 @@ attempts++
     }
 
     else if(guess.length != 5){
-        message = "5 letters words only"
+        message = "5 letters words only";
     }
 
     else{
         let correctLetters = getCorrectLetters(guess, hiddenWord);
-        message = "Wrong! Correct letters: " + 
+        message = "Wrong! Correct letters: " + correctLetters;
     }
 }
 
