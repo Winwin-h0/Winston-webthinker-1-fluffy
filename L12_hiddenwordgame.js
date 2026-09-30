@@ -60,7 +60,7 @@ function getGuess(){
 function getCorrectLetters(guess,word){
     let myCorrectLetters = "";
     for(let i = 0; i < word.length; i++){
-        if(word.includes(guess[i].toLowerCase()) && !correctLetters.includes(guess[i].toUpperCase())){
+        if(word.includes(guess[i].toLowerCase()) && !myCorrectLetters.includes(guess[i].toUpperCase())){
             correctLetters += guess[i].toUpperCase() + " "
         }
     }
