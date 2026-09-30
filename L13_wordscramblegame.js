@@ -6,9 +6,11 @@ let ramdomWord;
 function setup(){
     createCanvas(600,400)
     background('green')
+
+    createB
 }
 
 function draw(){
     ramdomWord = random(words)
-    
+
 }
