@@ -16,6 +16,8 @@ let correctLetters;
 
 let attempts;
 
+let message;
+
 function setup(){
     createCanvas(600,400);
 
