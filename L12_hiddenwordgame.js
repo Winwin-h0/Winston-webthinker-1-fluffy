@@ -12,7 +12,7 @@ let displayWord;
 
 let guess;
 
-let correctLetters;
+let correctLetters = "";
 
 let attempts = 0
 
