@@ -13,7 +13,7 @@ function setup(){
 
     inputBoxForGuess = createInput("Guess")
     inputBoxForGuess.size(120,10)
-    inputBoxForGuess.postion(400, 300)
+    inputBoxForGuess.position(400, 300)
 }
 
 function draw(){
