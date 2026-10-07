@@ -81,7 +81,8 @@ function checkGuess(){
         hidx.splice(hidx, 1)
         score++
         if (attempts === 1){
-            sterak
+            streak++
+            
         }
     }
 
