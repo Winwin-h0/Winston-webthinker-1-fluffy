@@ -77,7 +77,7 @@ function checkGuess(){
     attempts++
 
     if(guess === hiddenWord){
-        message = "co"
+        message = "Correct"
     }
 
 }
