@@ -32,7 +32,7 @@ function setup(){
     buttonForGuess = createButton("Guess");
     buttonForGuess.size(120,30);
     buttonForGuess.position(inputBoxForGuess.x + inputBoxForGuess.width + 20, 200);
-
+    buttonForGuess
     //buttonForGuess.position(inputFieldGuess.x + inputFieldGuess.width + 10, inputFieldGuess.y);
 
     buttonForScramble = createButton("Rescramble");
