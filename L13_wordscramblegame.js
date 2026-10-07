@@ -85,7 +85,7 @@ function checkGuess(){
     if (guess === hiddenWord) {
         message = "Correct! Moving on to the next word!";
         let hidx = words.indexOf(hiddenWord)
-        let = hidx.splice(hidx, 1);
+        words.splice(hidx, 1);
         score++;
         if (attempts === 1) {
             streak++;
