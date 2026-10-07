@@ -72,6 +72,7 @@ function shuffleExistingWord(){
     
 }
 
-function CheckGuess(){
+function checkGuess(){
     
+
 }
