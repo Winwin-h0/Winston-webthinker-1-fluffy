@@ -80,10 +80,10 @@ function checkGuess(){
         message = "Correct! Moving on to the next word!"
         hidx.splice(hidx, 1)
         score++
-        if (attempts === 1){
+        if (attempts === 1) {
             streak++
             maxStreak = max(streak, maxStreak)
-        } else{
+        } else {
             streak = 0
         }
         attempts = 0
