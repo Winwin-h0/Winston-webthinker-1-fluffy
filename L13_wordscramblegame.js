@@ -73,6 +73,7 @@ function shuffleExistingWord(){
 }
 
 function checkGuess(){
-    let guess = inputBoxForGuess.value().toLowerCase
+    let guess = inputBoxForGuess.value().toLowerCase()
+    attempts
 
 }
