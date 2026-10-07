@@ -93,5 +93,4 @@ function checkGuess(){
         message = "Incorrect! Try again!"
         streak = 0
     }
-
 }
