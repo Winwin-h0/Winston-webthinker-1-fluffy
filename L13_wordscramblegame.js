@@ -73,6 +73,6 @@ function shuffleExistingWord(){
 }
 
 function checkGuess(){
-    
+    let guess = input
 
 }
