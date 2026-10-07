@@ -21,8 +21,8 @@ function setup(){
     createCanvas(600,400)
     background('green')
 
-    shuffleWord(randomWord = random(words))
-    
+    pickNewWord
+
 
     inputBoxForGuess = createInput()
     inputBoxForGuess.size(120,25)
