@@ -39,7 +39,7 @@ function setup(){
     buttonForScramble.size(120,30);
     buttonForScramble.position(inputBoxForGuess.x - buttonForScramble.width - 10, 200);
 
-    buttonForGuess.mousePressed()
+    buttonForGuess.mousePressed(shuffleWord)
 }
 
 function draw(){
