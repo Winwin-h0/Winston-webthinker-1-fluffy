@@ -7,7 +7,7 @@ function setup(){
 
     for(i = 0; i < 4; i++){
         text(foods[i], distance, 300)
-        distance += 50
+        distance += 100
     }
 }
 function draw(){
