@@ -2,8 +2,8 @@ let foods = ["pizza", "icecream", "burger"]
 
 let distance = 50
 function setup(){
-    background('green')
     createCanvas(600,400)
+    background('green')
 
     textSize(20)
     textAlign(CENTER,CENTER)
