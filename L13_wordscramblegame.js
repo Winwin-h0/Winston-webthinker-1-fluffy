@@ -9,7 +9,7 @@ let inputBoxForGuess;
 
 let buttonForGuess;
 
-let buttonForScramble
+let buttonForScramble;
 
 let score = 0
 
@@ -17,7 +17,7 @@ let streak = 0
 
 let max = 0
 
-let 
+let scrambledWord;
 
 function setup(){
     createCanvas(600,400)
