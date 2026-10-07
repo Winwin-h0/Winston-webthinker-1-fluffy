@@ -19,6 +19,8 @@ let max = 0;
 
 let scrambledWord;
 
+let attempts;
+
 function setup(){
     createCanvas(600,400);
     background('green');
