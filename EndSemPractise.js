@@ -4,7 +4,7 @@ function setup(){
     createCanvas(600,400)
 
     for(i = 0; i < 4; i++){
-        text(foods[i], )
+        text(foods[i], 300, )
     }
 }
 function draw(){
