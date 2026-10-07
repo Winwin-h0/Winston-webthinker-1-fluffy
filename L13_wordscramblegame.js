@@ -71,3 +71,7 @@ function shuffleExistingWord(){
     scrambledWord = shuffleWord(hiddenWord);
     
 }
+
+function CheckGuess(){
+    
+}
