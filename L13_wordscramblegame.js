@@ -86,6 +86,8 @@ function checkGuess(){
         } else{
             streak = 0
         }
+        attempts = 0
+        input
     }
 
 }
