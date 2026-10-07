@@ -95,7 +95,7 @@ function checkGuess(){
         }
         attempts = 0;
         inputBoxForGuess.value("");
-        pickNewWord;
+        pickNewWord();
     } else {
         message = "Incorrect! Try again!";
         streak = 0;
