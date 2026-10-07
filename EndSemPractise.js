@@ -4,6 +4,8 @@ let distance = 50
 function setup(){
     background('green')
     createCanvas(600,400)
+    
+    text
 
     for(i = 0; i < 4; i++){
         text(foods[i], distance, 300)
