@@ -3,7 +3,7 @@ let words = [
     "football", "bathroom", "sandwich", "airplane", "umbrella", "medicine", "chocolate", "software", 
     "pineapple", "furniture", "telephone", "lighthouse"];
 
-let randomWord;
+let hiddenWord;
 
 let inputBoxForGuess;
 
