@@ -6,7 +6,7 @@ function setup(){
     createCanvas(600,400)
 
     textSize(20)
-    textAlign()
+    textAlign(CENTER,CENTER)
 
     for(i = 0; i < 4; i++){
         text(foods[i], distance, 300)
