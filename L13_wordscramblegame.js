@@ -66,7 +66,6 @@ function pickNewWord(){
 }
 
 function shuffleExistingWord(){
-
     scrambledWord = shuffleWord(hiddenWord);
     
 }
