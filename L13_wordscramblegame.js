@@ -90,7 +90,7 @@ function checkGuess(){
         inputBoxForGuess.value("")
         pickNewWord
     } else{
-        
+        message = ""
     }
 
 }
