@@ -88,6 +88,7 @@ function checkGuess(){
         }
         attempts = 0
         inputBoxForGuess.value("")
+        pickNewWord
     }
 
 }
