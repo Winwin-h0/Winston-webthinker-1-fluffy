@@ -76,7 +76,7 @@ function checkGuess(){
     let guess = inputBoxForGuess.value().toLowerCase()
     attempts++
 
-    if(guess === hiddenWord){
+    if(guess === hiddenWord) {
         message = "Correct! Moving on to the next word!"
         hidx.splice(hidx, 1)
         score++
@@ -89,7 +89,7 @@ function checkGuess(){
         attempts = 0
         inputBoxForGuess.value("")
         pickNewWord
-    } else{
+    } else {
         message = "Incorrect! Try again!"
         streak = 0
     }
