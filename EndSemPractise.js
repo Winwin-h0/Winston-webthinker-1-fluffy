@@ -7,7 +7,6 @@ function setup(){
 
     for(i = 0; i < 4; i++){
         text(foods[i], distance, 300)
-        i += 1
         distance += 50
     }
 }
