@@ -55,7 +55,7 @@ function draw(){
     text("Score: " + score, 300, 300);
     text("Streak: " + streak + " (Max: " + max + ")", 300, 320);
 
-    text(message, 300, )
+    text(message, 300, 350)
 }
 
 function shuffleWord(word){
