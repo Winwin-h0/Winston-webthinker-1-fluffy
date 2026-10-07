@@ -4,7 +4,7 @@ function setup(){
     createCanvas(600,400)
 
     for(i = 0; i < 4; i++){
-        
+        Ttext
     }
 }
 function draw(){
