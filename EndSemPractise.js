@@ -1,3 +1,4 @@
 function setup(){
+    background("green")
     
 }
