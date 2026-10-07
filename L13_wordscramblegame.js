@@ -67,7 +67,6 @@ function pickNewWord(){
 
 function shuffleExistingWord(){
     background('green');
-    
     scrambledWord = shuffleWord(hiddenWord);
     
 }
