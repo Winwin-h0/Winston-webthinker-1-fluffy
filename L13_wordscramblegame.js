@@ -73,8 +73,8 @@ function shuffleExistingWord(){
 }
 
 function checkGuess(){
-    let guess = inputBoxForGuess.value().toLowerCase()
-    attempts++
+    let guess = inputBoxForGuess.value().toLowerCase();
+    attempts++;
 
     if (guess === hiddenWord) {
         message = "Correct! Moving on to the next word!";
