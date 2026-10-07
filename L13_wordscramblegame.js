@@ -11,11 +11,11 @@ let buttonForGuess;
 
 let buttonForScramble;
 
-let score = 0
+let score = 0;
 
-let streak = 0
+let streak = 0;
 
-let max = 0
+let max = 0;
 
 let scrambledWord;
 
