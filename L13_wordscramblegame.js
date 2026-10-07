@@ -57,3 +57,6 @@ function shuffleWord(word){
     return arr.join('')
 }
 
+function pickNewWord(){
+    
+}
