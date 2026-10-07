@@ -77,7 +77,8 @@ function checkGuess(){
     attempts++
 
     if(guess === hiddenWord){
-        message = "Correct! Moving on to the next word"
+        message = "Correct! Moving on to the next word!"
+        hidx.splice
     }
 
 }
