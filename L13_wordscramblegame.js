@@ -58,5 +58,5 @@ function shuffleWord(word){
 }
 
 function pickNewWord(){
-    
+    hiddenWord = random
 }
