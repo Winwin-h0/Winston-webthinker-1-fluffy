@@ -35,8 +35,6 @@ function setup(){
     buttonForScramble = createButton("Resubmit")
     buttonForScramble.size(120,30)
     buttonForScramble.position(inputBoxForGuess.x - buttonForScramble.width - 10, 200)
-
-
 }
 
 function draw(){
@@ -47,7 +45,4 @@ function draw(){
 
     text("Score: " + score, 300, 300)
     text("Streak: " + streak + " (Max: " + max + ")", 300, 350)
-
-
-
 }
