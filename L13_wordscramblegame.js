@@ -15,6 +15,8 @@ let score = 0;
 
 let streak = 0;
 
+let max
+
 let max = 0;
 
 let scrambledWord;
