@@ -84,7 +84,7 @@ function checkGuess(){
             streak++
             maxStreak = max(streak, maxStreak)
         } else{
-            
+            streak = 0
         }
     }
 
