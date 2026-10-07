@@ -2,7 +2,7 @@ let words = [
     "elephant", "backpack", "keyboard", "hospital", "sunlight", "raincoat", "notebook", "shoulder", 
     "football", "bathroom", "sandwich", "airplane", "umbrella", "medicine", "chocolate", "software", 
     "pineapple", "furniture", "telephone", "lighthouse"];
-    
+
 let randomWord;
 
 let inputBoxForGuess;
@@ -47,3 +47,5 @@ function draw(){
     text("Score: " + score, 300, 300)
     text("Streak: " + streak + " (Max: " + max + ")", 300, 350)
 }
+
+function shuffleWord(word)
