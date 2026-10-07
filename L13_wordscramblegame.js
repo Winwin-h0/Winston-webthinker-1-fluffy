@@ -23,7 +23,7 @@ function setup(){
     createCanvas(600,400)
     background('green')
 
-    pickNewWord()
+    pickNewWord();
 
     inputBoxForGuess = createInput()
     inputBoxForGuess.size(120,25)
