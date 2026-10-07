@@ -1,6 +1,6 @@
 let foods = ["pizza", "icecream", "burger"]
 
-let distance = 0
+let distance = 50
 function setup(){
     background('green')
     createCanvas(600,400)
