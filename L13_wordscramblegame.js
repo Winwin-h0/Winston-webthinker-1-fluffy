@@ -35,7 +35,7 @@ function setup(){
 
     //buttonForGuess.position(inputFieldGuess.x + inputFieldGuess.width + 10, inputFieldGuess.y);
 
-    buttonForScramble = createButton("Resramble");
+    buttonForScramble = createButton("Rescramble");
     buttonForScramble.size(120,30);
     buttonForScramble.position(inputBoxForGuess.x - buttonForScramble.width - 10, 200);
 }
