@@ -81,16 +81,16 @@ function checkGuess(){
         hidx.splice(hidx, 1);
         score++;
         if (attempts === 1) {
-            streak++
-            maxStreak = max(streak, maxStreak)
+            streak++;
+            maxStreak = max(streak, maxStreak);
         } else {
-            streak = 0
+            streak = 0;
         }
-        attempts = 0
-        inputBoxForGuess.value("")
-        pickNewWord
+        attempts = 0;
+        inputBoxForGuess.value("");
+        pickNewWord;
     } else {
-        message = "Incorrect! Try again!"
-        streak = 0
+        message = "Incorrect! Try again!";
+        streak = 0;
     }
 }
