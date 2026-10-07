@@ -90,7 +90,8 @@ function checkGuess(){
         inputBoxForGuess.value("")
         pickNewWord
     } else{
-        message = "Incorrect!"
+        message = "Incorrect! Try again!"
+        
     }
 
 }
