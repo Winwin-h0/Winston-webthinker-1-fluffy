@@ -76,10 +76,10 @@ function checkGuess(){
     let guess = inputBoxForGuess.value().toLowerCase()
     attempts++
 
-    if(guess === hiddenWord) {
-        message = "Correct! Moving on to the next word!"
-        hidx.splice(hidx, 1)
-        score++
+    if (guess === hiddenWord) {
+        message = "Correct! Moving on to the next word!";
+        hidx.splice(hidx, 1);
+        score++;
         if (attempts === 1) {
             streak++
             maxStreak = max(streak, maxStreak)
