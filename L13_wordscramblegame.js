@@ -17,11 +17,12 @@ let streak = 0
 
 let max = 0
 
+let 
+
 function setup(){
     createCanvas(600,400)
     background('green')
 
-    pickNewWord()
 
 
     inputBoxForGuess = createInput()
