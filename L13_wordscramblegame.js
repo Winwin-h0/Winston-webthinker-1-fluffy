@@ -74,6 +74,10 @@ function shuffleExistingWord(){
 
 function checkGuess(){
     let guess = inputBoxForGuess.value().toLowerCase()
-    attempts
+    attempts++
+
+    if(guess === hiddenWord){
+        
+    }
 
 }
