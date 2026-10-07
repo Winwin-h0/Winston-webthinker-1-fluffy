@@ -1,4 +1,4 @@
-let foods = ["pizza", "", ""]
+let foods = ["pizza", "icecream", "burger"]
 function setup(){
     background("green")
     createCanvas(600,400)
