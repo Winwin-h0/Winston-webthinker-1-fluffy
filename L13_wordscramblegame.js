@@ -48,4 +48,6 @@ function draw(){
     text("Streak: " + streak + " (Max: " + max + ")", 300, 350)
 }
 
-function shuffleWord(word)
+function shuffleWord(word){
+    
+}
