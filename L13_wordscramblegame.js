@@ -41,17 +41,17 @@ function setup(){
 }
 
 function draw(){
-    textSize(19)
-    textAlign(CENTER,CENTER)
-    text("Word Scramble Game!", 300, 30)
-    text("Random Word: " + scrambledWord.toUpperCase(), 300, 100)
+    textSize(19);
+    textAlign(CENTER,CENTER);
+    text("Word Scramble Game!", 300, 30);
+    text("Random Word: " + scrambledWord.toUpperCase(), 300, 100);
 
-    text("Score: " + score, 300, 300)
-    text("Streak: " + streak + " (Max: " + max + ")", 300, 350)
+    text("Score: " + score, 300, 300);
+    text("Streak: " + streak + " (Max: " + max + ")", 300, 350);
 }
 
 function shuffleWord(word){
-    let arr = word.split('')
+    let arr = word.split('');
     for(let i = arr.length - 1; i > 0; i--){
         let j = floor(random(i + 1))
         arr[i], arr[j] = arr[j], arr[i]
