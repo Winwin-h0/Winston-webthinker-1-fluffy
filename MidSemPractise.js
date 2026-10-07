@@ -1,5 +1,5 @@
 let Cxpos = 50
-let fillCoulour;
+let fillColour;
 function setup(){
     createCanvas(600,400)
     background('green')
