@@ -87,7 +87,7 @@ function checkGuess(){
             streak = 0
         }
         attempts = 0
-        input
+        inputBoxForGuess.value()
     }
 
 }
