@@ -19,7 +19,7 @@ let max = 0;
 
 let scrambledWord;
 
-let attempts;
+let attempts = 0;
 
 function setup(){
     createCanvas(600,400);
