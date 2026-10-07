@@ -9,7 +9,7 @@ function setup(){
     textAlign(CENTER,CENTER)
 
     for(i = 0; i < 4; i++){
-        text(foods[i], distance, 300)
+        text(foods[i], distance, 200)
         distance += 100
     }
 }
