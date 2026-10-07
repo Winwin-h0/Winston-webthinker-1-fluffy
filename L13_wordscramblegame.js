@@ -25,19 +25,19 @@ function setup(){
 
     pickNewWord();
 
-    inputBoxForGuess = createInput()
-    inputBoxForGuess.size(120,25)
-    inputBoxForGuess.position(250, 200)
+    inputBoxForGuess = createInput();
+    inputBoxForGuess.size(120,25);
+    inputBoxForGuess.position(250, 200);
 
-    buttonForGuess = createButton("Guess")
-    buttonForGuess.size(120,30)
-    buttonForGuess.position(inputBoxForGuess.x + inputBoxForGuess.width + 20, 200)
+    buttonForGuess = createButton("Guess");
+    buttonForGuess.size(120,30);
+    buttonForGuess.position(inputBoxForGuess.x + inputBoxForGuess.width + 20, 200);
 
     //buttonForGuess.position(inputFieldGuess.x + inputFieldGuess.width + 10, inputFieldGuess.y);
 
-    buttonForScramble = createButton("Resubmit")
-    buttonForScramble.size(120,30)
-    buttonForScramble.position(inputBoxForGuess.x - buttonForScramble.width - 10, 200)
+    buttonForScramble = createButton("Resubmit");
+    buttonForScramble.size(120,30);
+    buttonForScramble.position(inputBoxForGuess.x - buttonForScramble.width - 10, 200);
 }
 
 function draw(){
