@@ -42,7 +42,7 @@ function draw(){
     textSize(19)
     textAlign(CENTER,CENTER)
     text("Word Scramble Game!", 300, 30)
-    text("Random Word: " + randomWord.toUpperCase(), 300, 100)
+    text("Random Word: " + scrambledWord.toUpperCase(), 300, 100)
 
     text("Score: " + score, 300, 300)
     text("Streak: " + streak + " (Max: " + max + ")", 300, 350)
