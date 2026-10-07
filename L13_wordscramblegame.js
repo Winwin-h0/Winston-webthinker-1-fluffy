@@ -47,7 +47,7 @@ function setup(){
 }
 
 function draw(){
-    
+    background('green');
     textSize(19);
     textAlign(CENTER,CENTER);
     text("Word Scramble Game!", 300, 30);
