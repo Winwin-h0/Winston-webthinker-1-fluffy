@@ -15,7 +15,7 @@ let score = 0;
 
 let streak = 0;
 
-let max
+let maxStreak = 0;
 
 let max = 0;
 
