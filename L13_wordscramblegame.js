@@ -21,6 +21,8 @@ let scrambledWord;
 
 let attempts = 0;
 
+let message = " "
+
 function setup(){
     createCanvas(600,400);
     background('green');
