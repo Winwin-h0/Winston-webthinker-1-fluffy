@@ -38,7 +38,7 @@ function setup(){
     buttonForScramble = createButton("Rescramble");
     buttonForScramble.size(120,30);
     buttonForScramble.position(inputBoxForGuess.x - buttonForScramble.width - 10, 200);
-    buttonForScramble.mousePressed(shuffleWord());
+    buttonForScramble.mousePressed(shuffleWord(hiddenWord));
 }
 
 function draw(){
