@@ -91,7 +91,7 @@ function checkGuess(){
         pickNewWord
     } else{
         message = "Incorrect! Try again!"
-        
+        streak = 0
     }
 
 }
