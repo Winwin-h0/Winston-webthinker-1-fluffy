@@ -59,5 +59,5 @@ function shuffleWord(word){
 
 function pickNewWord(){
     hiddenWord = random(words)
-    scrambledWord = shuffleWord
+    scrambledWord = shuffleWord(hiddenWord)
 }
