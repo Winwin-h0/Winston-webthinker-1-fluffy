@@ -83,6 +83,7 @@ function checkGuess(){
         if (attempts === 1){
             streak++
             maxStreak = max(streak, maxStreak)
+        } else{
             
         }
     }
