@@ -22,6 +22,7 @@ function setup(){
     background('green')
 
     shuffleWord(randomWord = random(words))
+    
 
     inputBoxForGuess = createInput()
     inputBoxForGuess.size(120,25)
